@@ -1,30 +1,113 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">home</a></li>
-	        	<li><a href="/projects">projects</a></li>
-				<li><a href="/album">album</a></li>
-        		<li><a href="/cv">cv</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-		
-		{{ content }}
-		
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:anuragk@berkeley.com">email</a></li>
-        		<li><a href="https://github.com/anuragkh">github</a></li>
-				<li><a href="https://www.facebook.com/anurag.khandelwal">facebook</a></li>
-			</ul>
-		</footer>
-	</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    {% comment %}
+
+    We check to see what the page title is before appending
+    "| Chris Cummins" to it, as otherwise this would result with an
+    index title of "Chris Cummins | Chris Cummins".
+
+    {% endcomment %}
+    {% if page.title == "Anurag Khandelwal" %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ page.title }} | Anurag Khandelwal</title>
+    {% endif %}
+    <meta name="description" content="The personal website of software developer and geek Chris Cummins.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="msapplication-tooltip" content="Chris Cummins personal website">
+
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    {%include google-analytics.html %}
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+
+      {% comment %}
+
+      The header section. Contains title, navbar links, a picture, and
+      external links.
+
+      {% endcomment %}
+      <header>
+        <center>
+          <h1>
+            <a href="/">ANURAG<b>KHANDELWAL</b></a>
+            <ul>
+              <li><a href="/projects/">projects</a></li>
+              <li><a href="http://musingsofaboredmind.com/">blog</a></li>
+              <li><a href="/cv/">cv</a></li>
+            </ul>
+          </h1>
+          <div class="img-frame"><img src="/images/me.jpg" width="180" height="180"/></div>
+          {% comment %} External Links {% endcomment %}
+          <ul>
+            <li><a href="https://github.com/anuragkh" target="_blank">GitHub<small>Code goes here</small></a></li>
+            <li><a href="http://www.linkedin.com/in/anuragkh" target="_blank">Linked In<small>All professional like</small></a></li>
+            <li><a href="http://www.facebook.com/anurag.khandelwal" target="_blank">Facebook<small>All unprofessional like</small></a></li>
+          </ul>
+        </center>
+      </header>
+
+      <section>
+        {% comment %}
+
+        The page.date and page.render_post variables are used as a sentinel
+        to find out if we are rendering a post. If either are present,
+        we use the post style.
+
+        {% endcomment %}
+        {% if page.date or page.render_post %}
+          <div id="post">
+            <h1 class="title">{{ page.title }}</h1>
+            <h1 class="title" id="hidden-title"></h1>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.date or page.render_post %}
+            <div class="nav">
+              <hr>
+
+              <div class="next">
+                {% if page.next %}
+                <a href="{{ page.next.url }}" title="Read the previous post">Newer post</a>
+                {% else %}
+                <a href="/#posts" title="Return to home page">Read more</a>
+                {% endif %}
+              </div>
+
+              <div class="previous">
+                {% if page.previous %}
+                <a href="{{ page.previous.url }}" title="Read the previous post">Older post</a>
+                {% else %}
+                <a href="/#posts" title="Return to home page">Read more</a>
+                {% endif %}
+              </div>
+
+              {% if page.date %}
+              <div class="date">
+                {{ page.date | date_to_string }}
+              </div>
+              {% endif %}
+          </div>
+        {% endif %}
+      </section>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="/js/site.min.js"></script>
+  </body>
 </html>
