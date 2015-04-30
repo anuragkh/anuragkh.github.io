@@ -8,3 +8,17 @@ I'm a Graduate Student at the University of California, Berkeley, pursuing my
 PhD at the AMPLab and advised by Prof. Ion Stoica. I completed my bachelor's 
 degree (B. Tech. in Computer Science and Engineering) from the Indian Institute 
 of Technology, Kharagpur.
+
+# Projects
+- **Ongoing:**
+    - Succinct: Enabling queries on compressed data (To appear, NSDI'15)
+	- Space-efficient range indexes for FARM (Microsoft Research, Cambridge)
+	- Succinct Fault Tolerance
+	- Dynamic Storage-Performance Tradeoff Navigation using BlowFish
+	- Regular expression processing using Succinct  
+	- Succinct Graph Store
+- **Past:**
+	- Attacking Data Center Networks (Microsoft Research, Redmond)
+	- Routing in DTNs with Directional Antennas (IIT Kharagpur)
+
+For more detailed descriptions, go [here](/projects).
