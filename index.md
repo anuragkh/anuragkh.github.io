@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Anurag Khandelwal, Graduate Student
+title: Anurag Khandelwal
 ---
-# about
+# About
 
 I'm a Graduate Student at the University of California, Berkeley, pursuing my 
 PhD at the AMPLab and advised by Prof. Ion Stoica. I completed my bachelor's 
