@@ -1,4 +1,4 @@
 ---
 layout: default
-title: Anurag Khandelwal, Graduate Student
+title: Curriculum Vitae
 ---
