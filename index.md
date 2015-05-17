@@ -14,9 +14,9 @@ of Technology, Kharagpur.
     - Succinct: Enabling queries on compressed data
 	- Space-efficient range indexes for FARM
 	- Succinct Fault Tolerance
-	- Dynamic Storage-Performance Tradeoff Navigation using BlowFish
-	- Regular expression processing using Succinct  
-	- Succinct Graph Store
+	- Dynamic Storage-Performance Tradeoff in Data Stores
+	- Succinct RegEx
+	- Succinct Graph-Store
 - **Past:**
 	- Attacking Data Center Networks (Microsoft Research, Redmond)
 	- Routing in DTNs with Directional Antennas (IIT Kharagpur)
