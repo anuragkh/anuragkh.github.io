@@ -11,7 +11,7 @@ of Technology, Kharagpur.
 
 # Projects
 - **Ongoing:**
-    - Succinct: Enabling queries on compressed data (To appear, NSDI'15)
+    - Succinct: Enabling queries on compressed data
 	- Space-efficient range indexes for FARM (Microsoft Research, Cambridge)
 	- Succinct Fault Tolerance
 	- Dynamic Storage-Performance Tradeoff Navigation using BlowFish
