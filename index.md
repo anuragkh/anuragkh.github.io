@@ -18,8 +18,8 @@ of Technology, Kharagpur.
 	- Succinct RegEx
 	- Succinct Graph-Store
 - **Past:**
-	- Attacking Data Center Networks (Microsoft Research, Redmond)
-	- Routing in DTNs with Directional Antennas (IIT Kharagpur)
+	- Attacking Data Center Networks
+	- Routing in DTNs with Directional Antennas
 
 For more detailed descriptions, go [here](/projects).
 
