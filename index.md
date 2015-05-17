@@ -22,3 +22,8 @@ of Technology, Kharagpur.
 	- Routing in DTNs with Directional Antennas (IIT Kharagpur)
 
 For more detailed descriptions, go [here](/projects).
+
+# Publications
+Succinct: Enabling Queries on Compressed Data
+Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica
+NSDI, Oakland, CA, May 2015
