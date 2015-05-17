@@ -10,16 +10,16 @@ degree (B. Tech. in Computer Science and Engineering) from the Indian Institute
 of Technology, Kharagpur.
 
 # Projects
-- **Ongoing:**
-	- Fast, Memory-efficient RegEx Queries
-	- Space-efficient range indexes for FARM
-	- Succinct Graph-Store
-	- Dynamic Storage-Performance Tradeoff in Data Stores
-	- Succinct Fault Tolerance
-- **Past:**
-    - Succinct: Enabling queries on compressed data
-	- Attacking Data Center Networks
-	- Routing in DTNs with Directional Antennas
+**Ongoing:**
+- Fast, Memory-efficient RegEx Queries
+- Space-efficient range indexes for FARM
+- Succinct Graph-Store
+- Dynamic Storage-Performance Tradeoff in Data Stores
+- Succinct Fault Tolerance
+**Past:**
+- Succinct: Enabling queries on compressed data
+- Attacking Data Center Networks
+- Routing in DTNs with Directional Antennas
 
 For more detailed descriptions, go [here](/projects).
 
