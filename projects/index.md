@@ -6,10 +6,10 @@ title: Projects
 # Projects
 
 <div id="content">
-      <div id="comments">
+      <div>
 		<h2>Internships and Research Experience</h2>
-		<ul class="commentlist">
-		<li class="comment_even">
+		<ul>
+		<li >
 			<h4>Attacking Data Center Networks (April 2012 - July 2012)</h4>
             <div>at <span class="name"><a href="http://research.microsoft.com/en-us/" target="_blank">Microsoft Research, Redmond</a></span></div>
 			<br/>
@@ -24,7 +24,7 @@ title: Projects
             <div>at <span><a href="http://www.nucleodyne.com/" target="_blank">Nucleodyne Systems</a></span></div>
 			<br/>
 			<ul>
-				<li>As a part of the training, we looked at driver development for the HP-UX Kernel and analysis of the Linux SCSI Subsystem using the System Tap tool.  A significant part of our work also involved understanding and testing the SCSI protocol and its command set. We also worked towards the automation of SCSI command set testing with a Virtual Tape Library. </li>
+				<li>As a part of the training, I looked at driver development for the HP-UX Kernel and analysis of the Linux SCSI Subsystem using the System Tap tool. A significant part of our work also involved understanding and testing the SCSI protocol and its command set. We also worked towards the automation of SCSI command set testing with a Virtual Tape Library. </li>
 			</ul>
 			<br/>
 			<em>Mentor: Kallol Biswas, CEO, Nucleodyne Systems</em>
