@@ -11,16 +11,20 @@ of Technology, Kharagpur.
 
 # Projects
 **Ongoing:**
-- Fast, Memory-efficient RegEx Queries
-- Space-efficient range indexes for FARM
-- Succinct Graph-Store
-- Dynamic Storage-Performance Tradeoff in Data Stores
-- Succinct Fault Tolerance
+<ul>
+  <li> Fast, Memory-efficient RegEx Queries </li>
+  <li> Space-efficient range indexes for FARM </li>
+  <li> Succinct Graph-Store </li>
+  <li> Dynamic Storage-Performance Tradeoff in Data Stores </li>
+  <li> Succinct Fault Tolerance </li>
+</ul>
 
 **Past:**
-- Succinct: Enabling queries on compressed data
-- Attacking Data Center Networks
-- Routing in DTNs with Directional Antennas
+<ul>
+  <li> Succinct: Enabling queries on compressed data </li>
+  <li> Attacking Data Center Networks </li>
+  <li> Routing in DTNs with Directional Antennas </li>
+</ul>
 
 For more detailed descriptions, go [here](/projects).
 
