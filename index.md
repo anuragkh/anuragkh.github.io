@@ -24,6 +24,6 @@ of Technology, Kharagpur.
 For more detailed descriptions, go [here](/projects).
 
 # Publications
-Succinct: Enabling Queries on Compressed Data
-Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica
+[Succinct: Enabling Queries on Compressed Data](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-agarwal.pdf)<br>
+Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
 NSDI, Oakland, CA, May 2015
