@@ -12,7 +12,7 @@ of Technology, Kharagpur.
 # Projects
 - **Ongoing:**
     - Succinct: Enabling queries on compressed data
-	- Space-efficient range indexes for FARM (Microsoft Research, Cambridge)
+	- Space-efficient range indexes for FARM
 	- Succinct Fault Tolerance
 	- Dynamic Storage-Performance Tradeoff Navigation using BlowFish
 	- Regular expression processing using Succinct  
