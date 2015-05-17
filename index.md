@@ -16,6 +16,7 @@ of Technology, Kharagpur.
 - Succinct Graph-Store
 - Dynamic Storage-Performance Tradeoff in Data Stores
 - Succinct Fault Tolerance
+
 **Past:**
 - Succinct: Enabling queries on compressed data
 - Attacking Data Center Networks
