@@ -26,8 +26,6 @@ of Technology, Kharagpur.
   <li> Routing in DTNs with directional antennas </li>
 </ul>
 
-For more detailed descriptions, go [here](/projects).
-
 # Publications
 [Succinct: Enabling Queries on Compressed Data](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-agarwal.pdf)<br>
 Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
