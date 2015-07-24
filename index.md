@@ -32,3 +32,7 @@ For more detailed descriptions, go [here](/projects).
 [Succinct: Enabling Queries on Compressed Data](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-agarwal.pdf)<br>
 Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
 NSDI, Oakland, CA, May 2015
+
+[Attacking Data Center Networks from the Inside](http://research.microsoft.com/apps/pubs/default.aspx?id=249024)<br>
+**Anurag Khandelwal**, Navendu Jain, Seny Kamara<br>
+Technical Report MSR-TR-2015-52, June 2015

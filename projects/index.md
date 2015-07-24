@@ -9,7 +9,7 @@ title: Projects
       <div>
 		<h2>Internships and Research Experience</h2>
 		<ul>
-		<li >
+		<li>
 			<h4>Attacking Data Center Networks (April 2012 - July 2012)</h4>
             <div>at <span class="name"><a href="http://research.microsoft.com/en-us/" target="_blank">Microsoft Research, Redmond</a></span></div>
 			<br/>
