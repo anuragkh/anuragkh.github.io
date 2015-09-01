@@ -1,16 +1,22 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    {% if page.title == "Anurag Khandelwal" %}
     <title>{{ page.title }}</title>
-    <meta name="description" content="Blog Post for CS294.">
+    {% else %}
+    <title>{{ page.title }} | Anurag Khandelwal</title>
+    {% endif %}
+    <meta name="description" content="The academic webpage of Anurag Khandelwal.">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="msapplication-tooltip" content="Blog Post for CS294.">
+    <meta name="msapplication-tooltip" content="Anurag Khandelwal academic webpage">
 
-    <link rel="stylesheet" href="/css/app.css" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.1.0/css/font-awesome.css" />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -20,13 +26,77 @@
 
   <body>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
-    <script src="/js/app-components.js"></script>
+    <div class="wrapper">
 
-    {{ content }}
+      {% comment %}
 
+      The header section. Contains title, navbar links, a picture, and
+      external links.
+
+      {% endcomment %}
+      <header>
+        <center>
+          <h1>
+            <a href="/">Blog for CS294</a>
+            <!--
+            <ul>
+              <li><a href="/projects/">projects</a></li>
+              <li><a href="http://musingsofaboredmind.com/">blog</a></li>
+              <li><a href="/cv/">cv</a></li>
+            </ul>
+            !-->
+          </h1>
+          {% comment %} External Links {% endcomment %}
+        </center>
+      </header>
+
+      <section>
+        {% comment %}
+
+        The page.date and page.render_post variables are used as a sentinel
+        to find out if we are rendering a post. If either are present,
+        we use the post style.
+
+        {% endcomment %}
+        {% if page.date or page.render_post %}
+          <div id="post">
+            <h1 class="title">{{ page.title }}</h1>
+            <h1 class="title" id="hidden-title"></h1>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.date or page.render_post %}
+            <div class="nav">
+              <hr>
+
+              <div class="next">
+                {% if page.next %}
+                <a href="{{ page.next.url }}" title="Read the previous post">Newer post</a>
+                {% else %}
+                <a href="/#posts" title="Return to home page">Read more</a>
+                {% endif %}
+              </div>
+
+              <div class="previous">
+                {% if page.previous %}
+                <a href="{{ page.previous.url }}" title="Read the previous post">Older post</a>
+                {% else %}
+                <a href="/#posts" title="Return to home page">Read more</a>
+                {% endif %}
+              </div>
+
+              {% if page.date %}
+              <div class="date">
+                {{ page.date | date_to_string }}
+              </div>
+              {% endif %}
+          </div>
+        {% endif %}
+      </section>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="/js/site.min.js"></script>
   </body>
-
 </html>
