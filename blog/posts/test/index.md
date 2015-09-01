@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 01/01/01: Test Post
+title: Test Post
 ---
 
 # Test Post #1
