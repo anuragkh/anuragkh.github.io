@@ -25,9 +25,20 @@ The paper offers a _restrictive_ programming model in order to enable a computat
 
 _Is the Problem Real?_
 
+As with MapReduce, this paper addresses the problem of parallelization of large-scale internet services which typically depend on clusters of 100s-1000s of commodity servers, in the face of high latency, unreliable networks, scalability issues, etc. The goal for Dryad is stated to be the simplicity of the programming model, along with the reliability, efficiency and scalability of the applications. Again, as with the MapReduce paper, this is an important problem for application designers and programmers that need to handle large volumes of data on large commodity clusters.   
+
 _What is the solution's main idea?_
 
+
 _Why is the solution different from previous work?_
+
+The authors mention that they draw inspiriation from three prior models: shader languages for GPUs, MapReduce and parallel databases: all three enable developers to write concurrent software that is reliably executed in a distributed fashion. However, all three restrict an application's communication flow for different reasons:
+
+* GPU shader languages are strongly tied to efficient underlying hardware for commong graphics patterns
+* MapReduce aims for simplicity at the expense of generality and performance
+* Parallel databases were designed for relational algebra manipulations where the communication graph is implicit.
+
+Dryad, on the other hand, aims to enable _fine control_ over the communication graph for the application as well as the the subroutines at the vertices.
 
 _Does the paper identify any fundamental/hard trade-offs?_
 
