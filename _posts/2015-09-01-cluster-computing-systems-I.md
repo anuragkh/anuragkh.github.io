@@ -7,13 +7,19 @@ title: Cluster Computing Systems (I)
 
 _Is the Problem Real?_
 
+The problem tackled in this paper is parallelization of computation on large volumes of data that are typically distributed across hundreds or thousands of machines. Under such a setting, data distribution, fault and failure tolerance are important issues, particularly when running the computation across commodity clusters. Since this work was largely inspired by real problems within Google's own application domains (processing crawled documents, web request logs, computing inverted indices, graph representations of web documents, etc.), which are representative of general issues in processing large volumes of data, the problem addressed in the paper is indeed a real one.     
+
 _What is the solution's main idea?_
 
 This paper describes MapReduce, a programming model that supports parallel execution of a job on a cluster of commodity machines. The programming model is functional, and entails a user describing their jobs in terms of two functions — map and reduce. The map function processes key-value pairs to generate intermediate key-value pairs. These are in turn processed aggregated by the reduce function, which merges all intermediate values associated with the same intermediate value based on the user’s specification of the reduce function. The authors cite the main contribution of this paper to be the simple and powerful interface that enables automatic parallelization and distribution of large-scale computations with performance on large clusters of commodity PCs.
 
 _Why is the solution different from previous work?_
 
+While programming model or the idea of employing a functional style of programming for distributed data computation isn’t particularly novel, the novelty lies in the system implementation which takes care of the fault-tolerance, task-scheduling, programming complexity, data distribution and partitioning, etc. This work re-enforces a functional approach to handling large volumes of data in a distributed setting, and provides a novel implementation of a framework to handle the same. MapReduce also handles a number of issues of scale (such as fault-tolerance, programming complexity, data distribution and partitioning) that are typically faced by applications that operate on large volumes of data. These are handled by the run-time system without adding complexity for the user/programmer.
+
 _Does the paper identify any fundamental/hard trade-offs?_
+
+The paper offers a _restrictive_ programming model in order to enable a computation framework that can be easily parallelized. The programming model, though simple, is arguably limited in its expressibility — not all real-world applications may have a direct or efficient mapping to a MapReduce model. However, the paper shows that there are several real-world applications that can be adapted to this model, and given the wide-spread adoption of the MapReduce model (in some form or another), the trade-off between expressiveness and a parallelizable computation model seems quite reasonable.
 
 ## Dryad: Distributed Data-Parallel Programs from Sequential Building Blocks
 
