@@ -11,7 +11,7 @@ The problem tackled in this paper is parallelization of computation on large vol
 
 _What is the solution's main idea?_
 
-This paper describes MapReduce, a programming model that supports parallel execution of a job on a cluster of commodity machines. The programming model is functional, and entails a user describing their jobs in terms of two functions — map and reduce. The map function processes key-value pairs to generate intermediate key-value pairs. These are in turn processed aggregated by the reduce function, which merges all intermediate values associated with the same intermediate value based on the user’s specification of the reduce function. The authors cite the main contribution of this paper to be the simple and powerful interface that enables automatic parallelization and distribution of large-scale computations with performance on large clusters of commodity PCs.
+This paper describes MapReduce, a programming model that supports parallel execution of a job on a cluster of commodity machines. The programming model is functional, and entails a user describing their jobs in terms of two functions — map and reduce. The map function processes key-value pairs to generate intermediate key-value pairs. These are in turn processed aggregated by the reduce function, which merges all intermediate values associated with the same intermediate value based on the user’s specification of the reduce function. The authors cite the main contribution of this paper to be the simple and powerful interface that enables automatic parallelization and distribution of large-scale computations with performance on large clusters of commodity computers.
 
 _Why is the solution different from previous work?_
 
