@@ -28,7 +28,7 @@ _Is the Problem Real?_
 As with MapReduce, this paper addresses the problem of parallelization of large-scale internet services which typically depend on clusters of 100s-1000s of commodity servers, in the face of high latency, unreliable networks, scalability issues, etc. The goal for Dryad is stated to be the simplicity of the programming model, along with the reliability, efficiency and scalability of the applications. Again, as with the MapReduce paper, this is an important problem for application designers and programmers that need to handle large volumes of data on large commodity clusters.   
 
 _What is the solution's main idea?_
-
+The solution proposed by the authors is Dryad, an execution engine for coarse-grained data-parallel applications where the developer has _fine control_ over the application's communication graph. The developer can specify an arbitrary directed acyclic graph composed of Dryad operators to describe application communication patterns and the data transport mechanisms between the computation vertices. The graph vertices can use arbitrary number of inputs and outputs where MapReduce restricts all computations to operate on a single input and output set. The authors describe optimizations, such as aggregate trees for associative operations. Other components of the system are responsible for automatically handling failures, scheduling Dryad jobs, and distributed file storage using a GFS-like filesystem (similar to MapReduce).  
 
 _Why is the solution different from previous work?_
 
@@ -42,3 +42,4 @@ Dryad, on the other hand, aims to enable _fine control_ over the communication g
 
 _Does the paper identify any fundamental/hard trade-offs?_
 
+I feel that the tradeoff explored in this paper is between _expressiveness and efficiency_ and _simplicity of programmablity_ in distributed programming. While Dryad acheives expressiveness using the DAG structure for its communication graph, and efficiency as a consequence of a more expressive flow graph, the use of multiple channels of communication, etc, Dryad loses out on programmability, since programmers must visualize the data flows which were conveniently abstracted out (or implicit) in MapReduce.
