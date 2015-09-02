@@ -4,7 +4,7 @@ title: Cluster Computing Systems (I)
 ---
 
 ## MapReduce: Simplified Data Processing on Large Clusters
-A
+
 _Is the Problem Real?_
 
 _What is the solution's main idea?_
