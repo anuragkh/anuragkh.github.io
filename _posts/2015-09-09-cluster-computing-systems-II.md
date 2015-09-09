@@ -39,7 +39,7 @@ partial caching of an RDD in memory, Spark can attain several points on the trad
 
 _Will the paper be influential in 10 years?_
 
-Given the popularity and adoption of the system, it seems very likely that the paper will be influential for the next 10 years. The key aspects of the paper,
+Given the popularity and adoption of the system, it seems very likely that the paper will be influential for the next 10 years. The key concepts in the paper,
 namely the RDD abstraction, reuse of data across operations, etc., are general and practical approaches to handling large volumes of data, and should
 remain relevant for time to come.
 
@@ -47,7 +47,22 @@ remain relevant for time to come.
 
 _Is the Problem Real?_
 
+Distributed dataflow systems typically provide one of three desired aspects: (1) low-latency stream processing, (2) high-throughput batch processing, (3) iterative computation. 
+A large number of applications require all three, and while it is possible to compose several systems to obtain these goals, it would incur significant development
+and maintenance cost, and would be less efficient than a unified platform. Naiad adresses this particular issue. In my opinion, applications requiring all three
+goals from a unified platform in a real problem, and concerns of efficiency, development and maintenance costs for multiple platforms to acheive the same are legitimate.
+The paper cites batch iterative graph computation and machine learning, together with streaming acyclic computations and iterative graph analytics as real-world application 
+scenarios.  
+
 _What is the solution's main idea?_
+
+Naiad achieves its goals of low-latency stream processing, high throughput batch processing and iterative, incremental computations through a new computational model called 
+_timely dataflow_. This model enriches dataflow computation with timestamps that represent logical points in the computation and provide the basis for an efficient, 
+lightweight coordination mechanism. Timely dataflow supports the following three features:
+
+* structured loops allowing feedback in the dataflow.
+* stateful dataflow vertices capable of consuming and producing records without global coordination.
+* notifications for vertices once they have received all records for a given round of input or loop iteration.
 
 _Why is the solution different from previous work?_
 

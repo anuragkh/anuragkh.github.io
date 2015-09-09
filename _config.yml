@@ -1,2 +1,26 @@
 name: Anurag Khandelwal, Graduate Student
-markdown: kramdown
+
+# Variables set by GitHub
+safe: true
+lsi: false
+highlighter: pygments
+source: .
+
+markdown: redcarpet
+
+# Use nice sensible URLs like:
+#
+#    /nice/sensible/url
+#
+# Not:
+#
+#    /15/05/12/nasty/url
+#
+permalink: /posts/:title
+
+# Enable HTTP redirects
+gems:
+  - jekyll-redirect-from
+
+# Ignore patterns
+exclude: [README.md, template/]
