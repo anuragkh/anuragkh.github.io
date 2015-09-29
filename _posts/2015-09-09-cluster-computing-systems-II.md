@@ -66,6 +66,18 @@ lightweight coordination mechanism. Timely dataflow supports the following three
 
 _Why is the solution different from previous work?_
 
+As stated before, existing systems provide on of the three desired aspects (stated above), but not all three; Naiad strives to be the first system that acheives all three in 
+a single framework. (Although this is unclear --- arguably, Discretized Streams on Spark provide the same guarantees in the same framework.) 
+
 _Does the paper identify any fundamental/hard trade-offs?_
 
+As with Dryad, in order to acheive efficiency for its system goals (stream processing, batch processing, iterative processing), Naiad gives up on simplicity of system design, and
+simplicity of programming abstraction. In particular, fault tolerance is much more complex due to stateful computations, complicating handling of certain common caveats in big 
+data processing (e.g., stragglers). Moreover, the developers need to deal with more complicated programming constructs such as graph operators and timestamps in order to enable more
+efficient processing for their applications.
+
 _Will the paper be influential in 10 years?_
+
+Naiad suffers from problems similar to Dryad; Naiad enables low latency stream processing, high throughput batch processing as well as iterative computation on the same framework, 
+but at the cost of increased system complexity, and inherent complexity in the programming interface. As such, I see Naiad becoming influential in terms of academic research, but 
+not in terms of its adoption in the industry.
