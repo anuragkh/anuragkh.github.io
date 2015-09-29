@@ -21,6 +21,10 @@ _Does the paper identify any fundamental/hard trade-offs?_
 
 The paper offers a _restrictive_ programming model in order to enable a computation framework that can be easily parallelized. The programming model, though simple, is arguably limited in its expressibility — not all real-world applications may have a direct or efficient mapping to a MapReduce model. However, the paper shows that there are several real-world applications that can be adapted to this model, and given the wide-spread adoption of the MapReduce model (in some form or another), the trade-off between expressiveness and a parallelizable computation model seems quite reasonable.
 
+_Will the paper be influential in 10 years?_
+
+MapReduce has been one of the most influential contributions to research in data processing in recent times; there have been numerous implementations in several languages, and despite the various optimizations, the core idea has remained the same across numerous computational frameworks. I believe that the MapReduce paper will continue to shape both big data processing systems as well as research around them for some time to come. 
+
 ## Dryad: Distributed Data-Parallel Programs from Sequential Building Blocks
 
 _Is the Problem Real?_
@@ -44,3 +48,7 @@ Dryad, on the other hand, aims to enable _fine control_ over the communication g
 _Does the paper identify any fundamental/hard trade-offs?_
 
 I feel that the tradeoff explored in this paper is between _expressiveness and efficiency_ and _simplicity of programmablity_ in distributed programming. While Dryad acheives expressiveness using the DAG structure for its communication graph, and efficiency as a consequence of a more expressive flow graph, the use of multiple channels of communication, etc, Dryad loses out on programmability, since programmers must visualize the data flows which were conveniently abstracted out (or implicit) in MapReduce.
+
+_Will the paper be influential in 10 years?_
+
+In my opinion, the key tradeoff that Dryad makes, i.e., sacrificing _simplicity in programming_ for _expressiveness and efficiency_, is its primary drawback. As time has shown, simpler cluster compute systems that expose simpler abstractions (e.g., MapReduce, Spark) have gained higher impact despite their reduced expressiveness, since they are simpler to reason with. Another reason for its relatively lower impact could be attributed to its closed-source nature; however, with Dryad's and DryadLINQ's recent open-source release, this could potentially change. 
