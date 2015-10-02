@@ -7,13 +7,49 @@ title: Resource Allocation and Scheduling
 
 _Is the Problem Real?_
 
+While the fair allocation of resources has been widely discussed in a single resource environment, and different adaptations
+of max-min fairness (maximizing the minimum allocation of a user in a system) are found to work well, this paper addresses
+the fair allocation of resources in a multi-resource environment. With a large number of shared platforms that support
+coexisting applications (e.g., MapReduce, Spark, etc.) with multiple users, sharing multiple resources (CPU, RAM, etc.) 
+fairly across the different users is an important problem to address.
+
 _What is the solution's main idea?_
+
+The main idea behind the solution is the generalization of "max-min" fairness to the multi-resource domain. In particular,
+different users have different demands for each of the resources, and fair share is determined by "max-min" fair-share for 
+the dominant resource (most heavily allocated resource) for that user. 
 
 _Why is the solution different from previous work?_
 
+The authors discuss properties that such an allocation policy must possess: 
+* sharing incentive (better to share than desire exclusive access to resources),
+* strategy proofness (no benefit in lying about resource demands),
+* envy-freeness (no preference for another user’s allocation), and,
+* pareto efficiency (impossible to increase allocation of one user without decreasing allocation of another). 
+
+Additionally, properties like 
+* single resource fairness (reduction to max-min fairness in presence of a single resource),
+* bottleneck fairness (when a single resource is bottlenecked, reduces to max-min fairness for bottlenecked resource),
+* population monotonicity (no decrease in allocation on adding users), and 
+* resource monotonicity (no decrease in allocation on adding resources) 
+are also desirable. 
+
+The authors show analytically that while DRF possesses all of these properties except resource monotonicity, 
+alternate fairness policies like asset fairness and Competitive Equilibrium from Equal Incomes (CEEI) lose 
+out on more important properties like sharing incentive or strategy proofness.
+
 _Does the paper identify any fundamental/hard trade-offs?_
 
+As discussed before, the authors mention several desirable properties that are expected from a multi-resource allocation
+policy. While these properties may not be complete, there is an inherent tradeoff that is exposed between them, and
+different allocation policies typically tradeoff some of the desirable properties for others. However, DRF acheives
+almost all these properties, apart from resource monotonicity.
+
 _Will the paper be influential in 10 years?_
+
+Since a majority of resource allocators in and across cluster computing frameworks rely on some notions of fairness, 
+DRF is an important contribution in that direction. With its adoption in Mesos, it already has had real-world impact,
+and I expect it to continue to be influential both in industry and in academia.
 
 ## Omega: flexible, scalable schedulers for large compute clusters
 
