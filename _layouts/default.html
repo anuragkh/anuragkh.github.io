@@ -1,3 +1,4 @@
+{% include base.html %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,13 +14,13 @@
     <meta name="msapplication-tooltip" content="Anurag Khandelwal academic webpage">
 
     <link href="http://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="{{ base }}/css/styles.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ base }}/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ base }}/favicon.ico" type="image/x-icon">
 
     {%include google-analytics.html %}
   </head>
@@ -46,10 +47,10 @@
             </ul>
             !-->
           </h1>
-          <div class="img-frame"><img src="/images/me.jpg" width="180" height="180"/></div>
+          <div class="img-frame"><img src="{{ base }}/images/me.jpg" width="180" height="180"/></div>
           {% comment %} External Links {% endcomment %}
           <ul>
-            <li><a href="/cv/CV.pdf" target="_blank">Resume</a></li>
+            <li><a href="{{ base }}/cv/CV.pdf" target="_blank">Resume</a></li>
             <li><a href="https://github.com/anuragkh" target="_blank">GitHub</a></li>
             <li><a href="http://www.linkedin.com/in/anuragkh" target="_blank">LinkedIn</a></li>
           </ul>
