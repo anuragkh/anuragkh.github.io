@@ -17,7 +17,7 @@ Queries on Compressed data:
 
 * [Succinct: Enabling Queries on compressed data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)
 * [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)
-* RegEx queries on compressed data
+* Regular Expression Queries on Compressed Data
 * Serving Queries on Compressed Graphs
 
 Data Structures for fast networks:
@@ -47,7 +47,7 @@ MSR Technical Report MSR-TR-2015-52, June 2015
 
 # Teaching
 
-CS168: Introduction to the Internet: Architecture and Protocols<br> 
+[CS168: Introduction to the Internet: Architecture and Protocols](https://inst.eecs.berkeley.edu/~cs168/fa14/)<br> 
 Fall 2014
 
 # Talks
