@@ -35,7 +35,7 @@ Networking:
 
 [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)<br>
 **Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
-NSDI, Oakland, CA, May 2016 _(To Appear)_
+NSDI, Oakland, CA, March 2016 _(To Appear)_
 
 [Succinct: Enabling Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)<br>
 Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
