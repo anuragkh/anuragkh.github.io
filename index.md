@@ -47,8 +47,10 @@ MSR Technical Report MSR-TR-2015-52, June 2015
 
 # Teaching
 
-CS168: Introduction to the Internet: Architecture and Protocols, Fall'14
+CS168: Introduction to the Internet: Architecture and Protocols 
+Fall 2014
 
 # Talks
 
-Succinct: Enabling Queries on Compressed Data, AMPLab Retreat, Monterey, CA, May. 2015
+Succinct: Enabling Queries on Compressed Data
+AMPLab Retreat, Monterey, CA, May 2015
