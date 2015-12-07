@@ -15,8 +15,8 @@ of Technology, Kharagpur.
 
 Queries on Compressed data: 
 
-* [Succinct: Enabling Queries on compressed data](http://cs.berkeley.edu/~anurak/papers/succinct.pdf)
-* [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anurak/papers/blowfish.pdf)
+* [Succinct: Enabling Queries on compressed data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)
+* [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)
 * RegEx queries on compressed data
 * Serving Queries on Compressed Graphs
 
@@ -28,20 +28,20 @@ Data Structures for fast networks:
 
 Networking:
 
-* [Attacking Data Center Networks](http://cs.berkeley.edu/~anurak/papers/dcn.pdf)
+* [Attacking Data Center Networks](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)
 * Routing in DTNs with Directional Antennas
 
 # Publications
 
-[BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anurak/papers/blowfish.pdf)<br>
+[BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)<br>
 **Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
 NSDI, Oakland, CA, May 2016 _(To Appear)_
 
-[Succinct: Enabling Queries on Compressed Data](http://cs.berkeley.edu/~anurak/papers/succinct.pdf)<br>
+[Succinct: Enabling Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)<br>
 Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
 NSDI, Oakland, CA, May 2015
 
-[Attacking Data Center Networks from the Inside](http://cs.berkeley.edu/~anurak/papers/dcn.pdf)<br>
+[Attacking Data Center Networks from the Inside](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)<br>
 **Anurag Khandelwal**, Navendu Jain, Seny Kamara<br>
 MSR Technical Report MSR-TR-2015-52, June 2015
 
