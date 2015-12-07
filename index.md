@@ -10,27 +10,45 @@ degree (B. Tech. in Computer Science and Engineering) from the Indian Institute
 of Technology, Kharagpur.
 
 # Projects
+
 **Ongoing:**
-<ul>
-  <li> Fast, memory-efficient RegEx queries </li>
-  <li> Space-efficient range indexes for FARM </li>
-  <li> Succinct graph-store </li>
-  <li> Dynamic storage-performance tradeoff in data stores </li>
-  <li> Succinct fault tolerance </li>
-</ul>
+
+Queries on Compressed data: 
+
+* [Succinct: Enabling Queries on compressed data](http://cs.succinct.berkeley.edu/papers/succinct.pdf)
+* [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.succinct.berkeley.edu/papers/blowfish.pdf)
+* RegEx queries on compressed data
+* Serving Queries on Compressed Graphs
+
+Data Structures for fast networks:
+
+* Space-efficient range indexes for FARM
 
 **Past:**
-<ul>
-  <li> Succinct: Enabling queries on compressed data </li>
-  <li> Attacking data center networks </li>
-  <li> Routing in DTNs with directional antennas </li>
-</ul>
+
+Networking:
+
+* [Attacking Data Center Networks](http://cs.succinct.berkeley.edu/papers/dcn.pdf)
+* Routing in DTNs with Directional Antennas
 
 # Publications
-[Succinct: Enabling Queries on Compressed Data](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-agarwal.pdf)<br>
+
+[BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.succinct.berkeley.edu/papers/blowfish.pdf)<br>
+**Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
+NSDI, Oakland, CA, May 2016 _(To Appear)_
+
+[Succinct: Enabling Queries on Compressed Data](http://cs.succinct.berkeley.edu/papers/succinct.pdf)<br>
 Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
 NSDI, Oakland, CA, May 2015
 
-[Attacking Data Center Networks from the Inside](http://research.microsoft.com/apps/pubs/default.aspx?id=249024)<br>
+[Attacking Data Center Networks from the Inside](http://cs.succinct.berkeley.edu/papers/dcn.pdf)<br>
 **Anurag Khandelwal**, Navendu Jain, Seny Kamara<br>
-Technical Report MSR-TR-2015-52, June 2015
+MSR Technical Report MSR-TR-2015-52, June 2015
+
+# Teaching
+
+CS168: Introduction to the Internet: Architecture and Protocols, Fall'14
+
+# Talks
+
+Succinct: Enabling Queries on Compressed Data, AMPLab Retreat, Monterey, CA, May. 2015
