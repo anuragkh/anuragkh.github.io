@@ -52,8 +52,8 @@ Fall 2014
 
 # Talks
 
-BlowFish: Dynami Storage-Performance Tradeoff in Data Stores<br>
-AMPLab Retreat, Monterey, CA, Jan 2016
+BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores<br>
+AMPLab Retreat, Tahoe, CA, Jan 2016
 
 Succinct: Enabling Queries on Compressed Data<br>
-AMPLab Retreat, Monterey, CA, Jan 2015
+AMPLab Retreat, Asilomer Conference Grounds, CA, Jan 2015
