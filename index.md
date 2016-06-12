@@ -17,7 +17,7 @@ Queries on Compressed data:
 
 * [Succinct: Enabling Queries on compressed data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)
 * [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)
-* Regular Expression Queries on Compressed Data
+* [Regular Expression Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/swift.pdf)
 * Serving Queries on Compressed Graphs
 
 Data Structures for fast networks:
@@ -35,7 +35,7 @@ Networking:
 
 [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)<br>
 **Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
-NSDI, Santa Clara, CA, March 2016 _(To Appear)_
+NSDI, Santa Clara, CA, March 2016
 
 [Succinct: Enabling Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)<br>
 Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
@@ -51,6 +51,9 @@ MSR Technical Report MSR-TR-2015-52, June 2015
 Fall 2014
 
 # Talks
+
+BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores<br>
+NSDI, Santa Clara, CA, March 2016
 
 BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores<br>
 AMPLab Retreat, Tahoe, CA, Jan 2016
