@@ -17,8 +17,8 @@ Queries on Compressed data:
 
 * [Succinct: Enabling Queries on compressed data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)
 * [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)
-* [Regular Expression Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/swift.pdf)
-* Serving Queries on Compressed Graphs
+* [Swift: Regular Expression Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/swift.pdf)
+* [ZipG: Serving Queries on Compressed Graphs](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)
 
 Data Structures for fast networks:
 
@@ -51,6 +51,9 @@ MSR Technical Report MSR-TR-2015-52, June 2015
 Fall 2014
 
 # Talks
+
+Succinct: Fast Interactive Queries<br>
+Elasticsearch Meetup, San Francisco, CA, June 2016
 
 BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores<br>
 NSDI, Santa Clara, CA, March 2016
