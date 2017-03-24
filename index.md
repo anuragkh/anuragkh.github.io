@@ -13,6 +13,10 @@ of Technology, Kharagpur.
 
 **Ongoing:**
 
+Real-time Log Analytics:
+* Packet-Level Network Monitoring and Diagnosis
+* Time-series databases
+
 Queries on Compressed data: 
 
 * [Succinct: Enabling Queries on compressed data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)
