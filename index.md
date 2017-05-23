@@ -35,7 +35,7 @@ Networking:
 
 [ZipG: A Memory-efficient Graph Store for Interactive Queries](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)<br>
 **Anurag Khandelwal**, Zongheng Yang, Evan Ye, Rachit Agarwal, Ion Stoica<br>
-SIGMOD, Chicago, IL, May 2017 (To Appear)
+SIGMOD, Chicago, IL, May 2017
 
 [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)<br>
 **Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
