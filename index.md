@@ -56,23 +56,26 @@ Fall 2014
 
 # Talks
 
-Introduction to Succinct by UC Berkeley AMPLab<br>
+**ZipG: A Memory-efficient Graph Store for Interactive Queries**<br>
+SIGMOD, Chicago, IL, May 2017
+
+**Introduction to Succinct by UC Berkeley AMPLab**<br>
 SF Big Analytics Meetup, San Francisco, CA, September 2016
 
-Succinct: Enabling Queries on Compressed Data<br>
+**Succinct: Enabling Queries on Compressed Data**<br>
 Bay Area AI Meetup, San Francisco, CA, September 2016
 
-Succinct: Fast Interactive Queries<br>
+**Succinct: Fast Interactive Queries**<br>
 Cloudera, San Francisco, CA, June 2016
 
-Succinct: Fast Interactive Queries<br>
+**Succinct: Fast Interactive Queries**<br>
 Elasticsearch Meetup, San Francisco, CA, June 2016
 
-BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores<br>
+**BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores**<br>
 NSDI, Santa Clara, CA, March 2016
 
-BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores<br>
+**BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores**<br>
 AMPLab Retreat, Tahoe, CA, Jan 2016
 
-Succinct: Enabling Queries on Compressed Data<br>
+**Succinct: Enabling Queries on Compressed Data**<br>
 AMPLab Retreat, Asilomer Conference Grounds, CA, Jan 2015
