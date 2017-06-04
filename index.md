@@ -56,6 +56,15 @@ Fall 2014
 
 # Talks
 
+Introduction to Succinct by UC Berkeley AMPLab<br>
+SF Big Analytics Meetup, San Francisco, CA, September 2016
+
+Succinct: Enabling Queries on Compressed Data<br>
+Bay Area AI Meetup, San Francisco, CA, September 2016
+
+Succinct: Fast Interactive Queries<br>
+Cloudera, San Francisco, CA, June 2016
+
 Succinct: Fast Interactive Queries<br>
 Elasticsearch Meetup, San Francisco, CA, June 2016
 
