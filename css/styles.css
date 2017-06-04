@@ -14,7 +14,7 @@ body{padding:50px;color:#555;font-family:"Lato",sans-serif;font-weight:400;font-
 @media print,screen and (max-width:900px){.wrapper{width:auto;margin:0}}
 p,ul,ol,table,pre,dl{margin:20 0}
 img{max-width:100%}
-section{width:500px;float:right;padding-bottom:50px}
+section{width:520px;float:right;padding-bottom:50px}
 @media print,screen and (max-width:900px){section{border:1px solid #e5e5e5;border-width:1px 0;padding:1em 0}}
 hr{border:0;background:#e5e5e5;height:1px;margin:0 0 20px}
 #posts a{text-decoration:none}
