@@ -6,7 +6,7 @@ lsi: false
 highlighter: pygments
 source: .
 
-markdown: redcarpet
+#markdown: redcarpet
 
 # Use nice sensible URLs like:
 #
