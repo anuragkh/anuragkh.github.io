@@ -3,7 +3,7 @@ name: Anurag Khandelwal, Graduate Student
 # Variables set by GitHub
 safe: true
 lsi: false
-highlighter: pygments
+#highlighter: pygments
 source: .
 
 #markdown: redcarpet
