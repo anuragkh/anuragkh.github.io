@@ -20,7 +20,7 @@ Queries on Compressed data:
 * [Swift: Regular Expression Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/swift.pdf)
 * [ZipG: Serving Queries on Compressed Graphs](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)
 
-Data Structures for high speed networks:
+Storage for High Speed Networks:
 
 * [Confluo: Distributed Monitoring and Diagnosis Stack for High Speed Networks](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)
 * Space-efficient range indexes for FARM
