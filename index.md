@@ -56,10 +56,12 @@ MSR Technical Report MSR-TR-2015-52, June 2015
 
 # Teaching
 
-[CS162: Operating Systems and Systems Programming](http://inst.eecs.berkeley.edu/~cs162/fa17/)<br> 
+[CS162: Operating Systems and Systems Programming](http://inst.eecs.berkeley.edu/~cs162/fa17/)<br>
+As GSI with Prof. Ion Stoica<br>
 Fall 2017
 
-[CS168: Introduction to the Internet: Architecture and Protocols](https://inst.eecs.berkeley.edu/~cs168/fa14/)<br> 
+[CS168: Introduction to the Internet: Architecture and Protocols](https://inst.eecs.berkeley.edu/~cs168/fa14/)<br>
+As GSI with Prof. Sylvia Ratnasamy<br>
 Fall 2014
 
 # Talks
