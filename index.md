@@ -37,7 +37,7 @@ Networking:
 
 [Confluo: Distributed Monitoring and Diagnosis Stack for High Speed Networks](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)<br>
 **Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
-NSDI, Boston, MA, Feb 2019 (To Appear)
+NSDI, Boston, MA, Feb 2019
 
 [ZipG: A Memory-efficient Graph Store for Interactive Queries](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)<br>
 **Anurag Khandelwal**, Zongheng Yang, Evan Ye, Rachit Agarwal, Ion Stoica<br>
