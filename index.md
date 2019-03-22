@@ -35,6 +35,8 @@ Networking:
 
 # Publications
 
+## Conference
+
 [Confluo: Distributed Monitoring and Diagnosis Stack for High Speed Networks](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)<br>
 **Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
 NSDI, Boston, MA, Feb 2019
@@ -50,6 +52,12 @@ NSDI, Santa Clara, CA, March 2016
 [Succinct: Enabling Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)<br>
 Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
 NSDI, Oakland, CA, May 2015
+
+## Technical Reports
+
+[Cloud Programming Simplified: A Berkeley View on Serverless Computing](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)<br>
+Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, Anurag Khandelwal, Qifan Pu, Vaishaal Shankar, Joao Menezes Carreira, Karl Krauth, Neeraja Yadwadkar, Joseph Gonzalez, Raluca Ada Popa, Ion Stoica, David A. Patterson<br>
+UC Berkeley Technical Report No. UCB/EECS-2019-3, Feb 2019
 
 [Attacking Data Center Networks from the Inside](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)<br>
 **Anurag Khandelwal**, Navendu Jain, Seny Kamara<br>
