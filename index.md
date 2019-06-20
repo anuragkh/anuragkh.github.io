@@ -6,9 +6,10 @@ title: Anurag Khandelwal
 
 I'm a Graduate Student at the [University of California, Berkeley](https://eecs.berkeley.edu), 
 pursuing my PhD at the [RISELab](https://rise.cs.berkeley.edu) and advised by 
-[Prof. Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I completed my 
-bachelor's degree (B. Tech. in Computer Science and Engineering) from the 
-[Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in).
+[Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I also work closely 
+with [Rachit Agarwal](http://www.cs.cornell.edu/~ragarwal/index.html), my (unofficial)
+co-advisor. I completed my bachelor's degree (B. Tech. in Computer Science and 
+Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in).
 
 # Projects
 
