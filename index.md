@@ -57,7 +57,7 @@ NSDI, Oakland, CA, May 2015
 ## Technical Reports
 
 [Cloud Programming Simplified: A Berkeley View on Serverless Computing](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)<br>
-Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, Anurag Khandelwal, Qifan Pu, Vaishaal Shankar, Joao Menezes Carreira, Karl Krauth, Neeraja Yadwadkar, Joseph Gonzalez, Raluca Ada Popa, Ion Stoica, David A. Patterson<br>
+Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, **Anurag Khandelwal**, Qifan Pu, Vaishaal Shankar, Joao Menezes Carreira, Karl Krauth, Neeraja Yadwadkar, Joseph Gonzalez, Raluca Ada Popa, Ion Stoica, David A. Patterson<br>
 UC Berkeley Technical Report No. UCB/EECS-2019-3, Feb 2019
 
 [Attacking Data Center Networks from the Inside](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)<br>
