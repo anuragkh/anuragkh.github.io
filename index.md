@@ -4,6 +4,9 @@ title: Anurag Khandelwal
 ---
 # About
 
+** NEWS: I will be at Cornell Tech as a postdoctoral associate during Fall '19. **
+** I will join Yale University as a tenure-track Assistant Professor in January 2020 **
+
 I'm a Graduate Student at the [University of California, Berkeley](https://eecs.berkeley.edu), 
 pursuing my PhD at the [RISELab](https://rise.cs.berkeley.edu) and advised by 
 [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I also work closely 
