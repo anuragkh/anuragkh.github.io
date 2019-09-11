@@ -4,19 +4,15 @@ title: Anurag Khandelwal
 ---
 # About
 
-**NEWS: I will be at [Cornell Tech](https://tech.cornell.edu/) as a postdoctoral associate during Fall '19.**
+**I am currently a postdoctoral associate at [Cornell Tech](https://tech.cornell.edu/).**
 **I will join [Yale University](https://cpsc.yale.edu/) as a tenure-track Assistant Professor in January '20**
 
-I'm a Graduate Student at the [University of California, Berkeley](https://eecs.berkeley.edu), 
-pursuing my PhD at the [RISELab](https://rise.cs.berkeley.edu) and advised by 
-[Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I also work closely 
-with [Rachit Agarwal](http://www.cs.cornell.edu/~ragarwal/index.html), my (unofficial)
-co-advisor. I completed my bachelor's degree (B. Tech. in Computer Science and 
+I received my PhD from the [University of California, Berkeley](https://eecs.berkeley.edu), 
+at the [RISELab](https://rise.cs.berkeley.edu), where I was advised by 
+[Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I completed my bachelor's degree (B. Tech. in Computer Science and 
 Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in).
 
 # Projects
-
-**Ongoing:**
 
 Queries on Compressed data: 
 
@@ -30,12 +26,9 @@ Storage for High Speed Networks:
 * [Confluo: Distributed Monitoring and Diagnosis Stack for High Speed Networks](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)
 * Space-efficient range indexes for FARM
 
-**Past:**
-
-Networking:
+Cloud Security:
 
 * [Attacking Data Center Networks](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)
-* Routing in DTNs with Directional Antennas
 
 # Publications
 
