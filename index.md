@@ -9,7 +9,9 @@ title: Anurag Khandelwal
 
 I received my PhD from the [University of California, Berkeley](https://eecs.berkeley.edu), 
 at the [RISELab](https://rise.cs.berkeley.edu), where I was advised by 
-[Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I completed my bachelor's degree (B. Tech. in Computer Science and 
+[Ion Stoica](https://people.eecs.berkeley.edu/~istoica/) and worked closely with
+[Rachit Agarwal](http://www.cs.cornell.edu/~ragarwal/index.html). I completed my
+bachelor's degree (B. Tech. in Computer Science and 
 Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in).
 
 # Projects
