@@ -7,7 +7,7 @@ title: Anurag Khandelwal
 **I am currently a postdoctoral associate at [Cornell Tech](https://tech.cornell.edu/).**
 **I will join [Yale University](https://cpsc.yale.edu/) as a tenure-track Assistant Professor in January '20**
 
-**I am looking for highly motivated graduate students. Please send me an email if you are interested**
+**I am looking for highly motivated graduate students. Please send me an email if you are interested.**
 
 I received my PhD from the [University of California, Berkeley](https://eecs.berkeley.edu), 
 at the [RISELab](https://rise.cs.berkeley.edu), where I was advised by 
@@ -55,6 +55,10 @@ Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
 NSDI, Oakland, CA, May 2015
 
 ## Technical Reports
+
+[Queries on Compressed Data](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-141.html)<br>
+**Anurag Khandelwal**<br>
+PhD Thesis, Nov 2019
 
 [Cloud Programming Simplified: A Berkeley View on Serverless Computing](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)<br>
 Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, **Anurag Khandelwal**, Qifan Pu, Vaishaal Shankar, Joao Menezes Carreira, Karl Krauth, Neeraja Yadwadkar, Joseph Gonzalez, Raluca Ada Popa, Ion Stoica, David A. Patterson<br>
