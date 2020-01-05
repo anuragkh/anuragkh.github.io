@@ -9,10 +9,16 @@ title: Anurag Khandelwal
 
 **I am looking for highly motivated graduate students. Please send me an email if you are interested.**
 
+I am an Assistant Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
+at [Yale University](https://www.yale.edu/). My research interests span 
+distributed systems, databases, networking, and algorithms.
+
+Prior to starting at Yale, I did a short post-doc at [Cornell Tech](https://tech.cornell.edu/)
+where I worked with [Tom Ristenpart](https://rist.tech.cornell.edu/) and
+[Rachit Agarwal](http://www.cs.cornell.edu/~ragarwal/index.html).
 I received my PhD from the [University of California, Berkeley](https://eecs.berkeley.edu), 
 at the [RISELab](https://rise.cs.berkeley.edu), where I was advised by 
-[Ion Stoica](https://people.eecs.berkeley.edu/~istoica/) and worked closely with
-[Rachit Agarwal](http://www.cs.cornell.edu/~ragarwal/index.html). I completed my
+[Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I completed my
 bachelor's degree (B. Tech. in Computer Science and 
 Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in).
 
@@ -30,13 +36,15 @@ Storage for High Speed Networks:
 * [Confluo: Distributed Monitoring and Diagnosis Stack for High Speed Networks](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)
 * Space-efficient range indexes for FARM
 
-Cloud Security:
+Secure cloud systems:
 
 * [Attacking Data Center Networks](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)
 
-# Publications
+# Selected Publications
 
-## Conference
+[Cloud Programming Simplified: A Berkeley View on Serverless Computing](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)<br>
+Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, **Anurag Khandelwal**, Qifan Pu, Vaishaal Shankar, Joao Menezes Carreira, Karl Krauth, Neeraja Yadwadkar, Joseph Gonzalez, Raluca Ada Popa, Ion Stoica, David A. Patterson<br>
+UC Berkeley Technical Report No. UCB/EECS-2019-3, Feb 2019
 
 [Confluo: Distributed Monitoring and Diagnosis Stack for High Speed Networks](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)<br>
 **Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
@@ -54,52 +62,7 @@ NSDI, Santa Clara, CA, March 2016
 Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
 NSDI, Oakland, CA, May 2015
 
-## Technical Reports
-
-[Queries on Compressed Data](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-141.html)<br>
-**Anurag Khandelwal**<br>
-PhD Thesis, Nov 2019
-
-[Cloud Programming Simplified: A Berkeley View on Serverless Computing](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)<br>
-Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, **Anurag Khandelwal**, Qifan Pu, Vaishaal Shankar, Joao Menezes Carreira, Karl Krauth, Neeraja Yadwadkar, Joseph Gonzalez, Raluca Ada Popa, Ion Stoica, David A. Patterson<br>
-UC Berkeley Technical Report No. UCB/EECS-2019-3, Feb 2019
-
-[Attacking Data Center Networks from the Inside](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)<br>
-**Anurag Khandelwal**, Navendu Jain, Seny Kamara<br>
-MSR Technical Report MSR-TR-2015-52, June 2015
-
 # Teaching
 
-[CS162: Operating Systems and Systems Programming](http://inst.eecs.berkeley.edu/~cs162/fa17/)<br>
-As GSI with Prof. Ion Stoica<br>
-Fall 2017
-
-[CS168: Introduction to the Internet: Architecture and Protocols](https://inst.eecs.berkeley.edu/~cs168/fa14/)<br>
-As GSI with Prof. Sylvia Ratnasamy<br>
-Fall 2014
-
-# Talks
-
-**ZipG: A Memory-efficient Graph Store for Interactive Queries**<br>
-SIGMOD, Chicago, IL, May 2017
-
-**Introduction to Succinct by UC Berkeley AMPLab**<br>
-SF Big Analytics Meetup, San Francisco, CA, September 2016
-
-**Succinct: Enabling Queries on Compressed Data**<br>
-Bay Area AI Meetup, San Francisco, CA, September 2016
-
-**Succinct: Fast Interactive Queries**<br>
-Cloudera, San Francisco, CA, June 2016
-
-**Succinct: Fast Interactive Queries**<br>
-Elasticsearch Meetup, San Francisco, CA, June 2016
-
-**BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores**<br>
-NSDI, Santa Clara, CA, March 2016
-
-**BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores**<br>
-AMPLab Retreat, Tahoe, CA, Jan 2016
-
-**Succinct: Enabling Queries on Compressed Data**<br>
-AMPLab Retreat, Asilomer Conference Grounds, CA, Jan 2015
+CPSC 433/533: Computer Networks
+* Spring 2020
