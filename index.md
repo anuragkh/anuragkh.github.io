@@ -32,7 +32,7 @@ end, we are exploring the ground up design of the serverless OS stack that
 facilitates stateless and stateful applications.
 
 Publications:
-* A Berkeley View on Serverless Computing [UC Berkeley Tech Report](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)
+* A Berkeley View on Serverless Computing [[UC Berkeley Tech Report](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)]
 
 **System stack for emerging hardware:** Today's system stacks were designed to
 operate with traditional hardware, e.g., with 1 Gbps links and traditional 
@@ -43,7 +43,7 @@ revisiting traditional system designs to bridge the gap between hardware
 capabilities and realizable system properties.
 
 Publications:
-* Distributed Monitoring & Diagnosis Stack for High Speed Networks [NSDI'19 Paper](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf), [Code](https://github.com/ucbrise/confluo).
+* Distributed Monitoring & Diagnosis Stack for High Speed Networks [[NSDI'19 Paper](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)], [[Code](https://github.com/ucbrise/confluo)]
 
 **Secure cloud systems:**
 
@@ -56,7 +56,7 @@ vulnerabilities of existing system deployments hosted on the cloud and the
 design of secure systems that no longer have to trust the cloud provider.
 
 Publications:
-* Attacking Data Center Networks [MSR Tech Report](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)
+* Attacking Data Center Networks [[MSR Tech Report](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)]
 
 **Queries on compressed data:**
 
@@ -69,10 +69,10 @@ to resolve this challenge --- enabling queries directly on a compressed
 representation of the data.
 
 Publications:
-* Succinct: Enabling Queries on compressed data [NSDI'15 Paper](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf), Code: [Standalone System](http://github.com/amplab/succinct-cpp), [Succinct on Spark](https://github.com/amplab/succinct)
-* BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores [NSDI'16](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)
-* Swift: Regular Expression Queries on Compressed Data [Tech Report](http://cs.berkeley.edu/~anuragk/papers/swift.pdf), [Code]()
-* ZipG: Serving Queries on Compressed Graphs [SIGMOD'17](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)
+* Succinct: Enabling Queries on compressed data [[NSDI'15 Paper](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)], [[Code: Standalone System](http://github.com/amplab/succinct-cpp)], [[Code: Succinct on Spark](https://github.com/amplab/succinct)]
+* BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores [[NSDI'16 Paper](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)]
+* Sprint: Regular Expression Queries on Compressed Data [[Tech Report](http://cs.berkeley.edu/~anuragk/papers/swift.pdf)], [[Code](https://github.com/amplab/sprint)]
+* ZipG: Serving Queries on Compressed Graphs [[SIGMOD'17 Paper](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)]
 
 # Teaching
 
