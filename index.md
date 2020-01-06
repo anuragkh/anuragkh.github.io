@@ -19,7 +19,7 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 
 **I am looking for highly motivated graduate students. Please send me an email if you are interested.**
 
-# Projects
+# Research
 
 **OS Stack for Serverless Architectures:** Cloud services are quickly moving 
 from traditional server-based architecture to a serverless model. Such 
