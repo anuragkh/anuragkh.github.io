@@ -4,11 +4,6 @@ title: Anurag Khandelwal
 ---
 # About
 
-**I am currently a postdoctoral associate at [Cornell Tech](https://tech.cornell.edu/).**
-**I will join [Yale University](https://cpsc.yale.edu/) as a tenure-track Assistant Professor in January '20**
-
-**I am looking for highly motivated graduate students. Please send me an email if you are interested.**
-
 I am an Assistant Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
 at [Yale University](https://www.yale.edu/). My research interests span 
 distributed systems, databases, networking, and algorithms.
@@ -22,45 +17,62 @@ at the [RISELab](https://rise.cs.berkeley.edu), where I was advised by
 bachelor's degree (B. Tech. in Computer Science and 
 Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in).
 
+**I am looking for highly motivated graduate students. Please send me an email if you are interested.**
+
 # Projects
 
-Queries on Compressed data: 
+**OS Stack for Serverless Architectures:** Cloud services are quickly moving 
+from traditional server-based architecture to a serverless model. Such 
+serverless architectures enable higher scalability and resource utilization by
+allowing applications to launch short-lived compute tasks that operate on data
+stored on a remote store. However, today's serverless stacks cater mainly to
+_stateless_ (i.e., embarassingly parallel) tasks, there is a tremendous push
+towards supporting stateful applications on serverless architectures. To this
+end, we are exploring the ground up design of the serverless OS stack that
+facilitates stateless and stateful applications.
 
-* [Succinct: Enabling Queries on compressed data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)
-* [BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)
-* [Swift: Regular Expression Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/swift.pdf)
-* [ZipG: Serving Queries on Compressed Graphs](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)
+Publications:
+* A Berkeley View on Serverless Computing [UC Berkeley Tech Report](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)
 
-Storage for High Speed Networks:
+**System stack for emerging hardware:** Today's system stacks were designed to
+operate with traditional hardware, e.g., with 1 Gbps links and traditional 
+storage media. The next generation of emerging hardware (e.g., 100Gbps links,
+non-volatile memory) change the many fundamental assumptions made in the design
+and optimization of these systems. To resolve these challenges, we are 
+revisiting traditional system designs to bridge the gap between hardware
+capabilities and realizable system properties.
 
-* [Confluo: Distributed Monitoring and Diagnosis Stack for High Speed Networks](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)
-* Space-efficient range indexes for FARM
+Publications:
+* Distributed Monitoring & Diagnosis Stack for High Speed Networks [NSDI'19 Paper](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf), [Code](https://github.com/ucbrise/confluo).
 
-Secure cloud systems:
+**Secure cloud systems:**
 
-* [Attacking Data Center Networks](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)
+With web applications and services moving from self-owned servers in
+private data centers to to public cloud platforms, users must now trust the 
+cloud provider who manages the physical infrastructure that their applications 
+run on. Unfortunately, high-profile security breaches in the public cloud 
+indicate that this trust may not always be well placed. We are exploring the 
+vulnerabilities of existing system deployments hosted on the cloud and the 
+design of secure systems that no longer have to trust the cloud provider.
 
-# Selected Publications
+Publications:
+* Attacking Data Center Networks [MSR Tech Report](http://cs.berkeley.edu/~anuragk/papers/dcn.pdf)
 
-[Cloud Programming Simplified: A Berkeley View on Serverless Computing](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)<br>
-Eric Jonas, Johann Schleier-Smith, Vikram Sreekanti, Chia-Che Tsai, **Anurag Khandelwal**, Qifan Pu, Vaishaal Shankar, Joao Menezes Carreira, Karl Krauth, Neeraja Yadwadkar, Joseph Gonzalez, Raluca Ada Popa, Ion Stoica, David A. Patterson<br>
-UC Berkeley Technical Report No. UCB/EECS-2019-3, Feb 2019
+**Queries on compressed data:**
 
-[Confluo: Distributed Monitoring and Diagnosis Stack for High Speed Networks](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)<br>
-**Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
-NSDI, Boston, MA, Feb 2019
+Ensuring low latency and high throughput for user-facing queries is challenging
+when the volume of data being queried grows larger than the DRAM capacity. 
+Traditionally, storage systems have resorted to spilling over such data to 
+significantly slower secondary storage, resulting in higher query latency 
+and reduced throughput. We have been exploring a fundamentally new approach
+to resolve this challenge --- enabling queries directly on a compressed
+representation of the data.
 
-[ZipG: A Memory-efficient Graph Store for Interactive Queries](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)<br>
-**Anurag Khandelwal**, Zongheng Yang, Evan Ye, Rachit Agarwal, Ion Stoica<br>
-SIGMOD, Chicago, IL, May 2017
-
-[BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)<br>
-**Anurag Khandelwal**, Rachit Agarwal, Ion Stoica<br>
-NSDI, Santa Clara, CA, March 2016
-
-[Succinct: Enabling Queries on Compressed Data](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)<br>
-Rachit Agarwal, **Anurag Khandelwal**, Ion Stoica<br>
-NSDI, Oakland, CA, May 2015
+Publications:
+* Succinct: Enabling Queries on compressed data [NSDI'15 Paper](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf), Code: [Standalone System](http://github.com/amplab/succinct-cpp), [Succinct on Spark](https://github.com/amplab/succinct)
+* BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores [NSDI'16](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)
+* Swift: Regular Expression Queries on Compressed Data [Tech Report](http://cs.berkeley.edu/~anuragk/papers/swift.pdf), [Code]()
+* ZipG: Serving Queries on Compressed Graphs [SIGMOD'17](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)
 
 # Teaching
 
