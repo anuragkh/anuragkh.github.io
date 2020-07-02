@@ -20,8 +20,9 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 **I am looking for highly motivated graduate students. Please send me an email if you are interested.**
 
 # News
-1/6: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
-6/22: [Pancake](https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs) accepted to USENIX Security!
+
+* 6/22: [Pancake](https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs) accepted to USENIX Security!
+* 1/6: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
 # Research
 
