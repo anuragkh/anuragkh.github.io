@@ -21,8 +21,8 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 
 # News
 
-* 6/22: [Pancake](https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs) accepted to USENIX Security!
-* 1/6: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
+* *06/22/20*: [Pancake](https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs) accepted to USENIX Security!
+* *01/06/20*: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
 # Research
 
