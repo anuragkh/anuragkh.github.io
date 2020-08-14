@@ -72,7 +72,7 @@ fundamentally new approach to resolve this challenge --- enabling queries
 _directly_ on a compressed representation of the data.
 
 _Publications:_
-* Succinct: Enabling Queries on compressed data \[[NSDI'15 Paper](papers/succinct.pdf)\], \[[Code: Standalone System](http://github.com/amplab/succinct-cpp)\], \[[Code: Succinct on Spark](https://github.com/amplab/succinct)\]
+* Succinct: Enabling Queries on compressed data \[[NSDI'15 Paper](papers/succinct.pdf)\], \[[Code: C++](http://github.com/amplab/succinct-cpp)\], \[[Code: Java](https://github.com/amplab/succinct)\]
 * BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores \[[NSDI'16 Paper](papers/blowfish.pdf)\]
 * Sprint: Regular Expression Queries on Compressed Data \[[Tech Report](papers/swift.pdf)\], \[[Code](https://github.com/amplab/sprint)\]
 * ZipG: Serving Queries on Compressed Graphs \[[SIGMOD'17 Paper](papers/zipg.pdf)\]
