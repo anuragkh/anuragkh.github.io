@@ -21,7 +21,8 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 
 # News
 
-* **06/22/20**: [Pancake](https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs) accepted to USENIX Security!
+* **08/12/20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20! Thank you USENIX!
+* **06/22/20**: [Pancake](papers/pancake.pdf) accepted to USENIX Security!
 * **01/06/20**: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
 # Research
@@ -37,7 +38,7 @@ end, we are exploring the ground up design of the serverless OS stack that
 facilitates stateless and stateful applications.
 
 _Publications:_
-* A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)\]
+* A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
 **System stack for emerging hardware:** Today's system stacks were designed to
 operate with traditional hardware, e.g., with 1 Gbps links and traditional 
@@ -48,7 +49,7 @@ revisiting traditional system designs to bridge the gap between hardware
 capabilities and realizable system properties.
 
 _Publications:_
-* Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19 Paper](http://cs.berkeley.edu/~anuragk/papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
+* Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19 Paper](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
 
 **Secure cloud systems:** With web applications and services moving from 
 self-owned servers in private data centers to to public cloud platforms, users
@@ -60,7 +61,7 @@ cloud and the design of secure systems that no longer have to trust the cloud
 provider.
 
 _Publications:_
-* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs)\]
+* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code]\](https://github.com/pancake-security/pancake)\]
 
 **Queries on compressed data:** Ensuring low latency and high throughput for 
 user-facing queries is challenging when the volume of data being queried grows 
@@ -71,10 +72,10 @@ fundamentally new approach to resolve this challenge --- enabling queries
 _directly_ on a compressed representation of the data.
 
 _Publications:_
-* Succinct: Enabling Queries on compressed data \[[NSDI'15 Paper](http://cs.berkeley.edu/~anuragk/papers/succinct.pdf)\], \[[Code: Standalone System](http://github.com/amplab/succinct-cpp)\], \[[Code: Succinct on Spark](https://github.com/amplab/succinct)\]
-* BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores \[[NSDI'16 Paper](http://cs.berkeley.edu/~anuragk/papers/blowfish.pdf)\]
-* Sprint: Regular Expression Queries on Compressed Data \[[Tech Report](http://cs.berkeley.edu/~anuragk/papers/swift.pdf)\], \[[Code](https://github.com/amplab/sprint)\]
-* ZipG: Serving Queries on Compressed Graphs \[[SIGMOD'17 Paper](http://cs.berkeley.edu/~anuragk/papers/zipg.pdf)\]
+* Succinct: Enabling Queries on compressed data \[[NSDI'15 Paper](papers/succinct.pdf)\], \[[Code: Standalone System](http://github.com/amplab/succinct-cpp)\], \[[Code: Succinct on Spark](https://github.com/amplab/succinct)\]
+* BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores \[[NSDI'16 Paper](papers/blowfish.pdf)\]
+* Sprint: Regular Expression Queries on Compressed Data \[[Tech Report](papers/swift.pdf)\], \[[Code](https://github.com/amplab/sprint)\]
+* ZipG: Serving Queries on Compressed Graphs \[[SIGMOD'17 Paper](papers/zipg.pdf)\]
 
 # Teaching
 
