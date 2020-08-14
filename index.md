@@ -79,5 +79,8 @@ _Publications:_
 
 # Teaching
 
+CPSC 637: Big Data Systems
+* Fall 2020
+
 CPSC 433/533: Computer Networks
 * Spring 2020
