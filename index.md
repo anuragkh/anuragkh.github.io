@@ -61,7 +61,7 @@ cloud and the design of secure systems that no longer have to trust the cloud
 provider.
 
 _Publications:_
-* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code]\](https://github.com/pancake-security/pancake)\]
+* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\]
 
 **Queries on compressed data:** Ensuring low latency and high throughput for 
 user-facing queries is challenging when the volume of data being queried grows 
