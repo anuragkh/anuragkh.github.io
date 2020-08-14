@@ -79,8 +79,8 @@ _Publications:_
 
 # Teaching
 
-CPSC 637: Big Data Systems
+[CPSC 637: Big Data Systems](https://courses.yale.edu/?keyword=CPSC%20637&srcdb=guide2020)
 * Fall 2020
 
-CPSC 433/533: Computer Networks
+[CPSC 433/533: Computer Networks](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2020)
 * Spring 2020
