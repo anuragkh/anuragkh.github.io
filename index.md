@@ -61,7 +61,7 @@ cloud and the design of secure systems that no longer have to trust the cloud
 provider.
 
 _Publications:_
-* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code]\](https://github.com/pancake-security/pancake)\]
+* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\]
 
 **Queries on compressed data:** Ensuring low latency and high throughput for 
 user-facing queries is challenging when the volume of data being queried grows 
@@ -78,6 +78,9 @@ _Publications:_
 * ZipG: Serving Queries on Compressed Graphs \[[SIGMOD'17 Paper](papers/zipg.pdf)\]
 
 # Teaching
+
+CPSC 637: Big Data Systems
+* Fall 2020
 
 CPSC 433/533: Computer Networks
 * Spring 2020
