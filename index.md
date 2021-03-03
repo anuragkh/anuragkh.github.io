@@ -52,3 +52,8 @@ CPSC 433/533: Computer Networks
 
 CPSC 637: Big Data Systems
 * [Fall 2020](https://courses.yale.edu/?keyword=CPSC%20637&srcdb=guide2020)
+
+# Service
+
+**Program Committees:**
+* 2020: SIGCOMM (Poster/Demo, SRC), ASPLOS (EPC), NSDI
