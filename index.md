@@ -40,7 +40,7 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 * Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\]
 
 **(Prior work) Queries on compressed data:**
-* Succinct: Enabling Queries on compressed data \[[NSDI'15 Paper](papers/succinct.pdf)\], \[[Code: Standalone System](http://github.com/amplab/succinct-cpp)\], \[[Code: Succinct on Spark](https://github.com/amplab/succinct)\]
+* Succinct: Enabling Queries on compressed data \[[NSDI'15 Paper](papers/succinct.pdf)\], \[[Code: C++](http://github.com/amplab/succinct-cpp)\], \[[Code: Java](https://github.com/amplab/succinct)\]
 * BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores \[[NSDI'16 Paper](papers/blowfish.pdf)\]
 * Sprint: Regular Expression Queries on Compressed Data \[[Tech Report](papers/swift.pdf)\], \[[Code](https://github.com/amplab/sprint)\]
 * ZipG: Serving Queries on Compressed Graphs \[[SIGMOD'17 Paper](papers/zipg.pdf)\]
@@ -48,7 +48,7 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 # Teaching
 
 CPSC 433/533: Computer Networks
-* Spring 2020, Spring 2021
+* [Spring 2020](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2020), [Spring 2021](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2021)
 
 CPSC 637: Big Data Systems
-* Fall 2020
+* [Fall 2020](https://courses.yale.edu/?keyword=CPSC%20637&srcdb=guide2020)
