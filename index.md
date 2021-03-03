@@ -21,57 +21,25 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 
 # News
 
+* **01/03/21**: [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220) for "In-network memory management for Disaggregated Datacenters". Thanks NSF!
+* **01/03/21**: [Caerus](papers/caerus.pdf) accepted to NSDI'21!
 * **08/12/20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20! Thank you USENIX!
 * **06/22/20**: [Pancake](papers/pancake.pdf) accepted to USENIX Security!
 * **01/06/20**: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
 # Research
 
-**OS Stack for Serverless Architectures:** Cloud services are quickly moving 
-from traditional server-based architecture to a serverless model. Such 
-serverless architectures enable higher scalability and resource utilization by
-allowing applications to launch short-lived compute tasks that operate on data
-stored on a remote store. However, today's serverless stacks cater mainly to
-_stateless_ (i.e., embarassingly parallel) tasks, there is a tremendous push
-towards supporting stateful applications on serverless architectures. To this
-end, we are exploring the ground up design of the serverless OS stack that
-facilitates stateless and stateful applications.
-
-_Publications:_
+**OS Stack for Disaggregated & Serverless Architectures:** 
+* Caerus: NIMBLE Task Scheduling for Serverless Analytics \[[NSDI'21](papers/caerus.pdf)\]
 * A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
-**System stack for emerging hardware:** Today's system stacks were designed to
-operate with traditional hardware, e.g., with 1 Gbps links and traditional 
-storage media. The next generation of emerging hardware (e.g., 100Gbps links,
-non-volatile memory) change the many fundamental assumptions made in the design
-and optimization of these systems. To resolve these challenges, we are 
-revisiting traditional system designs to bridge the gap between hardware
-capabilities and realizable system properties.
-
-_Publications:_
+**High-performance storage stacks for automated data:**
 * Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19 Paper](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
 
-**Secure cloud systems:** With web applications and services moving from 
-self-owned servers in private data centers to to public cloud platforms, users
-must now trust the cloud provider who manages the physical infrastructure that 
-their applications run on. Unfortunately, high-profile security breaches in the 
-public cloud indicate that this trust may not always be well placed. We are 
-exploring the vulnerabilities of existing system deployments hosted on the 
-cloud and the design of secure systems that no longer have to trust the cloud 
-provider.
-
-_Publications:_
+**Secure cloud systems:** 
 * Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\]
 
-**Queries on compressed data:** Ensuring low latency and high throughput for 
-user-facing queries is challenging when the volume of data being queried grows 
-larger than the DRAM capacity. Traditionally, storage systems have resorted to 
-spilling over such data to significantly slower secondary storage, resulting in 
-higher query latency and reduced throughput. We have been exploring a 
-fundamentally new approach to resolve this challenge --- enabling queries 
-_directly_ on a compressed representation of the data.
-
-_Publications:_
+**(Prior work) Queries on compressed data:**
 * Succinct: Enabling Queries on compressed data \[[NSDI'15 Paper](papers/succinct.pdf)\], \[[Code: Standalone System](http://github.com/amplab/succinct-cpp)\], \[[Code: Succinct on Spark](https://github.com/amplab/succinct)\]
 * BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores \[[NSDI'16 Paper](papers/blowfish.pdf)\]
 * Sprint: Regular Expression Queries on Compressed Data \[[Tech Report](papers/swift.pdf)\], \[[Code](https://github.com/amplab/sprint)\]
@@ -79,8 +47,8 @@ _Publications:_
 
 # Teaching
 
+CPSC 433/533: Computer Networks
+* Spring 2020, Spring 2021
+
 CPSC 637: Big Data Systems
 * Fall 2020
-
-CPSC 433/533: Computer Networks
-* Spring 2020
