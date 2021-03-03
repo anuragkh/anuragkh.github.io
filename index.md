@@ -25,12 +25,14 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 * **01/03/21**: [Caerus](papers/caerus.pdf) accepted to NSDI'21!
 * **08/12/20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20! Thank you USENIX!
 * **06/22/20**: [Pancake](papers/pancake.pdf) accepted to USENIX Security!
+* **04/20/20**: [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * **01/06/20**: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
 # Research
 
 **OS Stack for Disaggregated & Serverless Architectures:** 
 * Caerus: NIMBLE Task Scheduling for Serverless Analytics \[[NSDI'21](papers/caerus.pdf)\]
+* Le Taureau: Deconstructing the Serverless Landscape & A Look Forward \[[SIGMOD'20](https://dl.acm.org/doi/10.1145/3318464.3383130)\]
 * A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
 **High-performance storage stacks for automated data:**
