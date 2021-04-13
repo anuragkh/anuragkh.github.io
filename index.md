@@ -21,6 +21,7 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 
 # News
 
+* **13/04/21**: [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/netapp-faculty-fellowship-awarded-anurag-khandelwal-and-abhishek-bhattacharjee) with Abhishek Bhattacharjee! Thanks NetApp!
 * **01/03/21**: [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220)! Thanks NSF!
 * **01/03/21**: [Caerus](papers/caerus.pdf) accepted to NSDI'21!
 * **08/12/20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20! Thank you USENIX!
