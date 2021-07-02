@@ -50,6 +50,19 @@ Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iit
 * Sprint: Regular Expression Queries on Compressed Data \[[Tech Report](papers/swift.pdf)\], \[[Code](https://github.com/amplab/sprint)\]
 * ZipG: Serving Queries on Compressed Graphs \[[SIGMOD'17 Paper](papers/zipg.pdf)\]
 
+# Research Group
+
+**Postdocs:**
+* [Seung-seob Lee]() (with [Lin Zhong](http://www.linzhong.org/))
+
+**PhD Students:**
+* [Yupeng Tang](https://yupengtang.com/)
+* [Yanpeng Yu](https://cpsc.yale.edu/people/yanpeng-yu) (with [Lin Zhong](http://www.linzhong.org/))
+
+**Undergraduates:**
+* Ziming Mao
+* Henry Liu
+
 # Teaching
 
 CPSC 433/533: Computer Networks
