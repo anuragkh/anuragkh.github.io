@@ -8,15 +8,6 @@ I am an Assistant Professor at the [Department of Computer Science](https://cpsc
 at [Yale University](https://www.yale.edu/). My research interests span 
 distributed systems, databases, networking, and algorithms.
 
-Prior to starting at Yale, I did a short post-doc at [Cornell Tech](https://tech.cornell.edu/)
-where I worked with [Tom Ristenpart](https://rist.tech.cornell.edu/) and
-[Rachit Agarwal](http://www.cs.cornell.edu/~ragarwal/index.html).
-I received my PhD from the [University of California, Berkeley](https://eecs.berkeley.edu), 
-at the [RISELab](https://rise.cs.berkeley.edu), where I was advised by 
-[Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I completed my
-bachelor's degree (B. Tech. in Computer Science and 
-Engineering) from the [Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in).
-
 **I am looking for highly motivated graduate students. Please send me an email if you are interested.**
 
 # News
