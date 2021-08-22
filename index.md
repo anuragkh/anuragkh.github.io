@@ -27,6 +27,7 @@ distributed systems, databases, networking, and algorithms.
 # Research
 
 **OS Stack for Disaggregated & Serverless Architectures:** 
+* MIND: In-Network Memory Management for Disaggregated Data Centers \[SOSP'21\]
 * What serverless computing is and should become: the next phase of cloud computing \[[CACM'21](papers/serverless-next.pdf)\]
 * Caerus: NIMBLE Task Scheduling for Serverless Analytics \[[NSDI'21](papers/caerus.pdf)\]
 * Le Taureau: Deconstructing the Serverless Landscape & A Look Forward \[[SIGMOD'20](https://dl.acm.org/doi/10.1145/3318464.3383130)\]
