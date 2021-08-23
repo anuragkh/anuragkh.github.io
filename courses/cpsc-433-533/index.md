@@ -1,4 +1,9 @@
-CPSC 433/533: Lecture Plan
+---
+layout: default
+title: Anurag Khandelwal
+---
+
+# CPSC 433/533: Lecture Plan
 
 | Networking Basics      | Introduction                           | [Lecture 1](lecture-1.pdf)   |
 |------------------------|----------------------------------------|------------------------------|
