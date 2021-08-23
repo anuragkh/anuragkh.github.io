@@ -5,8 +5,9 @@ title: Anurag Khandelwal
 
 # CPSC 433/533: Lecture Plan
 
-| Networking Basics      | Introduction                           | [Lecture 1](lecture-1.pdf)   |
+| Topic                  | Lecture                                | Slides                       |
 |------------------------|----------------------------------------|------------------------------|
+| Networking Basics      | Introduction                           | [Lecture 1](lecture-1.pdf)   |
 |                        | Sharing & Evaluating Networks          | [Lecture 2](lecture-2.pdf)   |
 |                        | How Communication is Organized         | [Lecture 3](lecture-3.pdf)   |
 | Network Layer (L3)     | Routing Concepts                       | [Lecture 4](lecture-4.pdf)   |
