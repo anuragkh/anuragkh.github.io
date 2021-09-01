@@ -20,7 +20,7 @@ distributed systems, databases, networking, and algorithms.
 * **01/03/21**: [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220)! Thanks NSF!
 * **01/03/21**: [Caerus](papers/caerus.pdf) accepted to NSDI'21!
 * **08/12/20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20! Thank you USENIX!
-* **06/22/20**: [Pancake](papers/pancake.pdf) accepted to USENIX Security'21!
+* **06/22/20**: [Pancake](papers/pancake.pdf) accepted to USENIX Security'20!
 * **04/20/20**: [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * **01/06/20**: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
