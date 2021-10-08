@@ -56,17 +56,17 @@ distributed systems, networking, and algorithms.
 
 **Undergraduates:**
 * Ziming Mao
-* Henry Liu
 
 # Teaching
 
 CPSC 433/533: Computer Networks
 * [Spring 2020](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2020), [Spring 2021](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2021)
 
-CPSC 637: Big Data Systems
-* [Fall 2020](https://courses.yale.edu/?keyword=CPSC%20637&srcdb=guide2020)
+CPSC 438/538: Big Data Systems
+* [Fall 2020](https://courses.yale.edu/?keyword=CPSC%20637&srcdb=guide2020), [Fall 2021](https://courses.yale.edu/?keyword=CPSC%20438&srcdb=202103&dept=CPSC)
 
 # Service
 
 **Program Committees:**
+* 2021: JSys, NSDI
 * 2020: SIGCOMM (Poster/Demo, SRC), ASPLOS (EPC), NSDI
