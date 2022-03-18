@@ -12,9 +12,10 @@ distributed systems, networking, and algorithms.
 
 # News
 
+* **03/15/22**: [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
 * **08/06/21**: [MIND](papers/mind.pdf) accepted to SOSP'21! MIND is the first step in realizing the [NSF CAREER](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220) vision of in-network memory management for disaggregated data centers.
 * **07/29/21**: Member of [NSF AI Institute](https://seas.yale.edu/news-events/news/yale-scientists-take-lead-roles-two-nsf-funded-ai-institutes) for Edge Computing Leveraging Next-generation Networks!
-* **07/06/21**: [NSF Award]() for work on [Pancake](papers/pancake.pdf) (with Rachit Agarwal and Thomas Ristenpart)! Thanks NSF!
+* **07/06/21**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054957) for work on [Pancake](papers/pancake.pdf) (with Rachit Agarwal and Thomas Ristenpart)! Thanks NSF!
 * **04/26/21**: [What serverless computing is and should become](papers/serverless-next.pdf) published in [CACM](https://t.co/v2wtKRnxBe?amp=1)!
 * **04/13/21**: [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/netapp-faculty-fellowship-awarded-anurag-khandelwal-and-abhishek-bhattacharjee) (with Abhishek Bhattacharjee)! Thanks NetApp!
 * **01/03/21**: [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220)! Thanks NSF!
