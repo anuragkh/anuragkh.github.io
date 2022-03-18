@@ -28,6 +28,7 @@ distributed systems, networking, and algorithms.
 # Research
 
 **OS Stack for Disaggregated & Serverless Architectures:** 
+* Jiffy: Elastic Far-Memory for Stateful Serverless Analytics \[[EuroSys'22](papers/jiffy.pdf)\] \[[Code](https://github.com/resource-disaggregation/jiffy)\]
 * MIND: In-Network Memory Management for Disaggregated Data Centers \[[SOSP'21](papers/mind.pdf)\] \[[Code](https://github.com/shsym/mind)\]
 * What serverless computing is and should become: the next phase of cloud computing \[[CACM'21](papers/serverless-next.pdf)\]
 * Caerus: NIMBLE Task Scheduling for Serverless Analytics \[[NSDI'21](papers/caerus.pdf)\]
