@@ -12,7 +12,8 @@ distributed systems, networking, and algorithms.
 
 # News
 
-* **03/15/22**: [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
+* **03/19/22**: [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
+* **01/18/22**: [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
 * **08/06/21**: [MIND](papers/mind.pdf) accepted to SOSP'21! MIND is the first step in realizing the [NSF CAREER](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220) vision of in-network memory management for disaggregated data centers.
 * **07/29/21**: Member of [NSF AI Institute](https://seas.yale.edu/news-events/news/yale-scientists-take-lead-roles-two-nsf-funded-ai-institutes) for Edge Computing Leveraging Next-generation Networks!
 * **07/06/21**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054957) for work on [Pancake](papers/pancake.pdf) (with Rachit Agarwal and Thomas Ristenpart)! Thanks NSF!
@@ -39,6 +40,7 @@ distributed systems, networking, and algorithms.
 * Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19 Paper](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
 
 **Secure cloud systems:** 
+* Shortstack: Secure, Scalable and Fault-Tolerant Proxy for Access Pattern Attacks \[OSDI'22\]\[Code\]
 * Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\]
 
 **(Prior work) Queries on compressed data:**
