@@ -40,7 +40,7 @@ distributed systems, networking, and algorithms.
 * Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19 Paper](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
 
 **Secure cloud systems:** 
-* Shortstack: Secure, Scalable and Fault-Tolerant Proxy for Access Pattern Attacks \[OSDI'22\]\[Code\]
+* Shortstack: Distributed, Fault-tolerant, Oblivious Data Access \[[OSDI'22](papers/shortstack.pdf)\]\[[Code](https://github.com/pancake-security/shortstack)\]
 * Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20 Paper](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\]
 
 **(Prior work) Queries on compressed data:**
