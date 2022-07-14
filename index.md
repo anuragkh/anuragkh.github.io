@@ -13,6 +13,7 @@ distributed systems, networking, and algorithms.
 # News
 
 * **07/08/22**: [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
+* **04/28/22**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946&HistoricalAwards=false) for work on leveraging disaggregated and serverless infrastructures for virtualizing Massive MIMO PHY layer (with [Lin](http://www.linzhong.org/))! Thanks NSF!
 * **03/19/22**: [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
 * **01/18/22**: [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
 * **08/06/21**: [MIND](papers/mind.pdf) accepted to SOSP'21! MIND is the first step in realizing the [NSF CAREER](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220) vision of in-network memory management for disaggregated data centers.
