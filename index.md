@@ -12,6 +12,7 @@ distributed systems, networking, and algorithms.
 
 # News
 
+* **07/08/22**: [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
 * **03/19/22**: [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
 * **01/18/22**: [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
 * **08/06/21**: [MIND](papers/mind.pdf) accepted to SOSP'21! MIND is the first step in realizing the [NSF CAREER](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220) vision of in-network memory management for disaggregated data centers.
@@ -28,7 +29,8 @@ distributed systems, networking, and algorithms.
 
 # Research
 
-**OS Stack for Disaggregated & Serverless Architectures:** 
+**OS Stack for Disaggregated & Serverless Architectures:**
+* Shepherd: Serving DNNs in the Wild \[[NSDI'23](papers/shepherd.pdf)\]
 * Jiffy: Elastic Far-Memory for Stateful Serverless Analytics \[[EuroSys'22](papers/jiffy.pdf)\] \[[Code](https://github.com/resource-disaggregation/jiffy)\]
 * MIND: In-Network Memory Management for Disaggregated Data Centers \[[SOSP'21](papers/mind.pdf)\] \[[Code](https://github.com/shsym/mind)\]
 * What serverless computing is and should become: the next phase of cloud computing \[[CACM'21](papers/serverless-next.pdf)\]
