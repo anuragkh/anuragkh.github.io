@@ -62,7 +62,7 @@ distributed systems, networking, and algorithms.
 * [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org))
 
 **Undergraduates:**
-* Ziming Mao
+* [Ziming Mao](https://maoziming.github.io/)
 
 # Teaching
 
@@ -75,5 +75,6 @@ CPSC 438/538: Big Data Systems
 # Service
 
 **Program Committees:**
+* 2022: NSDI, HotNets
 * 2021: JSys, NSDI
 * 2020: SIGCOMM (Poster/Demo, SRC), ASPLOS (EPC), NSDI
