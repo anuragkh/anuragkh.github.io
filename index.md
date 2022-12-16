@@ -60,6 +60,7 @@ distributed systems, networking, and algorithms.
 **PhD Students:**
 * [Yupeng Tang](https://yupengtang.com/)
 * [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org))
+* [Grace Jia](())
 
 **Undergraduates:**
 * [Ziming Mao](https://maoziming.github.io/)
