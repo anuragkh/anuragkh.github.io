@@ -12,6 +12,7 @@ distributed systems, networking, and algorithms.
 
 # News
 
+* **12/20/22**: Congratulations to [Ziming Mao](https://maoziming.github.io/) for being a runner-up for [2023 Outstanding Undergraduate Researcher Awards](https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/)!
 * **07/08/22**: [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
 * **04/28/22**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946&HistoricalAwards=false) for work on leveraging disaggregated and serverless infrastructures for virtualizing Massive MIMO PHY layer (with [Lin](http://www.linzhong.org/))! Thanks NSF!
 * **03/19/22**: [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
@@ -60,7 +61,7 @@ distributed systems, networking, and algorithms.
 **PhD Students:**
 * [Yupeng Tang](https://yupengtang.com/)
 * [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org))
-* [Grace Jia](())
+* [Grace Jia](https://gjia25.github.io/)
 
 **Undergraduates:**
 * [Ziming Mao](https://maoziming.github.io/)
@@ -76,6 +77,6 @@ CPSC 438/538: Big Data Systems
 # Service
 
 **Program Committees:**
-* 2022: NSDI, HotNets
+* 2022: NSDI, HotNets, EuroSys
 * 2021: JSys, NSDI
 * 2020: SIGCOMM (Poster/Demo, SRC), ASPLOS (EPC), NSDI
