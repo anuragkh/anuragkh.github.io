@@ -13,7 +13,7 @@ distributed systems, networking, and algorithms.
 # News
 
 * **03/23/23**: [Karma]() accepted to OSDI'23!
-* **03/09/23**: [SCALO]() accepted to ISCA'23!
+* **03/09/23**: [SCALO](papers/scalo.pdf) accepted to ISCA'23!
 * **02/21/23**: Received [Roberts Innovation Fund Award](https://seas.yale.edu/news-events/news/roberts-innovation-fund-support-10-bold-seas-faculty-inventions) for work on resource disaggregation!
 * **12/20/22**: Congratulations to [Ziming Mao](https://maoziming.github.io/) for being a runner-up for [2023 Outstanding Undergraduate Researcher Awards](https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/)!
 * **07/08/22**: [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
