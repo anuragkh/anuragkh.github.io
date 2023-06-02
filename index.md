@@ -12,25 +12,26 @@ distributed systems, networking, and algorithms.
 
 # News
 
-* **03/23/23**: [Karma]() accepted to OSDI'23!
-* **03/09/23**: [SCALO](papers/scalo.pdf) accepted to ISCA'23!
-* **02/21/23**: Received [Roberts Innovation Fund Award](https://seas.yale.edu/news-events/news/roberts-innovation-fund-support-10-bold-seas-faculty-inventions) for work on resource disaggregation!
-* **12/20/22**: Congratulations to [Ziming Mao](https://maoziming.github.io/) for being a runner-up for [2023 Outstanding Undergraduate Researcher Awards](https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/)!
-* **07/08/22**: [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
-* **04/28/22**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946&HistoricalAwards=false) for work on leveraging disaggregated and serverless infrastructures for virtualizing Massive MIMO PHY layer (with [Lin](http://www.linzhong.org/))! Thanks NSF!
-* **03/19/22**: [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
-* **01/18/22**: [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
-* **08/06/21**: [MIND](papers/mind.pdf) accepted to SOSP'21! MIND is the first step in realizing the [NSF CAREER](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220) vision of in-network memory management for disaggregated data centers.
-* **07/29/21**: Member of [NSF AI Institute](https://seas.yale.edu/news-events/news/yale-scientists-take-lead-roles-two-nsf-funded-ai-institutes) for Edge Computing Leveraging Next-generation Networks!
-* **07/06/21**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054957) for work on [Pancake](papers/pancake.pdf) (with [Rachit](https://www.cs.cornell.edu/~ragarwal/) and [Tom](https://rist.tech.cornell.edu/))! Thanks NSF!
-* **04/26/21**: [What serverless computing is and should become](papers/serverless-next.pdf) published in [CACM](https://t.co/v2wtKRnxBe?amp=1)!
-* **04/13/21**: [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/netapp-faculty-fellowship-awarded-anurag-khandelwal-and-abhishek-bhattacharjee) (with Abhishek Bhattacharjee)! Thanks NetApp!
-* **01/03/21**: [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220)! Thanks NSF!
-* **01/03/21**: [Caerus](papers/caerus.pdf) accepted to NSDI'21!
-* **08/12/20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20! Thank you USENIX!
-* **06/22/20**: [Pancake](papers/pancake.pdf) accepted to USENIX Security'20!
-* **04/20/20**: [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
-* **01/06/20**: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
+* **Apr '23**: Work on using [principles of hippocampal-neocortical interaction for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
+* **Mar '23**: [Karma](papers/karma.pdf) accepted to OSDI'23!
+* **Mar '23**: [SCALO](papers/scalo.pdf) accepted to ISCA'23!
+* **Feb '23**: Received [Roberts Innovation Fund Award](https://seas.yale.edu/news-events/news/roberts-innovation-fund-support-10-bold-seas-faculty-inventions) for work on resource disaggregation!
+* **Dec '22**: Congratulations to [Ziming Mao](https://maoziming.github.io/) for being a runner-up for [2023 Outstanding Undergraduate Researcher Awards](https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/)!
+* **Jul '22**: [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
+* **Apr '22**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946&HistoricalAwards=false) for work on leveraging disaggregated and serverless infrastructures for virtualizing Massive MIMO PHY layer (with [Lin](http://www.linzhong.org/))! Thanks NSF!
+* **Mar '22**: [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
+* **Jan '22**: [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
+* **Aug '21**: [MIND](papers/mind.pdf) accepted to SOSP'21! MIND is the first step in realizing the [NSF CAREER](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220) vision of in-network memory management for disaggregated data centers.
+* **Jul '21**: Member of [NSF AI Institute](https://seas.yale.edu/news-events/news/yale-scientists-take-lead-roles-two-nsf-funded-ai-institutes) for Edge Computing Leveraging Next-generation Networks!
+* **Jul '21**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054957) for work on [Pancake](papers/pancake.pdf) (with [Rachit](https://www.cs.cornell.edu/~ragarwal/) and [Tom](https://rist.tech.cornell.edu/))! Thanks NSF!
+* **Apr '21**: [What serverless computing is and should become](papers/serverless-next.pdf) published in [CACM](https://t.co/v2wtKRnxBe?amp=1)!
+* **Apr '21**: [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/netapp-faculty-fellowship-awarded-anurag-khandelwal-and-abhishek-bhattacharjee) (with Abhishek Bhattacharjee)! Thanks NetApp!
+* **Mar '21**: [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220)! Thanks NSF!
+* **Jan '21**: [Caerus](papers/caerus.pdf) accepted to NSDI'21!
+* **Aug '20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20! Thank you USENIX!
+* **Jun '20**: [Pancake](papers/pancake.pdf) accepted to USENIX Security'20!
+* **Apr '20**: [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
+* **Jan '20**: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
 # Research
 
