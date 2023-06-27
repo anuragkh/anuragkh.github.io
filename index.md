@@ -12,7 +12,8 @@ distributed systems, networking, and algorithms.
 
 # News
 
-* **Apr '23**: Work on using [principles of hippocampal-neocortical interaction for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
+* **Jun '23**: [SCALO](papers/scalo.pdf) wins [Best Paper Award]() at ISCA'23!
+* **Apr '23**: Work on using [Complementary Learning Systems for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
 * **Mar '23**: [Karma](papers/karma.pdf) accepted to OSDI'23!
 * **Mar '23**: [SCALO](papers/scalo.pdf) accepted to ISCA'23!
 * **Feb '23**: Received [Roberts Innovation Fund Award](https://seas.yale.edu/news-events/news/roberts-innovation-fund-support-10-bold-seas-faculty-inventions) for work on resource disaggregation!
@@ -28,14 +29,16 @@ distributed systems, networking, and algorithms.
 * **Apr '21**: [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/netapp-faculty-fellowship-awarded-anurag-khandelwal-and-abhishek-bhattacharjee) (with Abhishek Bhattacharjee)! Thanks NetApp!
 * **Mar '21**: [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220)! Thanks NSF!
 * **Jan '21**: [Caerus](papers/caerus.pdf) accepted to NSDI'21!
-* **Aug '20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20! Thank you USENIX!
+* **Aug '20**: [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20!
 * **Jun '20**: [Pancake](papers/pancake.pdf) accepted to USENIX Security'20!
 * **Apr '20**: [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * **Jan '20**: Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
 # Research
 
-**OS Stack for Disaggregated & Serverless Architectures:**
+**OS Stack for Disaggregated & Serverless Architectures:**\
+* Karma: Resource Allocation for Dynamic Demands \[[OSDI'23](papers/karma.pdf)\]
+* Prefetching Using Principles of Hippocampal-Neocortical Interaction \[[HotOS'23](papers/cls.pdf)\]
 * Shepherd: Serving DNNs in the Wild \[[NSDI'23](papers/shepherd.pdf)\]
 * Jiffy: Elastic Far-Memory for Stateful Serverless Analytics \[[EuroSys'22](papers/jiffy.pdf)\] \[[Code](https://github.com/resource-disaggregation/jiffy)\]
 * MIND: In-Network Memory Management for Disaggregated Data Centers \[[SOSP'21](papers/mind.pdf)\] \[[Code](https://github.com/shsym/mind)\]
@@ -45,6 +48,7 @@ distributed systems, networking, and algorithms.
 * A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
 **High-performance storage stacks for automated data:**
+* SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing \[[ISCA'23 Paper](papers/scalo.pdf)\]
 * Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19 Paper](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
 
 **Secure cloud systems:** 
