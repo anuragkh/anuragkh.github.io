@@ -19,7 +19,7 @@ distributed systems, networking, and algorithms.
 * **Feb '23**: Received [Roberts Innovation Fund Award](https://seas.yale.edu/news-events/news/roberts-innovation-fund-support-10-bold-seas-faculty-inventions) for work on resource disaggregation!
 * **Dec '22**: Congratulations to [Ziming Mao](https://maoziming.github.io/) for being a runner-up for [2023 Outstanding Undergraduate Researcher Awards](https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/)!
 * **Jul '22**: [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
-* **Apr '22**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946&HistoricalAwards=false) for work on leveraging disaggregated and serverless infrastructures for virtualizing Massive MIMO PHY layer (with [Lin](http://www.linzhong.org/))! Thanks NSF!
+* **Apr '22**: [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946&HistoricalAwards=false) for building disaggregated \& serverless infrastructures for virtualizing Massive MIMO PHY layer (with [Lin](http://www.linzhong.org/))! Thanks NSF!
 * **Mar '22**: [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
 * **Jan '22**: [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
 * **Aug '21**: [MIND](papers/mind.pdf) accepted to SOSP'21! MIND is the first step in realizing the [NSF CAREER](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220) vision of in-network memory management for disaggregated data centers.
