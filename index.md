@@ -8,9 +8,7 @@ I am an Assistant Professor at the [Department of Computer Science](https://cpsc
 at [Yale University](https://www.yale.edu/). My research interests span 
 distributed systems, networking, and algorithms.
 
-**I am looking for highly motivated graduate students. Please send me an email if you are interested.**
-
-# News
+# Recent News
 
 * **Jun '23**: [SCALO](papers/scalo.pdf) wins [Best Paper Award]() at ISCA'23!
 * **Apr '23**: Work on using [Complementary Learning Systems for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
@@ -47,13 +45,14 @@ distributed systems, networking, and algorithms.
 * Le Taureau: Deconstructing the Serverless Landscape & A Look Forward \[[SIGMOD'20](https://dl.acm.org/doi/10.1145/3318464.3383130)\]
 * A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
+**Secure cloud systems:** 
+* Shortstack: Distributed, Fault-tolerant, Oblivious Data Access \[[OSDI'22](papers/shortstack.pdf)\]\[[Code](https://github.com/pancake-security/shortstack)\]
+* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\] 
+
 **High-performance storage stacks for automated data:**
 * SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing \[[ISCA'23](papers/scalo.pdf)\]
 * Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
 
-**Secure cloud systems:** 
-* Shortstack: Distributed, Fault-tolerant, Oblivious Data Access \[[OSDI'22](papers/shortstack.pdf)\]\[[Code](https://github.com/pancake-security/shortstack)\]
-* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\] 
 
 **(Prior work) Queries on compressed data:**
 * Succinct: Enabling Queries on compressed data \[[NSDI'15](papers/succinct.pdf)\], \[[Code: C++](http://github.com/amplab/succinct-cpp)\], \[[Code: Java](https://github.com/amplab/succinct)\]
