@@ -79,11 +79,12 @@ CPSC 433/533: Computer Networks
 * [Spring 2020](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2020), [Spring 2021](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2021), [Spring 2022](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2022)
 
 CPSC 438/538: Big Data Systems
-* [Fall 2020](https://courses.yale.edu/?keyword=CPSC%20637&srcdb=guide2020), [Fall 2021](https://courses.yale.edu/?keyword=CPSC%20438&srcdb=202103&dept=CPSC)
+* [Fall 2020](https://courses.yale.edu/?keyword=CPSC%20637&srcdb=guide2020), [Fall 2021](https://courses.yale.edu/?keyword=CPSC%20438&srcdb=202103&dept=CPSC). [Fall 2023](https://courses.yale.edu/?keyword=CPSC%20438&srcdb=202303)
 
 # Service
 
 **Program Committees:**
+* 2023: CoNEXT Poster Co-Chair
 * 2022: NSDI, HotNets, EuroSys
 * 2021: JSys, NSDI
 * 2020: SIGCOMM (Poster/Demo, SRC), ASPLOS (EPC), NSDI
