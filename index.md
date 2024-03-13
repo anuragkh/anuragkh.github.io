@@ -10,6 +10,11 @@ distributed systems, networking, and algorithms.
 
 # Recent News
 
+**[2024]**
+* [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
+* [Trinity](papers/trinity.pdf) accepted to EuroSys'24!
+* [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture!
+
 **[2023]**
 * [SCALO](papers/scalo.pdf) wins [Best Paper Award]() at ISCA'23!
 * Work on using [Complementary Learning Systems for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
