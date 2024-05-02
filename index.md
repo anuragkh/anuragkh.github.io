@@ -11,7 +11,7 @@ distributed systems, networking, and algorithms.
 # Recent News
 
 **[2024]**
-* [Trinity](papers/trinity.pdf) receives Best Student Paper Award at EuroSys'24! Congratulationz [Ziming Mao](https://maoziming.github.io/)!
+* [Trinity](papers/trinity.pdf) receives Best Student Paper Award at EuroSys'24! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
 * [Trinity](papers/trinity.pdf) accepted to EuroSys'24!
 * [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture!
