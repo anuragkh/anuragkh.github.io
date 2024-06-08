@@ -11,6 +11,7 @@ distributed systems, networking, and algorithms.
 # Recent News
 
 **[2024]**
+* [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
 * [Trinity](papers/trinity.pdf) receives Best Student Paper Award at EuroSys'24! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
 * [Trinity](papers/trinity.pdf) accepted to EuroSys'24!
@@ -59,10 +60,12 @@ distributed systems, networking, and algorithms.
 * A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
 **Secure cloud systems:** 
+* Length Leakage in Oblivious Data Access Mechanisms \[[USENIX Security'24](papers/length-leakage.pdf)\]
 * Shortstack: Distributed, Fault-tolerant, Oblivious Data Access \[[OSDI'22](papers/shortstack.pdf)\]\[[Code](https://github.com/pancake-security/shortstack)\]
 * Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\] 
 
 **High-performance storage stacks for automated data:**
+* TRINITY: A Fast Compressed Multi-attribute Data Store \[[EuroSys'24](papers/trinity.pdf)\]
 * SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing \[[ISCA'23](papers/scalo.pdf)\]
 * Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
 
