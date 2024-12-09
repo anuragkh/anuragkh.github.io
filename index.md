@@ -84,9 +84,11 @@ distributed systems, networking, and algorithms.
 * [Seung-seob Lee]() (with [Lin Zhong](http://www.linzhong.org/))
 
 **PhD Students:**
-* [Yupeng Tang](https://yupengtang.com/)
+Current:
 * [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org))
 * [Grace Jia](https://gjia25.github.io/)
+Past:
+* [Yupeng Tang](https://yupengtang.com/) -> Meta Research
 
 **Undergraduates:**
 * [Ziming Mao](https://maoziming.github.io/)
