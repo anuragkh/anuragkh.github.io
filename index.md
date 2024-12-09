@@ -51,6 +51,8 @@ distributed systems, networking, and algorithms.
 # Research
 
 **OS Stack for Disaggregated & Serverless Architectures:**
+* PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25]\](papers/pulse.pdf)
+* PromptCache: Modular Attention Reuse for Low-latency Inference \[[MLSys'24]\](papers/promptcache.pdf)
 * Karma: Resource Allocation for Dynamic Demands \[[OSDI'23](papers/karma.pdf)\]
 * Prefetching Using Principles of Hippocampal-Neocortical Interaction \[[HotOS'23](papers/cls.pdf)\]
 * Shepherd: Serving DNNs in the Wild \[[NSDI'23](papers/shepherd.pdf)\]
