@@ -11,6 +11,8 @@ distributed systems, networking, and algorithms.
 # Recent News
 
 **[2024]**
+* [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/anurag-khandelwal-receives-award-netapp-university-research-fund)! Thanks NetApp! 
+* [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 * [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
 * [Trinity](papers/trinity.pdf) receives Best Student Paper Award at EuroSys'24! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
