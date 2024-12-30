@@ -1,10 +1,20 @@
 # Publications
 
+**[2025]**
+
+*PULSE: Accelerating Distributed Pointer Traversals on Disaggregated Memory*\
+Y. Tang, S. Lee, A. Bhattacharjee, A. Khandelwal\
+ASPLOS
+
 **[2024]**
 
 *Length Leakage in Oblivious Data Access Mechanisms*\
 G. Jia, R. Agarwal, A. Khandelwal\
 USENIX Security
+
+*Distributed Brain-Computer Interfacing with a Networked Multi-Accelerator Architecture*\
+R. Pothukuchi, K. Sriram, M. Gerasimiuk, M. Ugur, O. Ye, R. Manohar, A. Khandelwal, A. Bhattacharjee\
+IEEE MICRO
 
 *PromptCache: Modular Attention Reuse for Low-latency Inference*\
 I. Gim, G. Chen, S. Lee, N. Sarda, A. Khandelwal, L. Zhong\
