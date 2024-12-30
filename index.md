@@ -12,6 +12,7 @@ distributed systems, networking, and algorithms.
 
 **[2024]**
 * [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/anurag-khandelwal-receives-award-netapp-university-research-fund)! Thanks NetApp! 
+* [Yupeng](https://yupengtang.com/) has successfully defended his Thesis! Congrats Dr. Tang!
 * [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 * [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
 * [Trinity](papers/trinity.pdf) receives Best Student Paper Award at EuroSys'24! Congratulations [Ziming Mao](https://maoziming.github.io/)!
@@ -50,9 +51,11 @@ distributed systems, networking, and algorithms.
 
 # Research
 
+See [here]() for a full list of publications.
+
 **OS Stack for Disaggregated & Serverless Architectures:**
-* PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25]\](papers/pulse.pdf)
-* PromptCache: Modular Attention Reuse for Low-latency Inference \[[MLSys'24]\](papers/promptcache.pdf)
+* PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\]
+* PromptCache: Modular Attention Reuse for Low-latency Inference \[[MLSys'24](papers/promptcache.pdf)\]
 * Karma: Resource Allocation for Dynamic Demands \[[OSDI'23](papers/karma.pdf)\]
 * Prefetching Using Principles of Hippocampal-Neocortical Interaction \[[HotOS'23](papers/cls.pdf)\]
 * Shepherd: Serving DNNs in the Wild \[[NSDI'23](papers/shepherd.pdf)\]
@@ -72,7 +75,6 @@ distributed systems, networking, and algorithms.
 * TRINITY: A Fast Compressed Multi-attribute Data Store \[[EuroSys'24](papers/trinity.pdf)\]
 * SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing \[[ISCA'23](papers/scalo.pdf)\]
 * Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
-
 
 **(Prior work) Queries on compressed data:**
 * Succinct: Enabling Queries on compressed data \[[NSDI'15](papers/succinct.pdf)\], \[[Code: C++](http://github.com/amplab/succinct-cpp)\], \[[Code: Java](https://github.com/amplab/succinct)\]
@@ -95,7 +97,10 @@ Past:
 * [Yupeng Tang](https://yupengtang.com/) -> Meta Research
 
 **Undergraduates:**
-* [Ziming Mao](https://maoziming.github.io/)
+
+Past:
+* [Jeff Ma](https://jeff.junzema.com/) -> PhD, U. Michigan
+* [Ziming Mao](https://maoziming.github.io/) -> PhD, UC Berkeley
 
 # Teaching
 
