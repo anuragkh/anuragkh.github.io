@@ -51,7 +51,7 @@ distributed systems, networking, and algorithms.
 
 # Research
 
-See [here]() for a full list of publications.
+You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
 * PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\]
@@ -92,6 +92,7 @@ See [here]() for a full list of publications.
 Current:
 * [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org))
 * [Grace Jia](https://gjia25.github.io/)
+* [Mahdi Soleimani](https://gjia25.github.io/)
 
 Past:
 * [Yupeng Tang](https://yupengtang.com/) -> Meta Research
