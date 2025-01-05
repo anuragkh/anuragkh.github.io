@@ -105,6 +105,9 @@ Past:
 
 # Teaching
 
+CPSC 422/522: Operating Systems
+* [Spring 2024](https://courses.yale.edu/?keyword=CPSC%20422&srcdb=guide2024), [Spring 2025](https://courses.yale.edu/?keyword=CPSC%20422&srcdb=guide2025)
+
 CPSC 433/533: Computer Networks
 * [Spring 2020](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2020), [Spring 2021](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2021), [Spring 2022](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2022)
 
@@ -114,7 +117,8 @@ CPSC 438/538: Big Data Systems
 # Service
 
 **Program Committees:**
-* 2023: CoNEXT Poster Co-Chair
+* 2024: OSDI, SOSP, EuroSys
+* 2023: CoNEXT (Poster Co-Chair), NSDI, EuroSys
 * 2022: NSDI, HotNets, EuroSys
 * 2021: JSys, NSDI
 * 2020: SIGCOMM (Poster/Demo, SRC), ASPLOS (EPC), NSDI
