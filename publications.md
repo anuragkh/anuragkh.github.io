@@ -42,7 +42,7 @@ ISCA\
 [IEEE Micro’s Top Picks in Computer Architecture, 2023]()
 
 *Shepherd: Serving DNNs in the Wild*\
-H. Zhang, Y. Tang, A. Khandelwal, I. Stoica
+H. Zhang, Y. Tang, A. Khandelwal, I. Stoica\
 NSDI
 
 **[2022]**
