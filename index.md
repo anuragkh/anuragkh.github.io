@@ -20,7 +20,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Trinity](papers/trinity.pdf) receives Best Student Paper Award at EuroSys'24! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
 * [Trinity](papers/trinity.pdf) accepted to EuroSys'24!
-* [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture!
+* [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2024!
 
 **[2023]**
 * [SCALO](papers/scalo.pdf) wins [Best Paper Award]() at ISCA'23!
