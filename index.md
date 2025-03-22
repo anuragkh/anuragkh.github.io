@@ -10,7 +10,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 # Recent News
 
 **[2025]**
-* [In-network ordering](papers/do.pdf) of coherence messages for release consistency acce[ted to ISCA'25!
+* [In-network ordering](papers/do.pdf) of coherence messages for release consistency accepted to ISCA'25!
 * [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 
 **[2024]**
