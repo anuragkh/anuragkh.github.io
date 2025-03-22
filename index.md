@@ -5,15 +5,17 @@ title: Anurag Khandelwal
 # About
 
 I am an Assistant Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
-at [Yale University](https://www.yale.edu/). My research interests span 
-distributed systems, networking, and algorithms.
+at [Yale University](https://www.yale.edu/). My research interests span systems and networking.
 
 # Recent News
+
+**[2025]**
+* [In-network ordering](papers/do.pdf) of coherence messages for release consistency acce[ted to ISCA'25!
+* [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 
 **[2024]**
 * [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/anurag-khandelwal-receives-award-netapp-university-research-fund)! Thanks NetApp! 
 * [Yupeng](https://yupengtang.com/) has successfully defended his Thesis! Congrats Dr. Tang!
-* [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 * [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
 * [Trinity](papers/trinity.pdf) receives Best Student Paper Award at EuroSys'24! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
