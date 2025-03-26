@@ -2,9 +2,21 @@
 
 **[2025]**
 
+*Weave: Efficient and Expressive Oblivious Analytics at Scale*\
+M. Soleimani, G. Jia, A. Khandelwal\
+OSDI
+
+*Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering*\
+Y. Yu, N. Oswald, A. Khandelwal\
+ISCA
+
 *PULSE: Accelerating Distributed Pointer Traversals on Disaggregated Memory*\
 Y. Tang, S. Lee, A. Bhattacharjee, A. Khandelwal\
 ASPLOS
+
+*Exploring Intelligent Dynamic Resource Provisioning for Elastic Massive MIMO vRAN*\
+P. Annamalai, M. Kim, A. Khandelwal, L. Zhong\
+HotMobile
 
 **[2024]**
 

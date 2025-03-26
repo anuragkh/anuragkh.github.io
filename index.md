@@ -10,6 +10,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 # Recent News
 
 **[2025]**
+* [Weave](papers/weave.pdf) accepted to OSDI'25!
 * [In-network ordering](papers/do.pdf) of coherence messages for release consistency accepted to ISCA'25!
 * [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 
@@ -56,7 +57,10 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
+* Low-Latency, Bandwidth-Efficient and Scalable Release
+Consistency via Directory Ordering \[[ISCA'25](papers/do.pdf)\]
 * PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\]
+* Exploring Intelligent Dynamic Resource Provisioning for Elastic Massive MIMO vRAN \[[HotMobile'25](papers/elasticmimo.pdf)\]
 * PromptCache: Modular Attention Reuse for Low-latency Inference \[[MLSys'24](papers/promptcache.pdf)\]
 * Karma: Resource Allocation for Dynamic Demands \[[OSDI'23](papers/karma.pdf)\]
 * Prefetching Using Principles of Hippocampal-Neocortical Interaction \[[HotOS'23](papers/cls.pdf)\]
@@ -69,6 +73,7 @@ You can find a full list of my publications [here](publications).
 * A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
 **Secure cloud systems:** 
+* Weave: Efficient and Expressive Oblivious Analytics at Scale \[[OSDI'25](papers/weave.pdf)\]
 * Length Leakage in Oblivious Data Access Mechanisms \[[USENIX Security'24](papers/length-leakage.pdf)\]
 * Shortstack: Distributed, Fault-tolerant, Oblivious Data Access \[[OSDI'22](papers/shortstack.pdf)\]\[[Code](https://github.com/pancake-security/shortstack)\]
 * Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\] 
