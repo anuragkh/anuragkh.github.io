@@ -18,20 +18,18 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/anurag-khandelwal-receives-award-netapp-university-research-fund)! Thanks NetApp! 
 * [Yupeng](https://yupengtang.com/) has successfully defended his Thesis! Congrats Dr. Tang!
 * [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
-* [Trinity](papers/trinity.pdf) receives Best Student Paper Award at EuroSys'24! Congratulations [Ziming Mao](https://maoziming.github.io/)!
+* [Trinity](papers/trinity.pdf) accepted to EuroSys'24, wins [Best Student Paper Award](https://2024.eurosys.org/awards.html)! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
-* [Trinity](papers/trinity.pdf) accepted to EuroSys'24!
 * [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2024!
 
 **[2023]**
-* [SCALO](papers/scalo.pdf) wins [Best Paper Award]() at ISCA'23!
+* [SCALO](papers/scalo.pdf) accepted to ISCA'23, wins [Best Paper Award](https://www.sigarch.org/other-announcements/congratulating-isca-2023-awards-recipients/)!
 * Work on using [Complementary Learning Systems for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
 * [Karma](papers/karma.pdf) accepted to OSDI'23!
-* [SCALO](papers/scalo.pdf) accepted to ISCA'23!
 * Received [Roberts Innovation Fund Award](https://seas.yale.edu/news-events/news/roberts-innovation-fund-support-10-bold-seas-faculty-inventions) for work on resource disaggregation!
 
 **[2022]**
-* Congratulations to [Ziming Mao](https://maoziming.github.io/) for being a runner-up for [2023 Outstanding Undergraduate Researcher Awards](https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/)!
+* Congratulations to [Ziming Mao](https://maoziming.github.io/) for [CRA Outstanding Undergraduate Researcher Award](https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/) (runner up)!
 * [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
 * [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946&HistoricalAwards=false) to build disaggregated & serverless infrastructure for virtualizing Massive MIMO PHY layer (with [Lin](http://www.linzhong.org/))! Thanks NSF!
 * [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
@@ -47,8 +45,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Caerus](papers/caerus.pdf) accepted to NSDI'21!
 
 **[2020]**
-* [Pancake](papers/pancake.pdf) wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award) at USENIX Security'20!
-* [Pancake](papers/pancake.pdf) accepted to USENIX Security'20!
+* [Pancake](papers/pancake.pdf) accepted to USENIX Security'20, wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award)! 
 * [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
