@@ -10,8 +10,9 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 # Recent News
 
 **[2025]**
+* [Found In Translation](papers/fit.pdf) accepted to USENIX Security'25!
 * [Weave](papers/weave.pdf) accepted to OSDI'25!
-* [In-network ordering](papers/do.pdf) of coherence messages for release consistency accepted to ISCA'25!
+* [CORD](papers/cord.pdf) accepted to ISCA'25!
 * [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 
 **[2024]**
@@ -54,8 +55,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
-* Low-Latency, Bandwidth-Efficient and Scalable Release
-Consistency via Directory Ordering \[[ISCA'25](papers/do.pdf)\]
+* CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering \[[ISCA'25](papers/cord.pdf)\]
 * PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\]
 * Exploring Intelligent Dynamic Resource Provisioning for Elastic Massive MIMO vRAN \[[HotMobile'25](papers/elasticmimo.pdf)\]
 * PromptCache: Modular Attention Reuse for Low-latency Inference \[[MLSys'24](papers/promptcache.pdf)\]
