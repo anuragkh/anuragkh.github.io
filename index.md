@@ -55,7 +55,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
-* CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering \[[ISCA'25](papers/cord.pdf)\]
+* CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering \[[ISCA'25](papers/cord.pdf)\] \[[Code](https://github.com/yale-nova/CORD)\]
 * PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\]
 * Exploring Intelligent Dynamic Resource Provisioning for Elastic Massive MIMO vRAN \[[HotMobile'25](papers/elasticmimo.pdf)\]
 * PromptCache: Modular Attention Reuse for Low-latency Inference \[[MLSys'24](papers/promptcache.pdf)\]
@@ -63,20 +63,21 @@ You can find a full list of my publications [here](publications).
 * Prefetching Using Principles of Hippocampal-Neocortical Interaction \[[HotOS'23](papers/cls.pdf)\]
 * Shepherd: Serving DNNs in the Wild \[[NSDI'23](papers/shepherd.pdf)\]
 * Jiffy: Elastic Far-Memory for Stateful Serverless Analytics \[[EuroSys'22](papers/jiffy.pdf)\] \[[Code](https://github.com/resource-disaggregation/jiffy)\]
-* MIND: In-Network Memory Management for Disaggregated Data Centers \[[SOSP'21](papers/mind.pdf)\] \[[Code](https://github.com/shsym/mind)\]
+* MIND: In-Network Memory Management for Disaggregated Data Centers \[[SOSP'21](papers/mind.pdf)\] \[[Code](https://github.com/yale-nova/mind)\]
 * What serverless computing is and should become: the next phase of cloud computing \[[CACM'21](papers/serverless-next.pdf)\]
 * Caerus: NIMBLE Task Scheduling for Serverless Analytics \[[NSDI'21](papers/caerus.pdf)\]
 * Le Taureau: Deconstructing the Serverless Landscape & A Look Forward \[[SIGMOD'20](https://dl.acm.org/doi/10.1145/3318464.3383130)\]
 * A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
 **Secure cloud systems:** 
-* Weave: Efficient and Expressive Oblivious Analytics at Scale \[[OSDI'25](papers/weave.pdf)\]
+* Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks \[[USENIX Security'25](papers/fit.pdf)\] \[[Code](https://github.com/yale-nova/FIT)\]
+* Weave: Efficient and Expressive Oblivious Analytics at Scale \[[OSDI'25](papers/weave.pdf)\] \[[Code](https://github.com/yale-nova/Weave)\]
 * Length Leakage in Oblivious Data Access Mechanisms \[[USENIX Security'24](papers/length-leakage.pdf)\]
 * Shortstack: Distributed, Fault-tolerant, Oblivious Data Access \[[OSDI'22](papers/shortstack.pdf)\]\[[Code](https://github.com/pancake-security/shortstack)\]
 * Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\] 
 
 **High-performance storage stacks for automated data:**
-* TRINITY: A Fast Compressed Multi-attribute Data Store \[[EuroSys'24](papers/trinity.pdf)\]
+* TRINITY: A Fast Compressed Multi-attribute Data Store \[[EuroSys'24](papers/trinity.pdf)\] \[[Code](https://github.com/MaoZiming/Trinity)\]
 * SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing \[[ISCA'23](papers/scalo.pdf)\]
 * Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
 

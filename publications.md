@@ -2,6 +2,9 @@
 
 **[2025]**
 
+*Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks*\
+G. Jia, A. Wong, A. Khandelwal\
+
 *Weave: Efficient and Expressive Oblivious Analytics at Scale*\
 M. Soleimani, G. Jia, A. Khandelwal\
 OSDI
