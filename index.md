@@ -70,11 +70,11 @@ You can find a full list of my publications [here](publications).
 * A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
 
 **Secure cloud systems:** 
-* Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks \[[USENIX Security'25](papers/fit.pdf)\] \[[Code](https://github.com/yale-nova/FIT)\]
+* Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks \[[USENIX Security'25](papers/fit.pdf)\] \[[Code](https://github.com/yale-nova/found-in-translation)\]
 * Weave: Efficient and Expressive Oblivious Analytics at Scale \[[OSDI'25](papers/weave.pdf)\] \[[Code](https://github.com/yale-nova/Weave)\]
 * Length Leakage in Oblivious Data Access Mechanisms \[[USENIX Security'24](papers/length-leakage.pdf)\]
 * Shortstack: Distributed, Fault-tolerant, Oblivious Data Access \[[OSDI'22](papers/shortstack.pdf)\]\[[Code](https://github.com/pancake-security/shortstack)\]
-* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\] 
+* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\]
 
 **High-performance storage stacks for automated data:**
 * TRINITY: A Fast Compressed Multi-attribute Data Store \[[EuroSys'24](papers/trinity.pdf)\] \[[Code](https://github.com/MaoZiming/Trinity)\]
@@ -98,6 +98,7 @@ Current:
 * [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org))
 * [Grace Jia](https://gjia25.github.io/)
 * [Mahdi Soleimani](https://gjia25.github.io/)
+* [Yash Lala](https://yashlala.com/)
 
 Past:
 * [Yupeng Tang](https://yupengtang.com/) -> Meta Research
