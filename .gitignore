@@ -1,3 +1,6 @@
 # Jekyll Files
 _site/
 template/
+
+# MacOS Files
+.DS_Store
