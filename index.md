@@ -22,9 +22,6 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Trinity](papers/trinity.pdf) accepted to EuroSys'24, wins [Best Student Paper Award](https://2024.eurosys.org/awards.html)! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
 * [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2024!
-
-<details>
-<summary>More...</summary>
   
 **[2023]**
 * [SCALO](papers/scalo.pdf) accepted to ISCA'23, wins [Best Paper Award](https://www.sigarch.org/other-announcements/congratulating-isca-2023-awards-recipients/)!
@@ -52,9 +49,6 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Pancake](papers/pancake.pdf) accepted to USENIX Security'20, wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award)! 
 * [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
-
-  
-</details>
 
 # Research
 
