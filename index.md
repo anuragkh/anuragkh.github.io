@@ -56,7 +56,7 @@ You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
 * CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering \[[ISCA'25](papers/cord.pdf)\] \[[Code](https://github.com/yale-nova/CORD)\]
-* PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\]
+* PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\] \[[Code](https://github.com/yale-nova/pulse)\]
 * Exploring Intelligent Dynamic Resource Provisioning for Elastic Massive MIMO vRAN \[[HotMobile'25](papers/elasticmimo.pdf)\]
 * PromptCache: Modular Attention Reuse for Low-latency Inference \[[MLSys'24](papers/promptcache.pdf)\]
 * Karma: Resource Allocation for Dynamic Demands \[[OSDI'23](papers/karma.pdf)\]
@@ -90,14 +90,14 @@ You can find a full list of my publications [here](publications).
 # Research Group
 
 **Postdocs:**
-* [Seung-seob Lee]() (with [Lin Zhong](http://www.linzhong.org/))
+* [Seung-seob Lee](https://www.seungseoblee.com/blog/) (with [Lin Zhong](http://www.linzhong.org/))
 
 **PhD Students:**
 
 Current:
 * [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org))
 * [Grace Jia](https://gjia25.github.io/)
-* [Mahdi Soleimani](https://gjia25.github.io/)
+* [Mahdi Soleimani]()
 * [Yash Lala](https://yashlala.com/)
 
 Past:
