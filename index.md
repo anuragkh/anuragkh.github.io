@@ -26,7 +26,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 <details>
 <summary><b>More...</b></summary>
 
-Older:
+<p>
 
 * [SCALO](papers/scalo.pdf) accepted to ISCA'23, wins [Best Paper Award](https://www.sigarch.org/other-announcements/congratulating-isca-2023-awards-recipients/)!
 * Work on using [Complementary Learning Systems for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
@@ -48,7 +48,7 @@ Older:
 * [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
-
+</p>
 </details>
 
 # Research
