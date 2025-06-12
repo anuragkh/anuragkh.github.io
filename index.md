@@ -26,6 +26,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 <details>
 <summary><b>[Older]</b></summary>
 
+
 * [SCALO](papers/scalo.pdf) accepted to ISCA'23, wins [Best Paper Award](https://www.sigarch.org/other-announcements/congratulating-isca-2023-awards-recipients/)!
 * Work on using [Complementary Learning Systems for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
 * [Karma](papers/karma.pdf) accepted to OSDI'23!
@@ -45,6 +46,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Pancake](papers/pancake.pdf) accepted to USENIX Security'20, wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award)! 
 * [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
+
 
 </details>
 
