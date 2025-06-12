@@ -24,7 +24,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2024!
 
 <details>
-<summary>\[Older\]</summary>
+<summary>[Older]</summary>
 
 **[2023]**
 * [SCALO](papers/scalo.pdf) accepted to ISCA'23, wins [Best Paper Award](https://www.sigarch.org/other-announcements/congratulating-isca-2023-awards-recipients/)!
