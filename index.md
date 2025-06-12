@@ -23,20 +23,20 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
 * [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2024!
 
-<details>
-<summary><b>More...</b></summary>
-
-<p>
-
+**[2023]**
 * [SCALO](papers/scalo.pdf) accepted to ISCA'23, wins [Best Paper Award](https://www.sigarch.org/other-announcements/congratulating-isca-2023-awards-recipients/)!
 * Work on using [Complementary Learning Systems for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
 * [Karma](papers/karma.pdf) accepted to OSDI'23!
 * Received [Roberts Innovation Fund Award](https://seas.yale.edu/news-events/news/roberts-innovation-fund-support-10-bold-seas-faculty-inventions) for work on resource disaggregation!
+
+**[2022]**
 * Congratulations to [Ziming Mao](https://maoziming.github.io/) for [CRA Outstanding Undergraduate Researcher Award](https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/) (runner up)!
 * [Shepherd](papers/shepherd.pdf) accepted to NSDI'23!
 * [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946&HistoricalAwards=false) to build disaggregated & serverless infrastructure for virtualizing Massive MIMO PHY layer (with [Lin](http://www.linzhong.org/))! Thanks NSF!
 * [Shortstack](papers/shortstack.pdf) accepted to OSDI'22!
 * [Jiffy](papers/jiffy.pdf) accepted to EuroSys'22!
+
+**[2021]**
 * [MIND](papers/mind.pdf) accepted to SOSP'21!
 * Member of [NSF AI Institute](https://seas.yale.edu/news-events/news/yale-scientists-take-lead-roles-two-nsf-funded-ai-institutes) for Edge Computing Leveraging Next-generation Networks!
 * [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054957) for work on [Pancake](papers/pancake.pdf) (with [Rachit](https://www.cs.cornell.edu/~ragarwal/) and [Tom](https://rist.tech.cornell.edu/))! Thanks NSF!
@@ -44,12 +44,11 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/netapp-faculty-fellowship-awarded-anurag-khandelwal-and-abhishek-bhattacharjee) (with Abhishek Bhattacharjee)! Thanks NetApp!
 * [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220)! Thanks NSF!
 * [Caerus](papers/caerus.pdf) accepted to NSDI'21!
+
+**[2020]**
 * [Pancake](papers/pancake.pdf) accepted to USENIX Security'20, wins [Distinguished Paper Award](https://cpsc.yale.edu/news/paper-anurag-khandelwal-wins-distinguished-paper-award)! 
 * [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
-
-</p>
-</details>
 
 # Research
 
