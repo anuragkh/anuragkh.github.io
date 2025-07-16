@@ -56,6 +56,8 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
+* Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems \[SOSP](papers/spirit.pdf)\] \[[Code]()\]
+* Scalable Far Memory: Balancing Faults and Evictions \[[SOSP'25](papers/mage.pdf)\] \[[Code]()\]
 * CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering \[[ISCA'25](papers/cord.pdf)\] \[[Code](https://github.com/yale-nova/CORD)\]
 * PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\] \[[Code](https://github.com/yale-nova/pulse)\]
 * Exploring Intelligent Dynamic Resource Provisioning for Elastic Massive MIMO vRAN \[[HotMobile'25](papers/elasticmimo.pdf)\]
