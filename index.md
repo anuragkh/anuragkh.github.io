@@ -10,6 +10,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 # Recent News
 
 **[2025]**
+* [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2444660) to fortify cloud confidential computing environments! Thanks NSF!
 * [Spirit](papers/spirit.pdf) and [Mage](papers/mage.pdf) accepted to SOSP'25!
 * [Found In Translation](papers/fit.pdf) accepted to USENIX Security'25!
 * [Weave](papers/weave.pdf) accepted to OSDI'25!
@@ -56,7 +57,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
-* Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems \[SOSP](papers/spirit.pdf)\] \[[Code]()\]
+* Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems \[[SOSP](papers/spirit.pdf)\] \[[Code]()\]
 * Scalable Far Memory: Balancing Faults and Evictions \[[SOSP'25](papers/mage.pdf)\] \[[Code]()\]
 * CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering \[[ISCA'25](papers/cord.pdf)\] \[[Code](https://github.com/yale-nova/CORD)\]
 * PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\] \[[Code](https://github.com/yale-nova/pulse)\]
