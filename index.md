@@ -10,7 +10,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 # Recent News
 
 **[2025]**
-* [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2444660) to fortify cloud confidential computing environments! Thanks NSF!
+* [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2444660) to fortify cloud confidential computing environments (with [Lin](http://www.linzhong.org/) and [Seung-seob](https://www.seungseoblee.com/))! Thanks NSF!
 * [Spirit](papers/spirit.pdf) and [Mage](papers/mage.pdf) accepted to SOSP'25!
 * [Found In Translation](papers/fit.pdf) accepted to USENIX Security'25!
 * [Weave](papers/weave.pdf) accepted to OSDI'25!
@@ -127,6 +127,7 @@ CPSC 438/538: Big Data Systems
 # Service
 
 **Program Committees:**
+* 2025: OSDI, NSDI
 * 2024: OSDI, SOSP, EuroSys
 * 2023: CoNEXT (Poster Co-Chair), NSDI, EuroSys
 * 2022: NSDI, HotNets, EuroSys
