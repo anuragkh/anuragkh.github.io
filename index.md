@@ -7,6 +7,8 @@ title: Anurag Khandelwal
 I am an Assistant Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
 at [Yale University](https://www.yale.edu/). My research interests span systems and networking.
 
+** I am always looking for motivated graduate students and postdoctoral researchers! **
+
 # Recent News
 
 **[2025]**

@@ -50,49 +50,13 @@
         </center>
       </header>
 
+      {% comment %}
+
+      The content section. This is where the main content of the page will be rendered.
+
+      {% endcomment %}
       <section>
-        {% comment %}
-
-        The page.date and page.render_post variables are used as a sentinel
-        to find out if we are rendering a post. If either are present,
-        we use the post style.
-
-        {% endcomment %}
-        {% if page.date or page.render_post %}
-          <div id="post">
-            <h1 class="title">{{ page.title }}</h1>
-            <h1 class="title" id="hidden-title"></h1>
-        {% endif %}
-
         {{ content }}
-
-        {% if page.date or page.render_post %}
-            <div class="nav">
-              <hr>
-
-              <div class="next">
-                {% if page.next %}
-                <a href="{{ page.next.url }}" title="Read the previous post">Newer post</a>
-                {% else %}
-                <a href="/#posts" title="Return to home page">Read more</a>
-                {% endif %}
-              </div>
-
-              <div class="previous">
-                {% if page.previous %}
-                <a href="{{ page.previous.url }}" title="Read the previous post">Older post</a>
-                {% else %}
-                <a href="/#posts" title="Return to home page">Read more</a>
-                {% endif %}
-              </div>
-
-              {% if page.date %}
-              <div class="date">
-                {{ page.date | date_to_string }}
-              </div>
-              {% endif %}
-          </div>
-        {% endif %}
       </section>
     </div>
 
