@@ -2,6 +2,14 @@
 
 **[2025]**
 
+*Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems*\
+S. Lee, J. Putta, Z. Mao, A. Khandelwal (* Equal contribution authors)\
+SOSP
+
+*Scalable Far Memory: Balancing Faults and Evictions*
+Y. Pan\*, Y. Lala\*, M. Unal, Y. Ren, S. Lee, A. Bhattacharjee, A. Khandelwal, S. Kashyap\
+SOSP
+
 *Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks*\
 G. Jia, A. Wong, A. Khandelwal\
 USENIX Security
