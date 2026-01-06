@@ -11,6 +11,9 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 
 # Recent News
 
+**[2026]**
+* [CounterPoint](papers/counterpoint.pdf) accepted to ASPLOS'26!
+
 **[2025]**
 * [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2444660) to fortify cloud confidential computing environments (with [Lin](http://www.linzhong.org/) and [Seung-seob](https://www.seungseoblee.com/))! Thanks NSF!
 * [Spirit](papers/spirit.pdf) and [Mage](papers/mage.pdf) accepted to SOSP'25!
