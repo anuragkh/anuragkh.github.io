@@ -24,7 +24,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 
 **[2024]**
 * [NetApp Faculty Fellowship](https://cpsc.yale.edu/news/anurag-khandelwal-receives-award-netapp-university-research-fund)! Thanks NetApp! 
-* [Yupeng](https://yupengtang.com/) has successfully defended his Thesis! Congrats Dr. Tang!
+* [Yupeng](https://yupengtang.com/) successfully defended his Thesis! Congrats Dr. Tang!
 * [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
 * [Trinity](papers/trinity.pdf) accepted to EuroSys'24, wins [Best Student Paper Award](https://2024.eurosys.org/awards.html)! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
@@ -32,7 +32,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 
 **[2023]**
 * [SCALO](papers/scalo.pdf) accepted to ISCA'23, wins [Best Paper Award](https://www.sigarch.org/other-announcements/congratulating-isca-2023-awards-recipients/)!
-* Work on using [Complementary Learning Systems for prefetching in disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
+* Work on using [brain-inspired prefetching techniques for disaggregated memory](papers/cls.pdf) accepted to HotOS'23!
 * [Karma](papers/karma.pdf) accepted to OSDI'23!
 * Received [Roberts Innovation Fund Award](https://seas.yale.edu/news-events/news/roberts-innovation-fund-support-10-bold-seas-faculty-inventions) for work on resource disaggregation!
 
