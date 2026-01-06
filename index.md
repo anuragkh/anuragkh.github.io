@@ -19,7 +19,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Spirit](papers/spirit.pdf) and [Mage](papers/mage.pdf) accepted to SOSP'25!
 * [Found In Translation](papers/fit.pdf) accepted to USENIX Security'25!
 * [Weave](papers/weave.pdf) accepted to OSDI'25!
-* [CORD](papers/cord.pdf) accepted to ISCA'25!
+* [CORD](papers/cord.pdf) accepted to ISCA'25, wins Distinguished Artifact Award!
 * [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 
 **[2024]**
