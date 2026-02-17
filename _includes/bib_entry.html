@@ -1,0 +1,20 @@
+<div class="pub-item">
+  <div class="pub-title">{{ entry.title }}</div>
+  <div class="pub-meta">
+    <span class="pub-authors">{{ entry.author }}</span>
+    {% if entry.booktitle %}<span class="pub-venue">{{ entry.booktitle }}</span>{% endif %}
+    {% if entry.journal %}<span class="pub-venue">{{ entry.journal }}</span>{% endif %}
+    {% if entry.year %}<span class="pub-year">{{ entry.year }}</span>{% endif %}
+  </div>
+
+  {% assign key = entry.key %}
+  {% assign pdf = entry.pdf | default: 'assets/papers/' | append: key | append: '.pdf' %}
+  {% assign slides = entry.slides | default: 'assets/slides/' | append: key | append: '.pdf' %}
+
+  <div class="pub-links">
+    <a href="{{ '/' | relative_url }}{{ pdf }}" target="_blank" rel="noopener">PDF</a>
+    <a href="{{ '/' | relative_url }}{{ slides }}" target="_blank" rel="noopener">Slides</a>
+    {% if entry.code %}<a href="{{ entry.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+    {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+  </div>
+</div>

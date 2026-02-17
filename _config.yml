@@ -6,21 +6,32 @@ lsi: false
 #highlighter: pygments
 source: .
 
+plugins:
+  - jekyll-scholar
+
 #markdown: redcarpet
 
-# Use nice sensible URLs like:
-#
-#    /nice/sensible/url
-#
-# Not:
-#
-#    /15/05/12/nasty/url
-#
-permalink: /posts/:title
+permalink: pretty
 
 # Enable HTTP redirects
 gems:
   - jekyll-redirect-from
 
 # Ignore patterns
-exclude: [README.md, template/]
+exclude: 
+  - README.md
+  - template/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Scholar (BibTeX → publications)
+scholar:
+  style: acm-sig-proceedings-long-author-list
+  locale: en
+  bibliography: pubs.bib
+  bibliography_template: bib_entry
+  sort_by: year,month
+  order: descending
+  group_by: year
+  group_order: descending
