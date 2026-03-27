@@ -64,6 +64,9 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
+* Efficient and Scalable Synchronization via Generalized Cache Coherence \[[OSDI'26](papers/soul.pdf)\]\[[Code]()\]
+* TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents \[[MobiSys'26](papers/timelyllm.pdf)\]\[[Code]()\]
+* CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions \[[ASPLOS'26](papers/counterpoint.pdf)\] \[[Code]()\]
 * Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems \[[SOSP'25](papers/spirit.pdf)\] \[[Code]()\]
 * Scalable Far Memory: Balancing Faults and Evictions \[[SOSP'25](papers/mage.pdf)\] \[[Code]()\]
 * CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering \[[ISCA'25](papers/cord.pdf)\] \[[Code](https://github.com/yale-nova/CORD)\]

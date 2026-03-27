@@ -1,5 +1,20 @@
 # Publications
 
+**[2026]**
+
+*Efficient and Scalable Synchronization via Generalized Cache Coherence*\
+Y. Yu, S. Lee, L. Zhong, A. Khandelwal\
+OSDI
+
+*TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents*\
+N. Ling, G. Chen, A. Khandelwal, L. Zhong\
+MobiSys
+
+*CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions*\
+N. Lindsay, C. Trippel, A. Khandelwal, A. Bhattacharjee\
+ASPLOS\
+[Best Paper Award]()
+
 **[2025]**
 
 *Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems*\
@@ -20,7 +35,8 @@ OSDI
 
 *Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering*\
 Y. Yu, N. Oswald, A. Khandelwal\
-ISCA
+ISCA\
+[Distinguished Artifact Award]()
 
 *PULSE: Accelerating Distributed Pointer Traversals on Disaggregated Memory*\
 Y. Tang, S. Lee, A. Bhattacharjee, A. Khandelwal\
