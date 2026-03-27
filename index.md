@@ -12,6 +12,8 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 # Recent News
 
 **[2026]**
+* [Soul](papers/soul.pdf) accepted to OSDI'26!
+* [TimelyLLM](papers/timelyllm.pdf) accepted to MobiSys'26!
 * [CounterPoint](papers/counterpoint.pdf) accepted to ASPLOS'26, wins Best Paper Award!
 
 **[2025]**
