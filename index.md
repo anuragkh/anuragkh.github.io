@@ -137,7 +137,8 @@ CPSC 438/538: Big Data Systems
 # Service
 
 **Program Committees:**
-* 2025: OSDI, NSDI
+* 2026: EuroSys, SOSP
+* 2025: NSDI
 * 2024: OSDI, SOSP, EuroSys
 * 2023: CoNEXT (Poster Co-Chair), NSDI, EuroSys
 * 2022: NSDI, HotNets, EuroSys
