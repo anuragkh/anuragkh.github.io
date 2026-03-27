@@ -16,6 +16,7 @@ permalink: pretty
 # Enable HTTP redirects
 gems:
   - jekyll-redirect-from
+  - jekyll-scholar
 
 # Ignore patterns
 exclude: 
