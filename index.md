@@ -12,6 +12,8 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 # Recent News
 
 **[2026]**
+* [CORD](papers/cord.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2025!
+* [BulletTime](papers/bullettime.pdf) accepted to ISCA'26!
 * [Soul](papers/soul.pdf) accepted to OSDI'26!
 * [TimelyLLM](papers/timelyllm.pdf) accepted to MobiSys'26!
 * [CounterPoint](papers/counterpoint.pdf) accepted to ASPLOS'26, wins Best Paper Award!
@@ -30,7 +32,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
 * [Trinity](papers/trinity.pdf) accepted to EuroSys'24, wins [Best Student Paper Award](https://2024.eurosys.org/awards.html)! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
-* [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2024!
+* [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2023!
 
 **[2023]**
 * [SCALO](papers/scalo.pdf) accepted to ISCA'23, wins [Best Paper Award](https://www.sigarch.org/other-announcements/congratulating-isca-2023-awards-recipients/)!
@@ -65,6 +67,7 @@ You can find a full list of my publications [here](publications).
 
 **OS Stack for Disaggregated & Serverless Architectures:**
 * Efficient and Scalable Synchronization via Generalized Cache Coherence \[[OSDI'26](papers/soul.pdf)\]\[[Code]()\]
+* BulletTime: Time Dilation for High-Fidelity Tracing \[[ISCA](papers/bullettime.pdf)\]\[[Code]()\]
 * TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents \[[MobiSys'26](papers/timelyllm.pdf)\]\[[Code]()\]
 * CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions \[[ASPLOS'26](papers/counterpoint.pdf)\] \[[Code]()\]
 * Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems \[[SOSP'25](papers/spirit.pdf)\] \[[Code]()\]
