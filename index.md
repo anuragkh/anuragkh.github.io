@@ -120,6 +120,10 @@ Current:
 Past:
 * [Yupeng Tang](https://yupengtang.com/) -> Meta Research
 
+**Masters Students:**
+* [Jachym Putta]() -> DE Shaw
+* [Leo Li]() -> Yale (PhD)
+
 **Undergraduates:**
 
 Past:
