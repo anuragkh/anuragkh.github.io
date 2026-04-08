@@ -5,19 +5,24 @@ title: Anurag Khandelwal
 # About
 
 I am an Assistant Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
-at [Yale University](https://www.yale.edu/). My research interests span systems and networking.
+at [Yale University](https://www.yale.edu/). My research interests span computer systems,
+networks, and systems security. My work addresses challenges in processing, storing, and
+serving large volumes of data to empower real-world systems: from sprawling internet services
+like social media to critical tools in health and medicine.
 
-**I am always looking for motivated graduate students and postdoctoral researchers!**
+_I am always looking for motivated graduate students and postdoctoral researchers!_
 
 # Recent News
 
-**[2026]**
-
-* [CORD](papers/cord.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2025!
+* [CORD](papers/cord.pdf) selected for inclusion in [IEEE Micro's Top Picks in Computer Architecture in 2025]()!
 * [BulletTime](papers/bullettime.pdf) accepted to ISCA'26!
 * [Soul](papers/soul.pdf) accepted to OSDI'26!
 * [TimelyLLM](papers/timelyllm.pdf) accepted to MobiSys'26!
-* [CounterPoint](papers/counterpoint.pdf) accepted to ASPLOS'26, wins Best Paper Award!
+* [CounterPoint](papers/counterpoint.pdf) accepted to ASPLOS'26, wins [Best Paper Award]()!
+
+<details markdown=1>
+
+<summary style="list-style-type: none;"><b><a style="cursor: pointer;">[Older News]</a></b></summary>
 
 **[2025]**
 
@@ -25,7 +30,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Spirit](papers/spirit.pdf) and [Mage](papers/mage.pdf) accepted to SOSP'25!
 * [Found In Translation](papers/fit.pdf) accepted to USENIX Security'25!
 * [Weave](papers/weave.pdf) accepted to OSDI'25!
-* [CORD](papers/cord.pdf) accepted to ISCA'25, wins Distinguished Artifact Award!
+* [CORD](papers/cord.pdf) accepted to ISCA'25, wins [Distinguished Artifact Award]()!
 * [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 
 **[2024]**
@@ -35,7 +40,7 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
 * [Trinity](papers/trinity.pdf) accepted to EuroSys'24, wins [Best Student Paper Award](https://2024.eurosys.org/awards.html)! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
-* [SCALO](papers/scalo.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2023!
+* [SCALO](papers/scalo.pdf) selected for inclusion in [IEEE Micro's Top Picks in Computer Architecture in 2023]()!
 
 **[2023]**
 
@@ -68,52 +73,44 @@ at [Yale University](https://www.yale.edu/). My research interests span systems 
 * [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
+</details>
+
 # Research
 
 You can find a full list of my publications [here](publications).
 
-**OS Stack for Disaggregated & Serverless Architectures:**
+**Memory Disaggregation:**
 
-* Efficient and Scalable Synchronization via Generalized Cache Coherence \[[OSDI'26](papers/soul.pdf)\]\[[Code]()\]
-* BulletTime: Time Dilation for High-Fidelity Tracing \[[ISCA](papers/bullettime.pdf)\]\[[Code]()\]
-* TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents \[[MobiSys'26](papers/timelyllm.pdf)\]\[[Code]()\]
-* CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions \[[ASPLOS'26](papers/counterpoint.pdf)\] \[[Code]()\]
-* Spirit: Fair Allocation of Interdependent Resources in Remote Memory Systems \[[SOSP'25](papers/spirit.pdf)\] \[[Code]()\]
-* Scalable Far Memory: Balancing Faults and Evictions \[[SOSP'25](papers/mage.pdf)\] \[[Code]()\]
-* CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering \[[ISCA'25](papers/cord.pdf)\] \[[Code](https://github.com/yale-nova/CORD)\]
-* PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory \[[ASPLOS'25](papers/pulse.pdf)\] \[[Code](https://github.com/yale-nova/pulse)\]
-* Exploring Intelligent Dynamic Resource Provisioning for Elastic Massive MIMO vRAN \[[HotMobile'25](papers/elasticmimo.pdf)\]
-* PromptCache: Modular Attention Reuse for Low-latency Inference \[[MLSys'24](papers/promptcache.pdf)\]
-* Karma: Resource Allocation for Dynamic Demands \[[OSDI'23](papers/karma.pdf)\]
-* Prefetching Using Principles of Hippocampal-Neocortical Interaction \[[HotOS'23](papers/cls.pdf)\]
-* Shepherd: Serving DNNs in the Wild \[[NSDI'23](papers/shepherd.pdf)\]
-* Jiffy: Elastic Far-Memory for Stateful Serverless Analytics \[[EuroSys'22](papers/jiffy.pdf)\] \[[Code](https://github.com/resource-disaggregation/jiffy)\]
-* MIND: In-Network Memory Management for Disaggregated Data Centers \[[SOSP'21](papers/mind.pdf)\] \[[Code](https://github.com/yale-nova/mind)\]
-* What serverless computing is and should become: the next phase of cloud computing \[[CACM'21](papers/serverless-next.pdf)\]
-* Caerus: NIMBLE Task Scheduling for Serverless Analytics \[[NSDI'21](papers/caerus.pdf)\]
-* Le Taureau: Deconstructing the Serverless Landscape & A Look Forward \[[SIGMOD'20](https://dl.acm.org/doi/10.1145/3318464.3383130)\]
-* A Berkeley View on Serverless Computing \[[UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf)\]
+* Realizing scalable cache coherence for disaggregated shared memory pools: [SOSP'21](papers/mind.pdf), [ISCA'25](papers/cord.pdf), [OSDI'26](papers/soul.pdf)
+* Enabling fair sharing across disaggregated memory resources: [OSDI'23](papers/karma.pdf), [SOSP'25](papers/spirit.pdf)
+* Realizing low-latency, high-throughput access to disaggregated memory: [ASPLOS'25](papers/pulse.pdf), [SOSP'25](papers/mage.pdf)
+* Understanding memory performance: [ISCA'26](papers/bullettime.pdf), [ASPLOS'26](papers/counterpoint.pdf)
 
 **Secure cloud systems:**
 
-* Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks \[[USENIX Security'25](papers/fit.pdf)\] \[[Code](https://github.com/yale-nova/found-in-translation)\]
-* Weave: Efficient and Expressive Oblivious Analytics at Scale \[[OSDI'25](papers/weave.pdf)\] \[[Code](https://github.com/yale-nova/Weave)\]
-* Length Leakage in Oblivious Data Access Mechanisms \[[USENIX Security'24](papers/length-leakage.pdf)\]
-* Shortstack: Distributed, Fault-tolerant, Oblivious Data Access \[[OSDI'22](papers/shortstack.pdf)\]\[[Code](https://github.com/pancake-security/shortstack)\]
-* Pancake: Frequency Smoothing for Encrypted Data Stores \[[USENIX Security'20](papers/pancake.pdf)\] \[[Code](https://github.com/pancake-security/pancake)\]
+* Protecting against access pattern vulnerabilities: [USENIX Sec'20](papers/pancake.pdf), [OSDI'22](papers/shortstack.pdf), [OSDI'25](papers/weave.pdf)
+* Understanding access pattern vulnerabilities: [USENIX Sec'24](papers/length-leakage.pdf), [USENIX Sec'25](papers/fit.pdf)
 
-**High-performance storage stacks for automated data:**
+**Systems for AI:**
 
-* TRINITY: A Fast Compressed Multi-attribute Data Store \[[EuroSys'24](papers/trinity.pdf)\] \[[Code](https://github.com/MaoZiming/Trinity)\]
-* SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing \[[ISCA'23](papers/scalo.pdf)\]
-* Distributed Monitoring & Diagnosis Stack for High Speed Networks \[[NSDI'19](papers/confluo.pdf)\], \[[Code](https://github.com/ucbrise/confluo)\]
+* Scheduling for low-latency, high-throughput AI inference: [NSDI'23](papers/shepherd.pdf), [MobiSys'26](papers/timelyllm.pdf)
+* Caching attention state across prompts for low-latency inference: [MLSys'24](papers/promptcache.pdf)
 
-**(Prior work) Queries on compressed data:**
+**Storage and processing stacks for automated data:**
 
-* Succinct: Enabling Queries on compressed data \[[NSDI'15](papers/succinct.pdf)\], \[[Code: C++](http://github.com/amplab/succinct-cpp)\], \[[Code: Java](https://github.com/amplab/succinct)\]
-* BlowFish: Dynamic Storage-Performance Tradeoff in Data Stores \[[NSDI'16](papers/blowfish.pdf)\]
-* Sprint: Regular Expression Queries on Compressed Data \[[Tech Report](papers/swift.pdf)\], \[[Code](https://github.com/amplab/sprint)\]
-* ZipG: Serving Queries on Compressed Graphs \[[SIGMOD'17](papers/zipg.pdf)\]
+* High-throughput compressed storage high-dimensional data: [EuroSys'24](papers/trinity.pdf)
+* Distributed system for scalable Brain-Computer Interfacing (BCI): [ISCA'23](papers/scalo.pdf), [MICRO Top Picks'23](papers/scalo-toppicks.pdf)
+* Distributed monitoring & diagnosis for high speed networks: [NSDI'19](papers/confluo.pdf)
+
+**Serverless Systems:**
+
+* Position papers: [UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf), [SIGMOD'20](https://dl.acm.org/doi/10.1145/3318464.3383130), [CACM'21](papers/serverless-next.pdf)
+* Enabling fast and cost-effective analytics over serverless functions: [NSDI'21](papers/caerus.pdf), [EuroSys'22](papers/jiffy.pdf)
+
+**(Past) Queries on compressed data:**
+
+* Enabling queries on compressed data: [NSDI'15](papers/succinct.pdf), [SIGMOD'17](papers/zipg.pdf)
+* Dynamic storage-performance tradeoff in data stores: [NSDI'16](papers/blowfish.pdf)
 
 # Research Group
 
@@ -148,17 +145,17 @@ Past:
 
 # Teaching
 
-CPSC 422/522: Operating Systems
+**Operating Systems**
 
-* [Spring 2024](https://courses.yale.edu/?keyword=CPSC%20422&srcdb=guide2024), [Spring 2025](https://courses.yale.edu/?keyword=CPSC%20422&srcdb=guide2025)
+* [Spring 2024](https://courses.yale.edu/?details&srcdb=202401&crn=28089), [Spring 2025](https://courses.yale.edu/?details&srcdb=202501&crn=22577), [Spring 2026](https://courses.yale.edu/?details&srcdb=202601&crn=21079)
 
-CPSC 433/533: Computer Networks
+**Computer Networks**
 
-* [Spring 2020](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2020), [Spring 2021](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2021), [Spring 2022](https://courses.yale.edu/?keyword=CPSC%20433&srcdb=guide2022)
+* [Spring 2020](https://courses.yale.edu/?details&srcdb=202001&crn=20035), [Spring 2021](https://courses.yale.edu/?details&srcdb=202101&crn=21996), [Spring 2022](https://courses.yale.edu/?details&srcdb=202201&crn=20912)
 
-CPSC 438/538: Big Data Systems
+**Big Data Systems**
 
-* [Fall 2020](https://courses.yale.edu/?keyword=CPSC%20637&srcdb=guide2020), [Fall 2021](https://courses.yale.edu/?keyword=CPSC%20438&srcdb=202103&dept=CPSC). [Fall 2023](https://courses.yale.edu/?keyword=CPSC%20438&srcdb=202303)
+* [Fall 2020](https://courses.yale.edu/?details&srcdb=202003&crn=12353), [Fall 2021](https://courses.yale.edu/?details&srcdb=202103&crn=11454). [Fall 2023](https://courses.yale.edu/?details&srcdb=202303&crn=17222), [Fall 2025](https://courses.yale.edu/?details&srcdb=202503&crn=10165)
 
 # Service
 

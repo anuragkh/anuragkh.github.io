@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,400italic,700italic,300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700|Inconsolata);
 .link-hover{color:#670000}
 html{min-width:400px}
-body{padding:50px;color:#555;font-family:"Lato",sans-serif;font-weight:400;font-size:15px;line-height:1.4}
+body{padding:50px;color:#555;font-family:"Lato",sans-serif;font-weight:300;font-size:15px;line-height:1.4}
 @media print,screen and (max-width:1000px){body{word-wrap:break-word}}
 @media print,screen and (max-width:800px){body{padding:15px}}
 @media print{body{padding:0.4in;font-size:12px;color:#000}}
@@ -31,7 +31,7 @@ hr{border:0;background:#e5e5e5;height:1px;margin:0 0 20px}
 .paper,.paper p{text-align:center}
 .paper img{max-width:250px;border:solid 1px #aaa;-webkit-box-shadow:7px 7px 5px 0 rgba(50,50,50,0.75);-moz-box-shadow:7px 7px 5px 0 rgba(50,50,50,0.75);box-shadow:7px 7px 5px 0 rgba(50,50,50,0.75)}
 .paper .description{font-size:90%;max-width:75%;margin:auto}
-b{font-weight:700}
+b{font-weight:400}
 h1,h2,h3,h4,h5,h6{font-weight:300;color:#000;margin:0 0 10px;text-align:center}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,header a{color:#e60000;text-decoration:none}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,header a:hover{color:#670000}
@@ -54,7 +54,7 @@ code,pre{font-family:"Lato",monospace;color:#000;font-size:90%;line-height:1.1em
 @media print,screen and (max-width:890px){code,pre{word-wrap:normal}}
 pre{padding:0 15px;border-left:2px solid #d5d5d5}
 p code{background-color:#f5f5f5}
-strong{color:#000;font-weight:700}
+strong{color:#000;font-weight:400}
 small{font-size:12px}
 section p{text-align:left}
 section h1:first-child{margin-top:0}
