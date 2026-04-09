@@ -1,18 +1,45 @@
 name: Anurag Khandelwal, Assistant Professor
 
 # Variables set by GitHub
-safe: true
+#safe: true
 lsi: false
 #highlighter: pygments
 source: .
 
-#markdown: redcarpet
-
+markdown: kramdown
 permalink: pretty
 
-# Enable HTTP redirects
-gems:
+plugins:
+  - jekyll-scholar
   - jekyll-redirect-from
+
+scholar:
+  # The directory where your bibliography files are located
+  source: ./_bibliography
+  bibliography: papers.bib
+
+  # The template to use for rendering bibliography entries
+  bibliography_template: bib_entry
+
+  # Sort publications by year, month, and day in descending order
+  sort_by: year, month
+  order: descending
+  group_by: year
+  group_order: descending
+
+  # The citation style to use (e.g., "ieee", "apa", "mla")
+  style: ieee
+
+  # The locale to use for formatting dates and other locale-specific elements
+  locale: en
+
+  # The query to filter bibliography entries (e.g., "@*")
+  query: "@*"
+
+  bibtex_filters:
+    - latex
+    - smallcaps
+    - superscript
 
 # Ignore patterns
 exclude: 
@@ -20,4 +47,5 @@ exclude:
   - template/
   - Gemfile
   - Gemfile.lock
+  - vendor
   - node_modules

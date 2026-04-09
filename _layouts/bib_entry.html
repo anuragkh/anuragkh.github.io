@@ -1,0 +1,49 @@
+{% unless entry.preprint == "true" %}
+<div class="pub-entry pub-type-{{ entry.type }}">
+  <div class="pub-title">{{ entry.title }}</div>
+
+  <div class="pub-authors">
+    {% assign authors = entry.author_array %}
+    {% for author in authors -%}
+      {%- if author.first -%}{{ author.first }} {% endif -%}
+      {%- if author.von -%}{{ author.von }} {% endif -%}
+      {%- if author.last -%}{{ author.last }}{% endif -%}
+      {%- if author.jr -%}, {{ author.jr }}{% endif -%}
+      {%- unless forloop.last -%}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{%- endunless -%}
+    {%- endfor %}
+  </div>
+
+  <div class="pub-venue">
+    {% if entry.booktitle -%}
+      <em>{{ entry.booktitle }}</em>
+    {%- elsif entry.journal -%}
+      <em>{{ entry.journal }}</em>
+    {%- elsif entry.publisher -%}
+      <em>{{ entry.publisher }}</em>
+    {%- elsif entry.school -%}
+      <em>{{ entry.school }}</em>
+    {%- endif -%}{% if entry.year %}, {{ entry.year }}{% endif %}
+  </div>
+
+  {% if entry.award %}
+    <div class="pub-award">{{ entry.award }}</div>
+  {% endif %}
+
+  <div class="pub-links">
+    {% assign first = true %}
+    {% if entry.pdf %}
+      <a href="{{ entry.pdf | relative_url }}">PDF</a>
+      {% assign first = false %}
+    {% endif %}
+    {% if entry.slides %}
+      {% unless first %} · {% endunless %}
+      <a href="{{ entry.slides | relative_url }}">Slides</a>
+      {% assign first = false %}
+    {% endif %}
+    {% if entry.code %}
+      {% unless first %} · {% endunless %}
+      <a href="{{ entry.code }}">Code</a>
+    {% endif %}
+  </div>
+</div>
+{% endunless %}

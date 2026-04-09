@@ -1,0 +1,11 @@
+---
+layout: default
+title: Publications
+---
+
+{% include base.html %}
+<h1>{{ page.title }}</h1>
+
+<ul class="publications-list">
+  {% bibliography --query @* %}
+</ul>

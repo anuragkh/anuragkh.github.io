@@ -146,3 +146,48 @@ footer a{color:#777;text-decoration:none}
 .type-csharp .highlight .nn{color:#000}
 .type-csharp .highlight .s{color:#a31515}
 .type-csharp .highlight .sc{color:#a31515}
+
+.bibliography {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.bibliography li {
+  margin-bottom: 1.75rem;
+}
+
+.pub-title {
+  color: #6f9fd8;
+  font-weight: 400;
+  margin-bottom: 0.15rem;
+}
+.pub-authors {
+  margin-bottom: 0.15rem;
+}
+.pub-venue {
+  margin-bottom: 0.1rem;
+  font-style: italic;
+}
+.pub-award {
+  color: #2e9b57;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0.2rem;
+}
+.pub-entry {
+  background: #ffffff;
+  border-radius: 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid #e9eef5;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.28);
+}
+.pub-type-inproceedings,
+.pub-type-conference,
+.pub-type-article,
+.pub-type-incollection,
+.pub-type-phdthesis,
+.pub-type-mastersthesis,
+.pub-type-techreport,
+.pub-type-misc {
+  background: #ffffff;
+}

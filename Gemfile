@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
-gem "jekyll-scholar", "~> 7.1"
+gem "jekyll", "~> 4.4"
 gem "webrick", "~> 1.8"
+gem "jekyll-scholar"
+gem "jekyll-redirect-from"
