@@ -1,6 +1,10 @@
 # Jekyll Files
 _site/
 template/
+Gemfile.lock
 
 # MacOS Files
 .DS_Store
+
+# Backup files
+*.bak
