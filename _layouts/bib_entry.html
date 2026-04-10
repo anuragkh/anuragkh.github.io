@@ -30,20 +30,18 @@
   {% endif %}
 
   <div class="pub-links">
-    {% assign first = true %}
-    {% if entry.pdf %}
-      <a href="{{ entry.pdf | relative_url }}">PDF</a>
-      {% assign first = false %}
-    {% endif %}
-    {% if entry.slides %}
-      {% unless first %} · {% endunless %}
-      <a href="{{ entry.slides | relative_url }}">Slides</a>
-      {% assign first = false %}
-    {% endif %}
-    {% if entry.code %}
-      {% unless first %} · {% endunless %}
-      <a href="{{ entry.code }}">Code</a>
-    {% endif %}
-  </div>
+    <a href="{{ '/papers/' | append: entry.key | append: '.pdf' | relative_url }}" title="PDF" aria-label="PDF">
+      <i class="fas fa-file-pdf"></i>
+    </a>
+
+    <a href="{{ '/slides/' | append: entry.key | append: '.pdf' | relative_url }}" title="Slides" aria-label="Slides">
+      <i class="fas fa-images"></i>
+    </a>
+
+  {% if entry.code %}
+    <a href="{{ entry.code }}" title="Code" aria-label="Code">
+      <i class="fas fa-code"></i>
+    </a>
+  {% endif %}
 </div>
 {% endunless %}

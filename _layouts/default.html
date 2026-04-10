@@ -21,6 +21,7 @@
 
     <link rel="icon" href="{{ base }}/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="{{ base }}/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     {%include google-analytics.html %}
   </head>
@@ -43,10 +44,17 @@
           <div class="img-frame"><img src="{{ base }}/images/me.jpg" width="180" height="180"/></div>
           {% comment %} External Links {% endcomment %}
           <ul>
+            <li><a href="/">Home</a></li>
             <li><a href="/publications">Publications</a></li>
-            <li><a href="https://github.com/anuragkh" target="_blank">GitHub</a></li>
+            <li><a href="/group">Research Group</a></li>
+            <li><a href="/cv/cv.pdf" target="_blank">Resume</a></li>
+            <li><a href="/bio">Bio</a></li>
           </ul>
-          <div style='font-size:small'><b>Contact</b><br/><i>205, Arthur K. Watson Hall<br/>51 Prospect St<br/>New Haven, CT 06520</i><br/><b>Email:</b><br/><i>anurag [dot] khandelwal [at] yale [dot] edu</i></div>
+          <div class="social-icons">
+            <a href="https://github.com/anuragkh" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:anurag.khandelwal@yale.edu" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/your-linkedin-id/" target="_blank" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
         </center>
       </header>
 

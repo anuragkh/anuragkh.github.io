@@ -174,20 +174,47 @@ footer a{color:#777;text-decoration:none}
   font-style: italic;
   margin-bottom: 0.2rem;
 }
-.pub-entry {
-  background: #ffffff;
+body {
+  background: #f6f7f9;
+}
+.pub-entry,
+.content-box {
+  background: #fcfcfd;
   border-radius: 0;
   padding: 1rem 1.1rem;
-  border: 1px solid #e9eef5;
+  border: 1px solid #e3e7ee;
   box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.28);
 }
-.pub-type-inproceedings,
-.pub-type-conference,
-.pub-type-article,
-.pub-type-incollection,
-.pub-type-phdthesis,
-.pub-type-mastersthesis,
-.pub-type-techreport,
-.pub-type-misc {
-  background: #ffffff;
+.content-box {
+  padding: 0 1.1rem;
+  margin: 0 0 1.75rem 0;
+}
+.pub-links a {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #444;
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+.pub-links a:hover {
+  color: #e60000;
+}
+.pub-links i {
+  vertical-align: middle;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.9rem;
+  margin: 0.75rem 0;
+}
+
+.social-icons a {
+  color: #444;
+  font-size: 1.35rem;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #e60000;
 }
