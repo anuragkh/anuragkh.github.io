@@ -43,10 +43,11 @@ _I am always looking for motivated graduate students and postdoctoral researcher
 
 </div>
 
-<details markdown=1>
+<details class="animated-details" markdown=1>
 
 <summary style="list-style-type: none;"><b><a style="cursor: pointer;">[Older News]</a></b></summary>
 
+<div class="details-panel">
 <div class="content-box" markdown="1">
 
 **[2024]**
@@ -105,6 +106,7 @@ _I am always looking for motivated graduate students and postdoctoral researcher
 * [Le Taureau](https://dl.acm.org/doi/10.1145/3318464.3383130) accepted to SIGMOD'20!
 * Started at [Yale](https://fas.yale.edu/book/new-ladder-faculty-2019-20/school-engineering-applied-science/anurag-khandelwal)!
 
+</div>
 </div>
 
 </details>
