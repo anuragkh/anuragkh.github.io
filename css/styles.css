@@ -2,6 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700|Inconsolata);
+:root{color-scheme:light;--bg:#f6f7f9;--text:#555;--heading:#000;--muted:#777;--link:#008080;--link-hover:#e60000;--link-strong:#670000;--surface:#fcfcfd;--border:#e3e7ee;--border-soft:#e5e5e5;--border-strong:#d5d5d5;--shadow:6px 6px 0 rgba(0,0,0,0.28);--selection-bg:#444;--selection-text:#ddd;--code-bg:#f5f5f5;--social:#444;--pub-title:#6f9fd8;--award:#2e9b57;--header-link:#000;--toggle-bg:#fff;--toggle-border:#cbd3df;--toggle-text:#222}
+html[data-theme=dark]{color-scheme:dark;--bg:#11151c;--text:#d2d7e1;--heading:#f5f7fb;--muted:#a6b0c1;--link:#7fd3d1;--link-hover:#ff8c82;--link-strong:#ffb2aa;--surface:#1a1f29;--border:#30384a;--border-soft:#30384a;--border-strong:#465067;--shadow:6px 6px 0 rgba(0,0,0,0.5);--selection-bg:#d2d7e1;--selection-text:#11151c;--code-bg:#222938;--social:#d7dde8;--pub-title:#9cc4ff;--award:#73d39b;--header-link:#f5f7fb;--toggle-bg:#1f2633;--toggle-border:#566179;--toggle-text:#f5f7fb}
 .link-hover{color:#670000}
 html{width:100%}
 body{padding:50px;color:#555;font-family:"Lato",sans-serif;font-weight:300;font-size:15px;line-height:1.4}
@@ -239,4 +241,171 @@ body {
   height: auto;
   margin-top: 1rem;
   opacity: 1;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background-color .25s ease, color .25s ease;
+}
+
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--selection-text);
+}
+
+section,
+.content-box,
+.pub-entry,
+.theme-toggle,
+.social-icons a,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+code,
+pre,
+blockquote,
+table th,
+table td,
+header h1 a,
+footer a {
+  transition: background-color .25s ease, border-color .25s ease, color .25s ease, box-shadow .25s ease;
+}
+
+@media print,screen and (max-width:900px){
+  section{border-color:var(--border-soft)}
+}
+
+hr,
+h1,
+table th,
+table td {
+  border-color: var(--border-soft);
+}
+
+#posts a:hover,
+.pub-links a:hover,
+.social-icons a:hover,
+a:hover,
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,header a,
+header h1 a:hover,footer h1 a:hover {
+  color: var(--link-hover);
+}
+
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,header a:hover {
+  color: var(--link-strong);
+}
+
+#posts ul li .date,
+#post .nav .date,
+footer a {
+  color: var(--muted);
+}
+
+.paper img {
+  border-color: var(--border-strong);
+}
+
+h1,h2,h3,h4,h5,h6,
+code,pre,strong,
+html[data-theme=dark] .animated-details summary a {
+  color: var(--heading);
+}
+
+a {
+  color: var(--link);
+}
+
+a small {
+  color: var(--text);
+}
+
+blockquote,
+pre {
+  border-left-color: var(--border-strong);
+}
+
+p code {
+  background-color: var(--code-bg);
+}
+
+header h1 a {
+  color: var(--header-link);
+}
+
+.highlight {
+  background: var(--surface);
+}
+
+.pub-title {
+  color: var(--pub-title);
+}
+
+.pub-award {
+  color: var(--award);
+}
+
+.pub-entry,
+.content-box {
+  background: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+  box-shadow: var(--shadow);
+}
+
+.pub-links a,
+.social-icons a {
+  color: var(--social);
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.9rem;
+  height: 2.9rem;
+  padding: 0;
+  border: 1px solid var(--toggle-border);
+  background: var(--toggle-bg);
+  color: var(--toggle-text);
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.18);
+  transition: transform .18s ease,box-shadow .18s ease,background-color .25s ease,color .25s ease,border-color .25s ease;
+}
+
+.theme-toggle:hover {
+  transform: translate(-1px,-1px);
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.22);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--link-hover);
+  outline-offset: 3px;
+}
+
+.theme-toggle__icon::before {
+  content: "☾";
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+html[data-theme=dark] .theme-toggle__icon::before {
+  content: "☀";
+}
+
+html[data-theme=dark] img {
+  opacity: 0.96;
+}
+
+@media print,screen and (max-width:800px){
+  .theme-toggle{top:0.9rem;right:0.9rem}
 }
