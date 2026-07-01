@@ -6,7 +6,7 @@ title: Anurag Khandelwal
 
 <div class="content-box" markdown="1">
 
-I am an Assistant Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
+I am an Associate Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
 at [Yale University](https://www.yale.edu/). My research interests span computer systems,
 networks, and security. My work addresses challenges in processing, storing, and
 serving large volumes of data to empower real-world systems: from sprawling internet services
@@ -26,7 +26,7 @@ _I am always looking for motivated graduate students and postdoctoral researcher
 * [BulletTime](papers/bullettime.pdf) accepted to ISCA'26!
 * [Soul](papers/soul.pdf) accepted to OSDI'26!
 * [TimelyLLM](papers/timelyllm.pdf) accepted to MobiSys'26!
-* [CounterPoint](papers/counterpoint.pdf) accepted to ASPLOS'26, wins [Best Paper Award]()!
+* [CounterPoint](papers/counterpoint.pdf) accepted to ASPLOS'26, wins [Best Paper Award](https://www.asplos-conference.org/asplos2026/awards/index.html)!
 
 </div>
 
