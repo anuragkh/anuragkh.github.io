@@ -22,10 +22,11 @@ _I am always looking for motivated graduate students and postdoctoral researcher
 
 **[2026]**
 
+* [Yanpeng](https://yanpeng-yu.com) successfully defended his Thesis! Congratulations Dr. Yu!
 * [CORD](papers/cord.pdf) selected for inclusion in [IEEE Micro's Top Picks in Computer Architecture in 2025]()!
 * [BulletTime](papers/bullettime.pdf) accepted to ISCA'26!
 * [Soul](papers/soul.pdf) accepted to OSDI'26!
-* [TimelyLLM](papers/timelyllm.pdf) accepted to MobiSys'26!
+* [TimelyLLM](papers/timelyllm.pdf) accepted to MobiSys'26, wins [Best Paper Award Runner-Up](https://www.sigmobile.org/mobisys/2026/awards/) and [Best Artifact Award Runner-Up](https://www.sigmobile.org/mobisys/2026/awards/)!
 * [CounterPoint](papers/counterpoint.pdf) accepted to ASPLOS'26, wins [Best Paper Award](https://www.asplos-conference.org/asplos2026/awards/index.html)!
 
 </div>

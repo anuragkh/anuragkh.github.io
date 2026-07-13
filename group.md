@@ -29,13 +29,14 @@ can find all of our project repositories on [GitHub](https://github.com/yale-nov
 
 Current:
 
-* [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org))
+* [Stephen Chien]()
 * [Grace Jia](https://gjia25.github.io/)
 * [Mahdi Soleimani]()
 * [Yash Lala](https://yashlala.com/)
 
 Past:
 
+* [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org)) -> Databricks
 * [Yupeng Tang](https://yupengtang.com/) -> Meta Research
 
 </div>
