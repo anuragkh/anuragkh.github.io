@@ -7,10 +7,10 @@ title: Anurag Khandelwal
 <div class="content-box" markdown="1">
 
 I am an Associate Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
-at [Yale University](https://www.yale.edu/). My research interests span computer systems,
-networks, and security. My work addresses challenges in processing, storing, and
-serving large volumes of data to empower real-world systems: from sprawling internet services
-like social media to critical tools in health and medicine.
+at [Yale University](https://www.yale.edu/). My research interests span computer software 
+and hardware systems, networks, and security. My work addresses challenges in processing, 
+storing, and serving large volumes of data to empower real-world systems: from sprawling 
+internet services like social media to critical tools in health and medicine.
 
 _I am always looking for motivated graduate students and postdoctoral researchers!_
 
@@ -125,6 +125,8 @@ You can find a full list of my publications [here](publications).
 * Low-latency, high-throughput access to disaggregated memory: [ASPLOS'25](papers/pulse.pdf), [SOSP'25](papers/mage.pdf)
 * Understanding memory performance: [ISCA'26](papers/bullettime.pdf), [ASPLOS'26](papers/counterpoint.pdf)
 
+Our work scalable cache coherence on disaggregated memory has been incorporated into [NVIDIA's Vera Rubin Architecture](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/#accelerated_scale-up_communications).
+
 </div>
 
 <div class="content-box" markdown="1">
@@ -140,8 +142,10 @@ You can find a full list of my publications [here](publications).
 
 **Systems for AI:** Today’s AI serving systems waste substantial time and resources because they treat requests as independent and unpredictable, even though real workloads contain rich recurring structure in both arrival patterns and prompt content. We are building cloud AI serving platforms that treat workload structure as a first-class systems primitive:
 
-* Scheduling for low-latency, high-throughput AI inference: [NSDI'23](papers/shepherd.pdf), [MobiSys'26](papers/timelyllm.pdf)
+* Scheduling for low-latency, high-throughput AI inference: [NSDI'23](papers/shepherd.pdf), [MobiSys'26](papers/timelyllm.pdf), [MobiSys'26](papers/timelyllm.pdf)
 * Caching attention state across prompts for low-latency inference: [MLSys'24](papers/promptcache.pdf)
+
+[PromptCache](papers/promptcache.pdf) has become the industry standard in Gemini, OpenAI, and Anthropic for reusing attention states across LLM prompts.
 
 </div>
 
