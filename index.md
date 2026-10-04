@@ -6,11 +6,8 @@ title: Anurag Khandelwal
 
 <div class="content-box" markdown="1">
 
-I am an Associate Professor at the [Department of Computer Science](https://cpsc.yale.edu/)
-at [Yale University](https://www.yale.edu/). My research interests span computer software 
-and hardware systems, networks, and security. My work addresses challenges in processing, 
-storing, and serving large volumes of data to empower real-world systems: from sprawling 
-internet services like social media to critical tools in health and medicine.
+I am an {{ site.data.profile.title }} at the [{{ site.data.profile.department }}]({{ site.data.profile.department_url }})
+at [{{ site.data.profile.institution }}]({{ site.data.profile.institution_url }}). {{ site.data.research_focus.summary }}
 
 _I am always looking for motivated graduate students and postdoctoral researchers!_
 
@@ -179,42 +176,8 @@ Our work scalable cache coherence on disaggregated memory has been incorporated 
 
 # Teaching
 
-<div class="content-box" markdown="1">
-
-**Operating Systems:**
-
-* [Spring 2024](https://courses.yale.edu/?details&srcdb=202401&crn=28089), [Spring 2025](https://courses.yale.edu/?details&srcdb=202501&crn=22577), [Spring 2026](https://courses.yale.edu/?details&srcdb=202601&crn=21079)
-
-</div>
-
-<div class="content-box" markdown="1">
-
-**Computer Networks:**
-
-* [Spring 2020](https://courses.yale.edu/?details&srcdb=202001&crn=20035), [Spring 2021](https://courses.yale.edu/?details&srcdb=202101&crn=21996), [Spring 2022](https://courses.yale.edu/?details&srcdb=202201&crn=20912)
-
-</div>
-
-<div class="content-box" markdown="1">
-
-**Big Data Systems:**
-
-* [Fall 2020](https://courses.yale.edu/?details&srcdb=202003&crn=12353), [Fall 2021](https://courses.yale.edu/?details&srcdb=202103&crn=11454). [Fall 2023](https://courses.yale.edu/?details&srcdb=202303&crn=17222), [Fall 2025](https://courses.yale.edu/?details&srcdb=202503&crn=10165)
-
-</div>
+{% include teaching.html %}
 
 # Service
 
-<div class="content-box" markdown="1">
-
-**Program Committees:**
-
-* 2026: EuroSys, SOSP
-* 2025: NSDI
-* 2024: OSDI, SOSP, EuroSys
-* 2023: CoNEXT (Poster Co-Chair), NSDI, EuroSys
-* 2022: NSDI, HotNets, EuroSys
-* 2021: JSys, NSDI
-* 2020: SIGCOMM (Poster/Demo, SRC), ASPLOS (EPC), NSDI
-
-</div>
+{% include service.html %}

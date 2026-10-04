@@ -1,0 +1,12 @@
+# This section contains one program and workshop. Add activities as plain list
+# items; duplicate this structure only if the CV gains another outreach block.
+# program: Program name
+# workshop: Workshop title
+# activities:
+#   - Role and date
+
+program: Yale Pathways to Science, Summer Scholars Program
+workshop: "Through the Clouds: An Introduction to Cloud Computing"
+activities:
+  - Instructor for 4-day workshop for high-school students (Summer 2021)
+  - Instructor for 1-day seminar for high-school students (Summer 2022)

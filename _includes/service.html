@@ -1,0 +1,10 @@
+<div class="content-box" markdown="1">
+
+**Program Committees:**
+
+{% assign events = site.data.community_service.organization | concat: site.data.community_service.editorial | concat: site.data.community_service.program_committees | concat: site.data.community_service.external_program_committees %}
+{% assign years = events | group_by: "year" | sort: "name" | reverse %}
+<ul>
+{% for year in years %}<li>{{ year.name }}: {% for event in year.items %}{{ event.venue }}{% if event.role %} ({{ event.role }}){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</li>{% endfor %}
+</ul>
+</div>

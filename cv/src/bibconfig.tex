@@ -1,0 +1,81 @@
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{
+      \step[fieldsource=award, fieldtarget=usera]
+    }
+  }
+}
+\addbibresource{../../_bibliography/papers.bib}
+
+\newcommand{\cvbiblinebreak}{\\[-0.05\baselineskip]}
+\renewcommand*{\mkbibquote}[1]{#1}
+
+\DeclareNameAlias{default}{given-family}
+\DeclareFieldFormat{title}{#1}
+\DeclareFieldFormat[article]{title}{#1}
+\DeclareFieldFormat[inproceedings]{title}{#1}
+\DeclareFieldFormat[book]{title}{#1}
+\DeclareFieldFormat{usera}{#1}
+\DeclareFieldFormat{note}{#1}
+
+\newbibmacro*{cv:title}{%
+  \printtext{\textcolor{teal}{\printfield[title]{title}}}}
+\newbibmacro*{cv:authors}{%
+  \printnames{author}}
+\newbibmacro*{cv:venue+date}{%
+  \iffieldundef{booktitle}
+    {\printfield{journaltitle}}
+    {\printfield{booktitle}}%
+  \setunit{\addcomma\space}\printfield{year}}
+\newbibmacro*{cv:note}{%
+  \iffieldundef{note}
+    {}
+    {\printfield{note}}}
+\newbibmacro*{cv:award}{%
+  \iffieldundef{usera}
+    {}
+    {\printtext{\textcolor{blue}{\printfield{usera}}}}}
+\newbibmacro*{cv:entry}{%
+  \usebibmacro{cv:title}%
+  \ifnameundef{author}
+    {}
+    {\cvbiblinebreak\usebibmacro{cv:authors}}%
+  \iffieldundef{booktitle}
+    {\iffieldundef{journaltitle}
+      {}
+      {\cvbiblinebreak\usebibmacro{cv:venue+date}}}
+    {\cvbiblinebreak\usebibmacro{cv:venue+date}}%
+  \iffieldundef{note}
+    {}
+    {\cvbiblinebreak\usebibmacro{cv:note}}%
+  \iffieldundef{usera}
+    {}
+    {\cvbiblinebreak\usebibmacro{cv:award}}}
+
+\DeclareBibliographyDriver{inproceedings}{%
+  \usebibmacro{cv:entry}%
+  \usebibmacro{finentry}}
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{cv:entry}%
+  \usebibmacro{finentry}}
+\DeclareBibliographyDriver{book}{%
+  \usebibmacro{cv:title}%
+  \ifnameundef{author}
+    {}
+    {\cvbiblinebreak\usebibmacro{cv:authors}}%
+  \iffieldundef{publisher}
+    {}
+    {\cvbiblinebreak\printfield{publisher}%
+     \setunit{\addcomma\space}\printfield{year}}%
+  \iffieldundef{note}
+    {}
+    {\cvbiblinebreak\usebibmacro{cv:note}}%
+  \iffieldundef{usera}
+    {}
+    {\cvbiblinebreak\usebibmacro{cv:award}}%
+  \usebibmacro{finentry}}
+\DeclareCiteCommand{\cvbibentry}
+  {}
+  {\usedriver{}{\thefield{entrytype}}}
+  {\multicitedelim}
+  {}

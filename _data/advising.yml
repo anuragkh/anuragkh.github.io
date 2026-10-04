@@ -1,0 +1,94 @@
+# Add people under the appropriate group using this template:
+# - name: Full Name                  # required
+#   url: https://example.com/        # optional
+#   start: 2026                      # optional; omit if unknown
+#   end: 2030                        # optional; omit while current
+#   period: Fall 2026                # optional alternative to start/end
+#   status: current                  # current or past
+#   coadvisor: Co-advisor Name       # optional
+#   coadvisor_url: https://...       # optional
+#   destination: Position at Place   # optional; used by both CV and website
+
+postdocs:
+  - name: Seung-seob Lee
+    url: https://www.seungseoblee.com/blog/
+    start: 2020
+    status: current
+    coadvisor: Lin Zhong
+    coadvisor_url: http://www.linzhong.org/
+
+# Entries are ordered as they should appear in the CV. The website separates
+# current and past students using status while preserving this order.
+phd:
+  - name: Grace Jia
+    url: https://gjia25.github.io/
+    start: 2022
+    status: current
+
+  - name: Mahdi Soleimani
+    start: 2023
+    status: current
+
+  - name: Yash Lala
+    url: https://yashlala.com/
+    start: 2023
+    status: current
+
+  - name: Stephen Chien
+    start: 2026
+    status: current
+
+  - name: Yanpeng Yu
+    url: https://yanpeng-yu.com/
+    start: 2021
+    end: 2026
+    status: past
+    coadvisor: Lin Zhong
+    coadvisor_url: http://www.linzhong.org
+    destination: Research Scientist at Databricks
+
+  - name: Yupeng Tang
+    url: https://yupengtang.com/
+    start: 2020
+    end: 2024
+    status: past
+    destination: Research Scientist at Meta Research
+
+masters:
+  - name: Jachym Putta
+    start: 2023
+    end: 2025
+    status: past
+    destination: TechOps Engineer at DE Shaw
+
+  - name: Leo Li
+    status: past
+    destination: PhD at Yale
+
+# All undergraduate researchers appear in the CV. Those with a URL are also
+# highlighted on the website's lab page.
+undergraduates:
+  - { name: Rylan Yang, period: 2025 }
+  - { name: Pax Ryan, period: 2025 }
+  - { name: Rohan Thakur, period: 2025-26 }
+  - { name: Michael Tu, period: 2024 }
+  - { name: Troy Feng, period: 2023 }
+  - { name: Raymond Yang, period: 2023 }
+  - name: Ziming Mao
+    url: https://maoziming.github.io/
+    period: 2021-24
+    destination: PhD at UC Berkeley
+  - { name: Gabriel Buchdahl, period: 2022-23 }
+  - { name: Jachym Putta, period: 2022-23 }
+  - { name: Adit Gupta, period: 2022-23 }
+  - { name: Yuxuan Chen, period: 2022 }
+  - { name: Eli Sage-Martinson, period: 2022 }
+  - { name: Stanley Wong, period: 2022 }
+  - { name: Daniel Li, period: 2021-22 }
+  - { name: Brian Liu, period: 2021 }
+  - { name: Alan Chen, period: 2021 }
+  - { name: Jonathan Kraft, period: 2021 }
+  - { name: Eric Chang, period: 2020 }
+  - name: Jeff Ma
+    url: https://jeff.junzema.com/
+    destination: PhD at University of Michigan

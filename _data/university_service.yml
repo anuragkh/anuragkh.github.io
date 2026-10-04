@@ -1,0 +1,9 @@
+# Add a service item using this template:
+# - role: Committee or council
+#   periods: [2025-26, 2024]
+
+- role: Yale Quantitative Reasoning Council
+  periods: [2025-26]
+
+- role: Yale College Dean's Fellowship Review Committee
+  periods: [2026, 2024]

@@ -1,0 +1,9 @@
+{% for course in site.data.teaching %}
+<div class="content-box" markdown="1">
+
+**{{ course.name }}:**
+
+* {% for offering in course.offerings reversed %}[{{ offering.term }}]({{ offering.url }}){% unless forloop.last %}, {% endunless %}{% endfor %}
+
+</div>
+{% endfor %}

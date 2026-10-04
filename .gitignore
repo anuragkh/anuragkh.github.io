@@ -10,6 +10,5 @@ Gemfile.lock
 *.bak
 
 # CV Files
-cv/src
 cv/build
-cv/Makefile
+cv/generated

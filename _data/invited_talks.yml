@@ -1,0 +1,58 @@
+# Add a talk using this template:
+# - title: Talk title
+#   appearances:
+#     - venue: Institution or event
+#       date: Month YEAR
+#       note: Optional context
+
+- title: Performant Shared Disaggregated Memory
+  appearances:
+    - { venue: Carnegie Mellon University, date: November 2025 }
+    - { venue: University of Washington, date: October 2025 }
+    - { venue: University of Texas--Austin, date: October 2025 }
+    - { venue: Princeton University, date: October 2025 }
+    - { venue: University of Pennsylvania, date: October 2025 }
+    - { venue: Massachusetts Institute of Technology, date: September 2025 }
+    - { venue: New York University, date: March 2025 }
+    - { venue: Brown University, date: March 2025 }
+    - { venue: "NSF AI Institute Showcase, Duke University", date: August 2024 }
+    - { venue: Microsoft Research, date: August 2024 }
+    - { venue: AMD Research, date: April 2024 }
+
+- title: In-Network Memory Management for Disaggregated Data Centers
+  appearances:
+    - { venue: "NSF AI Institute Showcase, Duke University", date: August 2022 }
+    - { venue: Cornell University, date: November 2021 }
+    - { venue: VMWare, date: November 2021 }
+    - { venue: Columbia University, date: October 2021 }
+
+- title: "Jiffy: Ephemeral Storage for Serverless Analytics"
+  appearances:
+    - { venue: Facebook, date: March 2021 }
+    - { venue: Intel, date: March 2021 }
+
+- title: Serverless streaming architectures & algorithms for the enterprise
+  appearances:
+    - venue: Global STAC Live
+      date: October 2020
+      note: Industry conference for industry leaders in technology.
+    - venue: Strata Data Conference
+      date: September 2019
+      note: Industry conference of over 5000 companies.
+
+- title: Building Interactive Query Systems
+  appearances:
+    - { venue: Yale University, date: April 2019 }
+    - { venue: Purdue University, date: March 2019 }
+    - { venue: "Microsoft Research, Redmond", date: March 2019 }
+    - { venue: "Microsoft Research, Cambridge (UK)", date: March 2019 }
+
+- title: Realtime Monitoring and Analysis with Confluo
+  appearances:
+    - { venue: "Splunk, San Francisco", date: February 2018 }
+
+- title: "Succinct: Enabling Queries on Compressed Data"
+  appearances:
+    - { venue: "SF Big Analytics Meetup, San Francisco", date: September 2016 }
+    - { venue: "Bay Area AI Meetup, San Francisco", date: September 2016 }
+    - { venue: "Cloudera, San Fransisco", date: June 2016 }

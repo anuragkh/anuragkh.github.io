@@ -1,0 +1,17 @@
+# Add a degree using this template:
+# - institution: University Name
+#   degree: Degree and field
+#   start: 2020
+#   end: 2026
+#   advisor: Prof. Advisor Name  # optional
+
+- institution: University of California Berkeley
+  degree: PhD in Computer Science
+  start: 2013
+  end: 2019
+  advisor: Prof. Ion Stoica
+
+- institution: Indian Institute of Technology, Kharagpur
+  degree: B. Tech. in Computer Science and Engineering
+  start: 2009
+  end: 2013

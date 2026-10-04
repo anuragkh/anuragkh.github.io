@@ -1,0 +1,31 @@
+# Add a service item using one of these templates:
+# - role: Committee or activity
+#   detail: Years or short description
+# - role: Committee
+#   members: [Name (year), Name (year)]
+
+- role: Chair, Colloquium Committee
+  detail: Fall 2021
+
+- role: CS Undergraduate Advisor
+  detail: 2021-22 (Freshman/Sophomore), 2024-25 (Junior), 2025-26 (Junior)
+
+- role: Yale CS Research Internship Program
+  detail: Created and led the program (2021-25)
+
+- role: Faculty Hiring Committee
+  detail: 2025 (Database Systems Area Search)
+
+- role: PhD Admissions Committee
+  detail: 2020, 2021, 2022, 2023, 2024, 2025, 2026
+
+- role: Summer Systems Seminars
+  detail: 2020, 2021, 2022
+
+- role: PhD Thesis Committee
+  members:
+    - Bo Hu (2021)
+    - Karthik Sriram (2023)
+    - Yupeng Tang (2024)
+    - Yanpeng Yu (2026)
+    - Nick Lindsay (2026)

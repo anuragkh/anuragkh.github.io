@@ -1,0 +1,31 @@
+\hypersetup{
+  colorlinks=true,      % false: boxed links; true: colored links
+  linkcolor=blue,       % color of internal links
+  citecolor=blue,       % color of links to bibliography
+  filecolor=blue,       % color of file links
+  urlcolor=blue         % color of external links
+}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\Hrule}{\rule{\linewidth}{0.3mm}}
+
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \parindent=0pt% don't indent paragraphs in the title block
+  \centering
+  {\Large \bfseries\textsc{\cvname}\par}
+  {\normalsize \cvtitle, \cvinstitution\par}
+  {Email: \href{mailto:\cvemail}{\texttt{\cvemail}}\hspace{2em} Website: \href{\cvwebsite}{\texttt{\cvwebsite}}}
+  \HRule\par%
+  \textit{\@author \hfill \@date}
+  \par
+  \vspace{1em}
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+\title{}
+\author{}
+\date{}
+
+% Hide printed page numbers while keeping unique page anchors for hyperref/biblatex.
+\pagestyle{empty}

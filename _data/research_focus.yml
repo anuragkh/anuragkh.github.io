@@ -1,0 +1,7 @@
+# Update the summary as a normal folded paragraph; LaTeX and HTML handle line
+# wrapping automatically.
+summary: >-
+  My research interests span computer software and hardware systems, networks,
+  and security. My work addresses challenges in processing, storing, and
+  serving large volumes of data to empower real-world systems: from sprawling
+  internet services like social media to critical tools in health and medicine.

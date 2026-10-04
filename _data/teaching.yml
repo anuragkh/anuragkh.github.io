@@ -1,0 +1,73 @@
+# Add a course using this template:
+# - name: Course title
+#   number: CPSC 000/000
+#   offerings:
+#     - term: Fall 2026
+#       url: https://courses.yale.edu/...
+#       role: Course Director
+#       lectures: 24
+#       enrollment: 40
+#       number: CPSC 000  # optional override when the number changed
+
+- name: Operating Systems
+  number: CPSC422/522
+  offerings:
+    - term: Spring 2026
+      url: https://courses.yale.edu/?details&srcdb=202601&crn=21079
+      role: Course Director
+      lectures: 24
+      enrollment: 36
+    - term: Spring 2025
+      url: https://courses.yale.edu/?details&srcdb=202501&crn=22577
+      role: Course Director
+      lectures: 24
+      enrollment: 34
+    - term: Spring 2024
+      url: https://courses.yale.edu/?details&srcdb=202401&crn=28089
+      role: Course Director
+      lectures: 24
+      enrollment: 44
+
+- name: Computer Networks
+  number: CPSC433/533
+  offerings:
+    - term: Spring 2022
+      url: https://courses.yale.edu/?details&srcdb=202201&crn=20912
+      role: Course Director
+      lectures: 24
+      enrollment: 39
+    - term: Spring 2021
+      url: https://courses.yale.edu/?details&srcdb=202101&crn=21996
+      role: Course Director
+      lectures: 24
+      enrollment: 34
+    - term: Spring 2020
+      url: https://courses.yale.edu/?details&srcdb=202001&crn=20035
+      role: Course Director
+      lectures: 24
+      enrollment: 44
+
+- name: Big Data Systems
+  number: CPSC 438/538
+  offerings:
+    - term: Fall 2025
+      url: https://courses.yale.edu/?details&srcdb=202503&crn=10165
+      role: Course Director
+      lectures: 26
+      enrollment: 51
+    - term: Fall 2023
+      url: https://courses.yale.edu/?details&srcdb=202303&crn=17222
+      role: Course Director
+      lectures: 26
+      enrollment: 18
+    - term: Fall 2021
+      url: https://courses.yale.edu/?details&srcdb=202103&crn=11454
+      role: Course Director
+      lectures: 26
+      enrollment: 16
+    - term: Fall 2020
+      url: https://courses.yale.edu/?details&srcdb=202003&crn=12353
+      role: Course Director
+      lectures: 26
+      enrollment: 3
+      number: CPSC 638

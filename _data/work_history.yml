@@ -1,0 +1,29 @@
+# Add an employer and one or more positions using this template:
+# - institution: University or organization
+#   unit: Department or division  # optional
+#   positions:
+#     - title: Position title
+#       start: 2026
+#       end: Present
+#       period: Fall 2026         # optional alternative to start/end
+
+- institution: Yale University
+  unit: Department of Computer Science
+  positions:
+    - title: Associate Professor
+      start: 2026
+      end: Present
+    - title: Assistant Professor
+      start: 2020
+      end: 2026
+
+- institution: Cornell University
+  unit: Department of Computer Science (New York Campus)
+  positions:
+    - title: Postdoctoral Associate
+      period: Fall 2019
+
+- institution: Microsoft Research
+  positions:
+    - title: Summer Research Intern
+      period: 2014 and 2012

@@ -4,14 +4,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    {% if page.title == "Anurag Khandelwal" %}
+    {% if page.title == site.data.profile.name %}
     <title>{{ page.title }}</title>
     {% else %}
-    <title>{{ page.title }} | Anurag Khandelwal</title>
+    <title>{{ page.title }} | {{ site.data.profile.name }}</title>
     {% endif %}
-    <meta name="description" content="The academic webpage of Anurag Khandelwal.">
+    <meta name="description" content="The academic webpage of {{ site.data.profile.name }}.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="msapplication-tooltip" content="Anurag Khandelwal academic webpage">
+    <meta name="msapplication-tooltip" content="{{ site.data.profile.name }} academic webpage">
     <meta name="color-scheme" content="light dark">
 
     <script>
@@ -56,7 +56,7 @@
       <header>
         <center>
           <h1>
-            <a href="/">Anurag<b>Khandelwal</b></a>
+            <a href="/">{{ site.data.profile.name | replace: ' ', '<b>' }}</b></a>
           </h1>
           <div class="img-frame"><img src="{{ base }}/images/me.jpg" width="180" height="180"/></div>
           {% comment %} External Links {% endcomment %}
@@ -68,9 +68,9 @@
             <li><a href="/bio">Bio</a></li>
           </ul>
           <div class="social-icons">
-            <a href="https://github.com/anuragkh" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="mailto:anurag.khandelwal@yale.edu" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="https://scholar.google.com/citations?user=LlfHFqUAAAAJ&hl=en" target="_blank" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+            <a href="{{ site.data.profile.github }}" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:{{ site.data.profile.email }}" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="{{ site.data.profile.scholar }}" target="_blank" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
           </div>
         </center>
       </header>

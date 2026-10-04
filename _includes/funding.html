@@ -1,0 +1,4 @@
+<div class="content-box">
+  {% assign organizations = site.data.funding | group_by: "organization" %}
+  <p>Our research is supported by generous awards from {% for organization in organizations %}{% if organization.name == "NSF" %}NSF ({% assign nsf_awards = organization.items | where_exp: "grant", "grant.award_number" %}{% for grant in nsf_awards %}<a href="{{ grant.url }}">{{ grant.award_number }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}){% else %}{{ organization.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}.</p>
+</div>

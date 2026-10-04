@@ -1,0 +1,109 @@
+# Add funding using this template:
+# - organization: Funding organization
+#   source: Funding agency and program
+#   project: Project or fellowship title    # optional for named awards
+#   award_number: 1234567                   # optional
+#   url: https://example.com/award/1234567 # optional
+#   period: 2026-29
+#   amount: "$500,000"
+#   principal_investigator: Full Name
+#   co_investigators: [Full Name, Full Name]  # optional
+#   note: Additional context                 # optional
+#   allocation: "$100,000 to Recipient"      # optional
+
+- organization: NSF
+  source: "NSF SaTC"
+  project: Fortifying and Enriching Confidential Computing Environments
+  award_number: 2444660
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2444660
+  period: 2025-28
+  amount: "$900,000"
+  principal_investigator: Anurag Khandelwal
+  co_investigators: [Lin Zhong, Seung-seob Lee]
+
+- organization: NetApp
+  source: NetApp Faculty Fellowship
+  project: AI-Native Vector Storage and Indexing
+  period: 2024-25
+  amount: "$117,686"
+  principal_investigator: Anurag Khandelwal
+
+- organization: Yale Engineering
+  source: Yale Engineering AI Seed Grant
+  project: Brain-Inspired Memory Systems for AI Infrastructure
+  period: 2024-25
+  amount: "$150,000"
+  principal_investigator: Abhishek Bhattacharjee
+  co_investigators: [Anurag Khandelwal]
+
+- organization: Roberts Innovation Fund
+  source: Roberts Innovation Fund
+  project: Disaggregated Edge Clouds
+  period: 2023-24
+  amount: "$50,000"
+  principal_investigator: Anurag Khandelwal
+
+- organization: NSF
+  source: NSF RINGS
+  project: Intelligent and Resilient Virtualization of Massive MIMO Physical Layer
+  award_number: 2147946
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2147946
+  period: 2022-25
+  amount: "$1,000,000"
+  principal_investigator: Lin Zhong
+  co_investigators: [Anurag Khandelwal]
+
+- organization: Swebilius Foundation
+  source: Swebilius Foundation Award
+  project: Systems for Brain Data Acquisition and Analytics over Multiple Modalities and Time-Scales
+  period: 2022
+  amount: "$16,000"
+  principal_investigator: Abhishek Bhattacharjee
+  co_investigators: [Anurag Khandelwal, Rajit Manohar]
+
+- organization: NSF
+  source: NSF AI Institute
+  project: Edge Computing Leveraging Next Generation Networks
+  award_number: 2112562
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2112562
+  period: 2021-26
+  amount: "$20,000,000"
+  note: Multi-institution, multi-PI grant
+  allocation: "$575,000 to Khandelwal"
+
+- organization: NSF
+  source: "NSF PPoSS Planning"
+  project: High-Performance Certified Trust for Global-Scale Applications
+  award_number: 2118851
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118851
+  period: 2021-22
+  amount: "$250,000"
+  principal_investigator: Zhong Shao
+  co_investigators: [Abhishek Bhattacharjee, Anurag Khandelwal, Lin Zhong]
+
+- organization: NSF
+  source: "NSF SaTC"
+  project: Mixed Distribution Models for Encrypted Data Stores
+  award_number: 2054957
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054957
+  period: 2021-25
+  amount: "$1,000,000"
+  principal_investigator: Anurag Khandelwal
+  co_investigators: [Rachit Agarwal, Thomas Ristenpart]
+
+- organization: NetApp
+  source: NetApp Faculty Fellowship
+  project: A Unified Data Stack for Next-Generation IoT Systems
+  period: 2021
+  amount: "$50,000"
+  principal_investigator: Anurag Khandelwal
+  co_investigators: [Abhishek Bhattacharjee]
+
+- organization: NSF
+  source: NSF CAREER
+  project: In-Network Memory Management for Disaggregated Datacenters
+  award_number: 2047220
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220
+  period: 2021-26
+  amount: "$626,647.00"
+  principal_investigator: Anurag Khandelwal

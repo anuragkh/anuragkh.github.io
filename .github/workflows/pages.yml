@@ -30,6 +30,18 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
+      - name: Generate CV sources
+        run: ruby scripts/generate_cv.rb
+
+      - name: Build CV
+        uses: xu-cheng/latex-action@v4
+        with:
+          working_directory: cv
+          root_file: src/cv.tex
+
+      - name: Stage CV for the website
+        run: cp cv/src/cv.pdf cv/cv.pdf
+
       - name: Install dependencies
         run: bundle install
 

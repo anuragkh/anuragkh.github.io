@@ -15,58 +15,8 @@ can find all of our project repositories on [GitHub](https://github.com/yale-nov
 
 # Members
 
-<div class="content-box" markdown="1">
-
-**Postdocs:**
-
-* [Seung-seob Lee](https://www.seungseoblee.com/blog/) (with [Lin Zhong](http://www.linzhong.org/))
-
-</div>
-
-<div class="content-box" markdown="1">
-
-**PhD Students:**
-
-Current:
-
-* [Stephen Chien]()
-* [Grace Jia](https://gjia25.github.io/)
-* [Mahdi Soleimani]()
-* [Yash Lala](https://yashlala.com/)
-
-Past:
-
-* [Yanpeng Yu](https://yanpeng-yu.com/) (with [Lin Zhong](http://www.linzhong.org)) -> Databricks
-* [Yupeng Tang](https://yupengtang.com/) -> Meta Research
-
-</div>
-
-<div class="content-box" markdown="1">
-
-**Masters Students:**
-
-Past:
-
-* [Jachym Putta]() -> DE Shaw
-* [Leo Li]() -> Yale (PhD)
-
-</div>
-
-<div class="content-box" markdown="1">
-
-**Undergraduates:**
-
-Past:
-
-* [Jeff Ma](https://jeff.junzema.com/) -> PhD, U. Michigan
-* [Ziming Mao](https://maoziming.github.io/) -> PhD, UC Berkeley
-
-</div>
+{% include advising.html %}
 
 # Funding
 
-<div class="content-box" markdown="1">
-
-Our research is supported by NSF (SaTC#, RINGS#, AI Institute#, PPoSS Planning#, SaTC# and CAREER#), NetApp Faculty Fellowships and Roberts Innovation Fund.
-
-</div>
+{% include funding.html %}

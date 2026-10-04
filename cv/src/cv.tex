@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,10pt,oneside]{article}
+\input{src/packages}
+\input{generated/profile}%
+\input{src/environs}
+\input{src/bibconfig}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+
+\maketitle
+
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+
+\noindent \begin{tabular}{@{} l l}
+\input{generated/education}%
+\input{generated/work_history}%
+\input{generated/awards_honors}%
+\end{tabular}
+
+\newpage
+
+%%%%%%%%%%%%%%%%% RESEARCH %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \begin{tabular}{@{} l p{6.5in}}
+\input{generated/research_focus}%
+\input{generated/research_impact}%
+\end{tabular}
+\vspace{-\baselineskip}
+
+\noindent \begin{tabular}{@{} l l}
+\Large{Publications} & \\
+\end{tabular}
+
+\vspace{1em}
+\noindent
+\Large{Conferences \& Workshops}
+{\normalsize
+\begin{enumerate}[label={[C\arabic*]}, itemsep=0pt]
+    \item \cvbibentry{soul}
+    \item \cvbibentry{bullettime}
+    \item \cvbibentry{timelyllm}
+    \item \cvbibentry{counterpoint}
+    \item \cvbibentry{spirit}
+    \item \cvbibentry{mage}
+    \item \cvbibentry{fit}
+    \item \cvbibentry{weave}
+    \item \cvbibentry{cord}
+    \item \cvbibentry{pulse}
+    \item \cvbibentry{elasticmimo}
+    \item \cvbibentry{length-leakage}
+    \item \cvbibentry{scalo-toppicks}
+    \item \cvbibentry{promptcache}
+    \item \cvbibentry{trinity}
+    \item \cvbibentry{karma}
+    \item \cvbibentry{cls}
+    \item \cvbibentry{scalo}
+    \item \cvbibentry{shepherd}
+    \item \cvbibentry{shortstack}
+    \item \cvbibentry{jiffy}
+    \item \cvbibentry{mind}
+    \item \cvbibentry{serverless-next}
+    \item \cvbibentry{caerus}
+    \item \cvbibentry{pancake}
+    \item \cvbibentry{sigmodserverless}
+    \item \cvbibentry{confluo}
+    \item \cvbibentry{zipg}
+    \item \cvbibentry{blowfish}
+    \item \cvbibentry{succinct}
+\end{enumerate}
+}
+
+\vspace{1em}
+\noindent
+\Large{Theses}
+{\normalsize
+\begin{enumerate}[label={[T\arabic*]}, itemsep=0pt]
+    \item \cvbibentry{phdthesis}
+\end{enumerate}
+}
+
+\vspace{1em}
+\noindent
+\Large{Technical Reports}
+{\normalsize
+\begin{enumerate}[label={[R\arabic*]}, itemsep=0pt]
+    \item \cvbibentry{berkeley-view-serverless}
+    \item \cvbibentry{attacking-dcn}
+\end{enumerate}
+}
+
+\vspace{1em}
+\noindent
+\Large{Preprints}
+{\normalsize
+\begin{enumerate}[label={[P\arabic*]}, itemsep=0pt]
+    \item \cvbibentry{metro}
+    \item \cvbibentry{crepe}
+\end{enumerate}
+\vspace{1em}
+}
+
+{\normalsize
+\noindent \begin{tabular}{@{} l l}
+\input{generated/invited_talks}%
+\input{generated/funding}%
+\input{generated/teaching}%
+\input{generated/advising}%
+\input{generated/education_outreach}%
+\end{tabular}
+}
+
+{\normalsize
+\noindent \begin{tabular}{@{} l l}
+\input{generated/community_service}%
+\input{generated/university_service}%
+\input{generated/department_service}%
+\end{tabular}
+}
+\end{document}

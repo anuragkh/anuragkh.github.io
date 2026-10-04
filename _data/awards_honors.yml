@@ -1,0 +1,46 @@
+# Add an award using one of these templates:
+# - name: Award Name, Organization YEAR
+#   work: "Associated paper or project title"  # rendered as a title
+# - name: Award Name, Organization YEAR
+#   description: Short explanation of the award
+# Both work and description may be used when introductory text is needed.
+
+- name: Best Paper Award, ACM ASPLOS 2026
+  work: "CounterPoint: Using Hardware Event Counters to Refute & Refine Microarchitectural Assumptions"
+
+- name: Best Paper Award Runner-Up, Best Artifact Award Runner-Up, ACM MobiSys 2026
+  work: "TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents"
+
+- name: IEEE MICRO's Top-picks in Computer Architecture, 2025
+  work: "CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering"
+
+- name: Distinguished Artifact Award, ACM ISCA 2025
+  work: "CORD: Low-Latency, Bandwidth-Efficient and Scalable Release Consistency via Directory Ordering"
+
+- name: NetApp Faculty Fellowship, 2024
+  description: To develop GPU-native vector storage and indexing for accelerating AI workloads.
+
+- name: Best Student Paper Award, ACM EuroSys 2024
+  work: "TRINITY: A Fast Compressed Multi-attribute Data Store"
+
+- name: IEEE MICRO's Top-picks in Computer Architecture, 2023
+  work: "SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfaces"
+
+- name: Best Paper Award, ACM ISCA 2023
+  work: "SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfaces"
+
+- name: Roberts Innovation Award, 2023
+  description: For innovations in data center resource disaggregation.
+
+- name: NSF CAREER Award, 2021
+  description: For developing in-network memory management for disaggregated data centers.
+
+- name: NetApp Faculty Fellowship, 2021
+  description: For developing elastic and compressed disaggregated memory for edge data centers.
+
+- name: Distinguished Paper Award, USENIX Security 2020
+  description: For paper
+  work: "Pancake: Frequency Smoothing for Encrypted Data Stores"
+
+- name: Madan Sundar Sahu Scholarship 2010, 2011, Indian Institute of Technology, Kharagpur
+  description: For outstanding academic performance during 2009-2010 and 2010-2011.

@@ -1,0 +1,47 @@
+# Add service using the matching template:
+# organization/editorial/external_program_committees:
+#   - { venue: Venue, year: 2026, role: Role, url: "https://..." }
+# program_committees:
+#   - { venue: Venue, year: 2026, url: "https://..." }
+# panels:
+#   - { sponsor: Sponsor, note: Public description }
+
+organization:
+  - venue: CoNEXT
+    year: 2023
+    role: Poster Co-Chair
+    url: https://conferences.sigcomm.org/co-next/2023/#!/committee
+
+program_committees:
+  - { venue: EuroSys, year: 2027, url: "https://2027.eurosys.org/pc.html" }
+  - { venue: NSDI, year: 2026, url: "https://www.usenix.org/conference/nsdi26/call-for-papers" }
+  - { venue: SOSP, year: 2026, url: "https://sigops.org/s/conferences/sosp/2026/organizers.html" }
+  - { venue: EuroSys, year: 2025, url: "https://2025.eurosys.org/pc.html" }
+  - { venue: OSDI, year: 2025, url: "https://www.usenix.org/conference/osdi25/call-for-papers" }
+  - { venue: SOSP, year: 2024, url: "https://sigops.org/s/conferences/sosp/2024/organizers.html" }
+  - { venue: NSDI, year: 2023, url: "https://www.usenix.org/conference/nsdi23/call-for-papers" }
+  - { venue: EuroSys, year: 2023, url: "https://2023.eurosys.org/pc.html" }
+  - { venue: NSDI, year: 2022, url: "https://www.usenix.org/conference/nsdi22/call-for-papers" }
+  - { venue: HotNets, year: 2022, url: "https://conferences.sigcomm.org/hotnets/2022/committee.html" }
+  - { venue: NSDI, year: 2021, url: "https://www.usenix.org/conference/nsdi21/call-for-papers" }
+  - venue: SIGCOMM
+    year: 2020
+    role: Poster/Demo, SRC
+    url: https://conferences.sigcomm.org/sigcomm/2020/cf-posters.html
+  - { venue: NSDI, year: 2020 }
+
+editorial:
+  - venue: JSys
+    year: 2021
+    role: Editorial Board (Serverless Area)
+    url: https://www.jsys.org/cfp_serverless/
+
+external_program_committees:
+  - venue: ASPLOS
+    year: 2021
+    role: EPC
+    url: https://asplos-conference.org/
+
+panels:
+  - sponsor: NSF
+    note: Undisclosed due to participant confidentiality.
