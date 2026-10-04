@@ -34,13 +34,16 @@ jobs:
         run: ruby scripts/generate_cv.rb
 
       - name: Build CV
-        uses: xu-cheng/latex-action@v4
+        uses: xu-cheng/texlive-action@v3
         with:
-          working_directory: cv
-          root_file: src/cv.tex
-
-      - name: Stage CV for the website
-        run: cp cv/src/cv.pdf cv/cv.pdf
+          run: |
+            cd cv
+            mkdir -p build
+            pdflatex -output-directory=build src/cv.tex
+            biber --input-directory build --output-directory build cv
+            pdflatex -output-directory=build src/cv.tex
+            pdflatex -output-directory=build src/cv.tex
+            cp build/cv.pdf cv.pdf
 
       - name: Install dependencies
         run: bundle install
