@@ -949,6 +949,10 @@ html[data-theme="dark"] .img-frame img {
     gap: 0 0.4rem;
   }
 
+  .site-nav li + li {
+    margin-top: 0;
+  }
+
   .site-nav a {
     margin-left: 0;
     padding: 0.35rem 0.55rem;
