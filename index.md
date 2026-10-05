@@ -1,26 +1,34 @@
 ---
 layout: default
 title: Anurag Khandelwal
+seo_title: Anurag Khandelwal | Computer Systems Researcher at Yale
+description: Anurag Khandelwal is a Yale computer science professor researching distributed systems, computer networks, security, disaggregated memory, and AI infrastructure.
+schema_type: ProfilePage
+og_type: profile
 ---
-# About
+# {{ site.data.profile.name }}
+{: .page-title}
+
+{{ site.data.profile.title }} of {{ site.data.profile.department | remove_first: "Department of " }} at {{ site.data.profile.institution }}
+{: .page-lede}
 
 <div class="content-box" markdown="1">
 
-I am an {{ site.data.profile.title }} at the [{{ site.data.profile.department }}]({{ site.data.profile.department_url }})
+I lead the [NOVA Lab](/group/) in the [{{ site.data.profile.department }}]({{ site.data.profile.department_url }})
 at [{{ site.data.profile.institution }}]({{ site.data.profile.institution_url }}). {{ site.data.research_focus.summary }}
 
 _I am always looking for motivated graduate students and postdoctoral researchers!_
 
 </div>
 
-# Recent News
+## Recent News
 
 <div class="content-box" markdown="1">
 
 **[2026]**
 
 * [Yanpeng](https://yanpeng-yu.com) successfully defended his Thesis! Congratulations Dr. Yu!
-* [CORD](papers/cord.pdf) selected for inclusion in [IEEE Micro's Top Picks in Computer Architecture in 2025]()!
+* [CORD](papers/cord.pdf) selected for inclusion in IEEE Micro's Top Picks in Computer Architecture in 2025!
 * [BulletTime](papers/bullettime.pdf) accepted to ISCA'26!
 * [Soul](papers/soul.pdf) accepted to OSDI'26!
 * [TimelyLLM](papers/timelyllm.pdf) accepted to MobiSys'26, wins [Best Paper Award Runner-Up](https://www.sigmobile.org/mobisys/2026/awards/) and [Best Artifact Award Runner-Up](https://www.sigmobile.org/mobisys/2026/awards/)!
@@ -36,14 +44,14 @@ _I am always looking for motivated graduate students and postdoctoral researcher
 * [Spirit](papers/spirit.pdf) and [Mage](papers/mage.pdf) accepted to SOSP'25!
 * [Found In Translation](papers/fit.pdf) accepted to USENIX Security'25!
 * [Weave](papers/weave.pdf) accepted to OSDI'25!
-* [CORD](papers/cord.pdf) accepted to ISCA'25, wins [Distinguished Artifact Award]()!
+* [CORD](papers/cord.pdf) accepted to ISCA'25, wins Distinguished Artifact Award!
 * [PULSE](papers/pulse.pdf) accepted to ASPLOS'25!
 
 </div>
 
 <details class="animated-details" markdown=1>
 
-<summary style="list-style-type: none;"><b><a style="cursor: pointer;">[Older News]</a></b></summary>
+<summary><b>[Older News]</b></summary>
 
 <div class="details-panel">
 <div class="content-box" markdown="1">
@@ -55,7 +63,7 @@ _I am always looking for motivated graduate students and postdoctoral researcher
 * [Length leakage in oblivious storage](papers/length-leakage.pdf) accepted to USENIX Security'24!
 * [Trinity](papers/trinity.pdf) accepted to EuroSys'24, wins [Best Student Paper Award](https://2024.eurosys.org/awards.html)! Congratulations [Ziming Mao](https://maoziming.github.io/)!
 * [PromptCache](papers/promptcache.pdf) accepted to MLSys'24!
-* [SCALO](papers/scalo.pdf) selected for inclusion in [IEEE Micro's Top Picks in Computer Architecture in 2023]()!
+* [SCALO](papers/scalo.pdf) selected for inclusion in [IEEE Micro's Top Picks in Computer Architecture in 2023](papers/scalo-toppicks/)!
 
 </div>
 
@@ -109,9 +117,9 @@ _I am always looking for motivated graduate students and postdoctoral researcher
 
 </details>
 
-# Research
+## Research
 
-You can find a full list of my publications [here](publications).
+Browse the [full list of publications](/publications/), or read about the main research directions below.
 
 <div class="content-box" markdown="1">
 
@@ -120,9 +128,9 @@ You can find a full list of my publications [here](publications).
 * Scalable cache coherence for disaggregated shared memory pools: [SOSP'21](papers/mind.pdf), [ISCA'25](papers/cord.pdf), [OSDI'26](papers/soul.pdf)
 * Fair sharing across disaggregated memory resources: [OSDI'23](papers/karma.pdf), [SOSP'25](papers/spirit.pdf)
 * Low-latency, high-throughput access to disaggregated memory: [ASPLOS'25](papers/pulse.pdf), [SOSP'25](papers/mage.pdf)
-* Understanding memory performance: [ISCA'26](papers/bullettime.pdf), [ASPLOS'26](papers/counterpoint.pdf)
+* Understanding memory performance: ISCA'26, [ASPLOS'26](papers/counterpoint.pdf)
 
-Our work scalable cache coherence on disaggregated memory has been incorporated into [NVIDIA's Vera Rubin Architecture](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/#accelerated_scale-up_communications).
+Our work on scalable cache coherence for disaggregated memory has been incorporated into [NVIDIA's Vera Rubin Architecture](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/#accelerated_scale-up_communications).
 
 </div>
 
@@ -139,10 +147,10 @@ Our work scalable cache coherence on disaggregated memory has been incorporated 
 
 **Systems for AI:** Today’s AI serving systems waste substantial time and resources because they treat requests as independent and unpredictable, even though real workloads contain rich recurring structure in both arrival patterns and prompt content. We are building cloud AI serving platforms that treat workload structure as a first-class systems primitive:
 
-* Scheduling for low-latency, high-throughput AI inference: [NSDI'23](papers/shepherd.pdf), [MobiSys'26](papers/timelyllm.pdf), [MobiSys'26](papers/timelyllm.pdf)
+* Scheduling for low-latency, high-throughput AI inference: [NSDI'23](papers/shepherd.pdf), [MobiSys'26](papers/timelyllm.pdf)
 * Caching attention state across prompts for low-latency inference: [MLSys'24](papers/promptcache.pdf)
 
-[PromptCache](papers/promptcache.pdf) has become the industry standard in Gemini, OpenAI, and Anthropic for reusing attention states across LLM prompts.
+[PromptCache](papers/promptcache.pdf) has been adopted in Gemini, OpenAI, and Anthropic for reusing attention states across LLM prompts.
 
 </div>
 
@@ -150,15 +158,20 @@ Our work scalable cache coherence on disaggregated memory has been incorporated 
 
 **Storage and processing stacks for automated data:** Emerging applications that rely on automated data sources --- ranging from smart vehicles to brain implants --- require processing, storing, and serving massive volumes of semantically rich data. We are developing systems for efficient ingestion of data without compromising query and processing performance by exploiting properties specific to machine-generated data:
 
-* High-throughput compressed storage high-dimensional data: [EuroSys'24](papers/trinity.pdf)
+* High-throughput compressed storage of high-dimensional data: [EuroSys'24](papers/trinity.pdf)
 * Distributed system for scalable Brain-Computer Interfacing (BCI): [ISCA'23](papers/scalo.pdf), [MICRO Top Picks'23](papers/scalo-toppicks.pdf)
 * Distributed monitoring & diagnosis for high speed networks: [NSDI'19](papers/confluo.pdf)
 
 </div>
 
+<details class="animated-details" markdown=1>
+
+<summary><b>[Past Projects]</b></summary>
+
+<div class="details-panel">
 <div class="content-box" markdown="1">
 
-**Serverless Systems:** Serverless analytics workloads increasingly demand fine-grained, rapidly changing compute and memory resources, but existing cloud systems manage them too coarsely, forcing a tradeoff between performance and utilization under bursty, time-varying demand. We are building a serverless analytics stack that treats elasticity and workload-aware multiplexing as first-class primitives:
+**Serverless Systems:** Serverless analytics workloads increasingly demand fine-grained, rapidly changing compute and memory resources, but existing cloud systems manage them too coarsely, forcing a tradeoff between performance and utilization under bursty, time-varying demand. We built a serverless analytics stack that treats elasticity and workload-aware multiplexing as first-class primitives:
 
 * Position papers: [UC Berkeley Tech Report](papers/berkeley-view-serverless.pdf), [SIGMOD'20](https://dl.acm.org/doi/10.1145/3318464.3383130), [CACM'21](papers/serverless-next.pdf)
 * Enabling fast and cost-effective analytics over serverless functions: [NSDI'21](papers/caerus.pdf), [EuroSys'22](papers/jiffy.pdf)
@@ -167,17 +180,20 @@ Our work scalable cache coherence on disaggregated memory has been incorporated 
 
 <div class="content-box" markdown="1">
 
-**(Past) Queries on compressed data:** As datasets grow beyond DRAM capacity, maintaining interactive query performance becomes difficult because spilling to slower secondary storage increases latency and lowers throughput. We developed systems that address this challenge using a fundamentally new approach: enabling rich query execution directly on compressed data, reducing the need to fully decompress or rely on large DRAM footprints.
+**Queries on compressed data:** As datasets grow beyond DRAM capacity, maintaining interactive query performance becomes difficult because spilling to slower secondary storage increases latency and lowers throughput. We developed systems that address this challenge using a fundamentally new approach: enabling rich query execution directly on compressed data, reducing the need to fully decompress or rely on large DRAM footprints.
 
-* Enabling queries on compressed data: [NSDI'15](papers/succinct.pdf), [SIGMOD'17](papers/zipg.pdf), [Thesis](papers/thesis.pdf)
+* Enabling queries on compressed data: [NSDI'15](papers/succinct.pdf), [SIGMOD'17](papers/zipg.pdf), [Thesis](papers/phdthesis.pdf)
 * Dynamic storage-performance tradeoff in data stores: [NSDI'16](papers/blowfish.pdf)
 
 </div>
+</div>
 
-# Teaching
+</details>
+
+## Teaching
 
 {% include teaching.html %}
 
-# Service
+## Service
 
 {% include service.html %}

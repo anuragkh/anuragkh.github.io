@@ -1,0 +1,11 @@
+<div class="content-box">
+  <ol class="impact-list">
+    {% for item in site.data.research_impact %}
+    <li>
+      <p class="impact-year">{{ item.year }}</p>
+      {% comment %} Entries carry Markdown links, so render rather than escape. {% endcomment %}
+      <div class="impact-body">{{ item.description | markdownify }}</div>
+    </li>
+    {% endfor %}
+  </ol>
+</div>

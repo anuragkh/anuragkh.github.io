@@ -39,3 +39,25 @@ the same generation and rebuilds the PDF before running Jekyll.
 
 Generated files under `_site/`, `cv/build/`, and `cv/generated/` should not be
 edited by hand.
+
+## Search discovery and webmaster tools
+
+SEO metadata is rendered by `_includes/seo.html`. The canonical host is set in
+`_config.yml`; page-specific search titles, descriptions, and schema types are
+set in each page's front matter. The build also publishes `/robots.txt`,
+`/sitemap.xml`, and the supplemental `/llms.txt` file.
+
+After deploying a change that affects indexed content:
+
+1. Confirm that `https://www.anuragkhandelwal.com/sitemap.xml` is public.
+2. In Google Search Console, verify `anuragkhandelwal.com` as a Domain property
+   and submit `https://www.anuragkhandelwal.com/sitemap.xml`.
+3. Import that verified property into Bing Webmaster Tools; Bing imports the
+   sitemap as part of the process. It can also be submitted directly in Bing's
+   Sitemaps tool.
+
+DNS verification is preferred because it covers HTTPS/HTTP and all subdomains.
+If a URL-prefix property must use HTML meta-tag verification instead, paste only
+the token value into `search_verification.google` or
+`search_verification.bing` in `_config.yml`; the shared SEO include will add the
+correct tag to the page head.

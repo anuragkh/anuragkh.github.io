@@ -1,0 +1,64 @@
+---
+layout: default
+og_type: article
+---
+{% assign paper = site.data.paper_details[page.entry.key] %}
+{% capture paper_path %}/papers/{{ page.entry.key }}.pdf{% endcapture %}
+{% capture slides_path %}/slides/{{ page.entry.key }}.pdf{% endcapture %}
+{% assign paper_file = site.static_files | where: "path", paper_path | first %}
+{% assign slides_file = site.static_files | where: "path", slides_path | first %}
+
+<article class="paper-page">
+  <a class="paper-back" href="{{ '/publications/' | relative_url }}">← All publications</a>
+
+  <header class="paper-header">
+    <p class="paper-kicker">{{ page.entry.year }} · {{ page.entry.type | replace: 'inproceedings', 'Conference paper' | replace: 'article', 'Article' | replace: 'book', 'Dissertation' }}</p>
+    <h1>{{ page.entry.title }}</h1>
+
+    <p class="paper-authors">
+      {% assign authors = page.entry.author_array %}
+      {% for author in authors -%}
+        <span class="citation_author">{%- if author.first -%}{{ author.first }} {% endif -%}{%- if author.von -%}{{ author.von }} {% endif -%}{%- if author.last -%}{{ author.last }}{% endif -%}{%- if author.jr -%}, {{ author.jr }}{% endif -%}</span>{%- unless forloop.last -%}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{%- endunless -%}
+      {%- endfor %}
+    </p>
+
+    <p class="paper-venue">
+      {% if page.entry.booktitle %}<em>{{ page.entry.booktitle }}</em>{% elsif page.entry.journal %}<em>{{ page.entry.journal }}</em>{% elsif page.entry.publisher %}<em>{{ page.entry.publisher }}</em>{% endif %}{% if page.entry.year %}, {{ page.entry.year }}{% endif %}
+    </p>
+
+    {% if page.entry.award %}<p class="paper-award">{{ page.entry.award }}</p>{% endif %}
+    {% if page.entry.note %}<p class="paper-note">{{ page.entry.note }}</p>{% endif %}
+
+    <div class="pub-links paper-actions" role="group" aria-label="Paper resources">
+      {% if paper_file %}<a href="{{ paper_path | relative_url }}">PDF</a>{% endif %}
+      {% if slides_file %}<a href="{{ slides_path | relative_url }}">Slides</a>{% endif %}
+      {% if paper.code %}<a href="{{ paper.code }}" rel="external">Code</a>{% endif %}
+      {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}" rel="external">DOI</a>{% elsif paper.official_url %}<a href="{{ paper.official_url }}" rel="external">Publisher page</a>{% endif %}
+    </div>
+  </header>
+
+  {% if paper.abstract %}
+  <section class="paper-section" aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading">Abstract</h2>
+    <p>{{ paper.abstract }}</p>
+  </section>
+  {% endif %}
+
+  <section class="paper-section paper-facts" aria-labelledby="paper-details-heading">
+    <h2 id="paper-details-heading">Publication details</h2>
+    <dl>
+      <div><dt>Venue</dt><dd>{% if page.entry.booktitle %}{{ page.entry.booktitle }}{% elsif page.entry.journal %}{{ page.entry.journal }}{% elsif page.entry.publisher %}{{ page.entry.publisher }}{% endif %}</dd></div>
+      <div><dt>Publication year</dt><dd>{{ page.entry.year }}</dd></div>
+      {% if paper.doi %}<div><dt>DOI</dt><dd><a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></dd></div>{% endif %}
+      {% if page.entry.award %}<div><dt>Awards</dt><dd>{{ page.entry.award }}</dd></div>{% endif %}
+    </dl>
+  </section>
+
+  <section class="paper-section" aria-labelledby="bibtex-heading">
+    <h2 id="bibtex-heading">BibTeX</h2>
+    <div class="paper-bibtex">
+      <button class="paper-copy" type="button" data-copy-target="bibtex-source">Copy</button>
+      <pre id="bibtex-source" tabindex="0"><code>{{ page.entry.bibtex | escape }}</code></pre>
+    </div>
+  </section>
+</article>

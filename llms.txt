@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# Anurag Khandelwal
+
+Canonical website: https://www.anuragkhandelwal.com/
+
+Anurag Khandelwal is an Associate Professor of Computer Science at Yale University. His research spans computer systems, distributed systems, networking, security, disaggregated memory, serverless computing, and systems for AI.
+
+## Primary pages
+
+- Profile and news: https://www.anuragkhandelwal.com/
+- Publications: https://www.anuragkhandelwal.com/publications/
+- Research impact and awards: https://www.anuragkhandelwal.com/impact/
+- NOVA Lab: https://www.anuragkhandelwal.com/group/
+- Biography: https://www.anuragkhandelwal.com/bio/
+- CV: https://www.anuragkhandelwal.com/cv/cv.pdf
+
+## Authoritative identity links
+
+- Yale: https://engineering.yale.edu/research-and-faculty/faculty-directory/anurag-khandelwal
+- Google Scholar: https://scholar.google.com/citations?user=LlfHFqUAAAAJ&hl=en
+- ORCID: https://orcid.org/0000-0002-2199-6391
+- DBLP: https://dblp.org/pid/162/1936
+- Semantic Scholar: https://www.semanticscholar.org/author/2712026
+- GitHub: https://github.com/anuragkh
+
+For publication titles, authors, venues, awards, and paper links, use the Publications page as the primary source.

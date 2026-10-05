@@ -1,0 +1,651 @@
+sigmodserverless:
+  doi: "10.1145/3318464.3383130"
+  official_url: "https://doi.org/10.1145/3318464.3383130"
+  contribution: >-
+    This tutorial maps the evolution of serverless computing and identifies
+    research challenges in state, optimization, scheduling, and heterogeneous
+    hardware that must be solved for the model to mature.
+  abstract: >-
+    Akin to the natural evolution of programming in assembly language to
+    high-level languages, serverless computing represents the next frontier in
+    the evolution of cloud computing: bare metal to virtual machines to
+    containers to serverless. The genesis of serverless computing can be traced
+    to the need to let programmers focus on application code while isolating
+    system-management concerns such as instance selection, scaling, deployment,
+    logging, monitoring, and fault tolerance. Although leading public-cloud
+    vendors now support serverless computing, challenges remain, including
+    dynamic optimization, stateful computation, efficient application
+    bin-packing, and hardware heterogeneity. Inspired by Picasso's Le Taureau,
+    this tutorial deconstructs the evolution of serverless to clarify the
+    landscape and help advance both the paradigm and the applications built on it.
+
+serverless-next:
+  doi: "10.1145/3406011"
+  official_url: "https://doi.org/10.1145/3406011"
+  contribution: >-
+    This perspective defines serverless as the application-centric second phase
+    of cloud computing and lays out the abstractions and research agenda needed
+    to make cloud software substantially easier to build.
+  abstract: >-
+    Cloud computing's first phase simplified system administration by making
+    infrastructure easier to configure and manage through virtual servers and
+    networks. This article argues that the second phase should hide servers
+    behind programming abstractions that simplify application development,
+    shifting the cloud's focus from system administrators to programmers.
+    Serverless computing asks cloud providers to assume more of the operational
+    responsibility required to run applications well, while retaining remote
+    servers as the invisible foundation. The article explains this transition,
+    examines current limitations, and outlines what serverless computing should
+    become.
+
+mind:
+  doi: "10.1145/3477132.3483561"
+  official_url: "https://doi.org/10.1145/3477132.3483561"
+  code: "https://github.com/yale-nova/mind"
+  contribution: >-
+    MIND moves memory-management and cache-coherence logic into a programmable
+    network switch, enabling elastic shared memory across disaggregated compute
+    and memory blades without giving up performance.
+  abstract: >-
+    Memory disaggregation promises transparent elasticity, high resource
+    utilization, and hardware heterogeneity in data centers by physically
+    separating memory and compute into network-attached resource blades.
+    Existing designs, however, achieve performance at the cost of resource
+    elasticity by restricting memory sharing to a single compute blade to avoid
+    costly memory-coherence traffic. This work shows that emerging programmable
+    network switches can enable an efficient shared-memory abstraction by
+    placing memory-management logic in the network fabric. Centralizing memory
+    management permits bandwidth- and latency-efficient in-network cache
+    coherence while programmable switch ASICs support other management logic at
+    line rate. MIND realizes these ideas as an in-network memory-management unit
+    for rack-scale disaggregation, providing transparent resource elasticity
+    while matching the performance of prior disaggregation proposals on
+    real-world workloads.
+
+cls:
+  doi: "10.1145/3593856.3595901"
+  official_url: "https://doi.org/10.1145/3593856.3595901"
+  contribution: >-
+    This position paper draws on the complementary learning roles of the
+    hippocampus and neocortex to motivate prefetchers that adapt quickly without
+    the impractical overheads of large deep-learning models.
+  abstract: >-
+    Memory prefetching improves performance across many systems layers, but
+    achieving high accuracy with low overhead is increasingly difficult as
+    memory hierarchies and application access patterns become more complicated.
+    A prefetcher's ability to adapt to new access patterns is also becoming more
+    important. Recent work has used deep learning to improve accuracy, albeit
+    with impractical compute and storage costs. This paper proposes drawing on
+    the learning mechanisms and memory architecture of the human brain,
+    specifically the hippocampus and neocortex, to build resource-efficient,
+    accurate, and adaptable prefetchers.
+
+jiffy:
+  doi: "10.1145/3492321.3527539"
+  official_url: "https://doi.org/10.1145/3492321.3527539"
+  contribution: >-
+    Jiffy elastically reallocates remote memory at seconds-scale granularity so
+    stateful serverless analytics jobs pay for and use memory in proportion to
+    their changing intermediate-data needs.
+  abstract: >-
+    Stateful serverless analytics can use a remote-memory system for inter-task
+    communication and intermediate data, but existing systems allocate memory
+    at job granularity for the job's entire lifetime. This causes low utilization
+    or degraded performance when intermediate-data sizes vary during execution.
+    Jiffy is an elastic far-memory system that meets a job's instantaneous memory
+    demand at seconds timescales. It efficiently multiplexes capacity across
+    concurrent jobs, reducing slower persistent-storage accesses and improving
+    execution time by 1.6–2.5 times on production workloads. The implementation
+    runs on Amazon EC2, supports multiple distributed programming models, and
+    natively supports a broad class of analytics applications on AWS Lambda.
+
+karma:
+  doi: "10.48550/arXiv.2305.17222"
+  official_url: "https://www.usenix.org/conference/osdi23/presentation/vuppalapati"
+  code: "https://github.com/resource-disaggregation/karma"
+  contribution: >-
+    Karma gives fair resource allocation a memory of past borrowing and lending,
+    preserving efficiency and strategy-proofness when users' demands change over
+    time.
+  abstract: >-
+    Classical max-min fairness provides Pareto efficiency, strategy-proofness,
+    and fairness when user demands are static, but loses one or more of these
+    properties when demands vary over time. Karma is a resource-allocation
+    mechanism for dynamic demands built around a credit system: users earn
+    credits when others borrow their unused resources, and allocations are
+    prioritized according to credit balances. The paper establishes guarantees
+    for Pareto efficiency, strategy-proofness, and fairness, and evaluations on
+    production workloads show that Karma minimizes performance disparity while
+    maintaining Pareto-optimal system-wide performance.
+
+trinity:
+  doi: "10.1145/3627703.3650072"
+  official_url: "https://doi.org/10.1145/3627703.3650072"
+  contribution: >-
+    Trinity's MDTrie data structure makes multi-attribute records both compact
+    and fast to search, closing the usual gap between query performance and
+    storage efficiency.
+  abstract: >-
+    Attribute-rich machine-generated data drives real-time monitoring,
+    diagnosis, and visualization tools that analyze multiple attributes at
+    once. Trinity facilitates both query and storage efficiency across large
+    volumes of multi-attribute records through MDTrie, a dynamic, succinct,
+    multidimensional data structure combining a Morton-code generalization, a
+    multi-attribute query algorithm, and a self-indexed trie. On real-world use
+    cases, Trinity provides 7.2–59.6 times faster multi-attribute searches,
+    storage comparable to OLAP column stores and 4.8–15.1 times smaller than
+    NoSQL and OLTP systems, and point-query throughput comparable to NoSQL stores
+    and up to 52.5 times higher than OLTP and OLAP systems.
+
+promptcache:
+  doi: "10.48550/arXiv.2311.04934"
+  official_url: "https://proceedings.mlsys.org/paper_files/paper/2024/hash/a66e4fad2706005314c4585ec0f2ef8a-Abstract-Conference.html"
+  code: "https://github.com/yale-sys/prompt-cache"
+  contribution: >-
+    Prompt Cache lets applications name reusable prompt modules whose attention
+    states can be safely cached, sharply reducing time to first token without
+    changing model weights or outputs.
+  abstract: >-
+    Prompt Cache accelerates large-language-model inference by reusing attention
+    states across prompts. Many prompts share text such as system messages,
+    templates, and context documents. By precomputing and storing attention
+    states for these recurring segments, an inference server can reuse them when
+    they appear in later prompts. Prompt Cache provides a schema for defining
+    reusable prompt modules, ensuring positional accuracy and giving users an
+    interface to access cached states. Across several models, the prototype
+    reduces time-to-first-token latency by up to 8 times on GPU inference and 60
+    times on CPU inference while preserving output accuracy and requiring no
+    model-parameter changes.
+
+spirit:
+  doi: "10.1145/3731569.3764805"
+  official_url: "https://doi.org/10.1145/3731569.3764805"
+  code: "https://github.com/yale-nova/spirit"
+  contribution: >-
+    Spirit treats cache capacity and network bandwidth as exchangeable,
+    interdependent resources and trades them among users to provide fairer,
+    faster remote-memory service.
+  abstract: >-
+    Fair allocation in multi-user remote-memory systems is difficult because
+    local cache and network bandwidth interact: more cache can reduce network
+    traffic, while more bandwidth can reduce the need for cache. This dependency
+    differs by application and is difficult to model offline. Spirit uses the
+    microeconomics-inspired Symbiosis algorithm to learn these dependencies and
+    trade cache and bandwidth across users at runtime. The paper shows
+    theoretically and empirically that Symbiosis provides strong fairness
+    properties. Compared with traditional allocation schemes, Spirit improves
+    performance by up to 21.6 percent across dozens of applications with diverse
+    resource needs.
+
+mage:
+  doi: "10.1145/3731569.3764842"
+  official_url: "https://doi.org/10.1145/3731569.3764842"
+  code: "https://github.com/rs3lab/mage-artifact"
+  contribution: >-
+    Mage coordinates page faults and evictions asynchronously and at scale,
+    allowing far-memory systems to keep up with highly parallel applications on
+    modern multicore servers.
+  abstract: >-
+    Page-based far-memory systems transparently expand application memory beyond
+    one machine, but existing systems are designed for low thread counts and do
+    not scale on modern multicore machines. The bottleneck is poor coordination
+    between page fault-in and eviction operations, including TLB shootdowns,
+    page accounting, and memory allocation. This paper develops three principles:
+    always-asynchronous decoupling, cross-batch pipelined execution, and
+    scalability prioritization. Implementations in the Linux kernel and a
+    library OS improve batch-processing throughput by up to 4.2 times and reduce
+    99th-percentile latency for a latency-critical memcached workload by 94.5
+    percent.
+
+cord:
+  doi: "10.1145/3695053.3731074"
+  official_url: "https://doi.org/10.1145/3695053.3731074"
+  code: "https://github.com/yale-nova/CORD"
+  contribution: >-
+    CORD enforces release consistency by ordering write-through accesses at the
+    cache directory, eliminating needless processor-directory round trips in
+    heterogeneous multi-processor systems.
+  abstract: >-
+    Multi-processing-unit systems increasingly use cache-coherent shared memory
+    and write-through accesses for producer-consumer communication. Existing
+    release-consistency protocols order these writes at the source processor,
+    causing unnecessary communication with the last-level-cache directory. CORD
+    instead orders write-through accesses directly at the directory and uses new
+    mechanisms to minimize ordering metadata across multiple directories. Gem5
+    evaluations show a 24 percent average performance improvement and 13 percent
+    traffic reduction over source ordering with less than 1 percent storage,
+    area, and power overhead. Compared with hand-optimized message passing, CORD
+    incurs only about 3 percent performance overhead with a much simpler
+    programming model.
+
+pulse:
+  doi: "10.1145/3669940.3707253"
+  official_url: "https://doi.org/10.1145/3669940.3707253"
+  code: "https://github.com/yale-nova/pulse"
+  contribution: >-
+    PULSE executes linked-data-structure traversals near disaggregated memory,
+    overcoming the latency limits of CPU-side caching while remaining expressive
+    and energy efficient.
+  abstract: >-
+    CPU-side caches amortize network latency in disaggregated-memory systems but
+    cannot help workloads that chase pointers through linked data structures.
+    PULSE is a distributed pointer-traversal framework that moves these
+    traversals closer to disaggregated memory while preserving expressiveness,
+    energy efficiency, performance, and distributed execution. Evaluation shows
+    low-latency, high-throughput, and energy-efficient execution for a broad
+    range of pointer-traversal workloads that perform poorly with caching alone.
+
+soul:
+  official_url: "https://www.usenix.org/conference/osdi26/presentation/yu-yanpeng"
+  code: "https://github.com/yale-nova/Soul"
+  contribution: >-
+    Soul generalizes cache coherence across time and space so familiar lock APIs
+    can synchronize disaggregated shared memory without redundant network
+    coherence traffic.
+  abstract: >-
+    Existing synchronization primitives scale poorly on disaggregated shared
+    memory because they introduce redundant inter-cache communication over
+    high-latency links. This work observes that synchronization generalizes cache
+    coherence in time and space and minimally extends coherence protocols to
+    support synchronization directly. Its Generalized cache-Coherence Protocol
+    uses wait queues and variable-size cache lines for the temporal and spatial
+    generalizations and is verified with model checking. Soul implements the
+    protocol end to end and supports popular lock APIs without application
+    changes. Against state-of-the-art locks, Soul improves unmodified real-world
+    application performance at scale by one to two orders of magnitude with
+    under 8 percent storage overhead.
+
+bullettime:
+  doi: "10.1109/ISCA66397.2026.00125"
+  official_url: "https://doi.org/10.1109/ISCA66397.2026.00125"
+  code: "https://github.com/ysarch-lab/BulletTime"
+  contribution: >-
+    BulletTime preserves the behavior of programs under heavy tracing by slowing
+    application and system threads in a controlled way, producing much more
+    faithful traces for simulation, profiling, and debugging.
+  abstract: >-
+    High-fidelity program tracing incurs frequent I/O that can delay application
+    threads unevenly and reorder application and system operations relative to
+    untraced execution, contaminating simulation and profiling results. This work
+    formalizes the behavior under study and derives correctness requirements for
+    traced execution in the presence of tracing delays. BulletTime implements a
+    time-dilation approach atop Intel Pin that strategically slows application
+    and system threads while meeting those requirements. In memory-contiguity
+    and synchronization studies, existing tracing approaches change application
+    behavior by as much as 20 times, while BulletTime keeps deviations below 10
+    percent even under extreme asymmetric delays.
+
+timelyllm:
+  doi: "10.1145/3745756.3809203"
+  official_url: "https://doi.org/10.1145/3745756.3809203"
+  contribution: >-
+    TimelyLLM schedules generation around the physical execution rate of robots
+    and other agents, using otherwise wasted slack to reduce contention and make
+    plans arrive when they are useful.
+  abstract: >-
+    Large language models are increasingly integrated into physical-I/O-limited
+    agents such as robots and voice assistants, yet existing serving systems
+    optimize throughput without accounting for the gap between fast token
+    generation and slow physical execution. TimelyLLM coordinates generation
+    with agent behavior through segmented generation and scheduling, using the
+    gap between plan generation and execution to reduce contention and response
+    latency under multi-agent workloads. Built atop a widely used serving
+    framework and evaluated with workloads from drones, robot arms, and
+    quadrupeds, TimelyLLM improves time utility by up to 1.52 times and reduces
+    overall waiting time by 84 percent.
+
+counterpoint:
+  doi: "10.1145/3779212.3790145"
+  official_url: "https://doi.org/10.1145/3779212.3790145"
+  code: "https://github.com/NicholasLindsay/counterpoint-public"
+  contribution: >-
+    CounterPoint turns noisy hardware-counter measurements into tests of explicit
+    microarchitectural models, helping experts locate and explain undocumented
+    processor behavior.
+  abstract: >-
+    Hardware event counters can reveal detailed microarchitectural behavior, but
+    vague specifications, opaque designs, and multiplexing noise make them hard
+    to interpret. CounterPoint tests user-specified microarchitectural models,
+    expressed as micro-path decision diagrams, for consistency with counter
+    data. When observations disagree, it identifies plausible missing features
+    and uses multidimensional confidence regions to handle multiplexing noise.
+    Applied to the Haswell memory-management unit, CounterPoint uncovers multiple
+    undocumented or underdocumented behaviors, including a load-store-queue-side
+    TLB prefetcher, merging page-table walkers, and abortable page-table walks.
+
+succinct:
+  official_url: "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/agarwal"
+  code: "https://github.com/amplab/succinct"
+  contribution: >-
+    Succinct answers search, count, range, wildcard, and random-access queries
+    directly on compressed data, eliminating conventional indexes and fitting
+    far more queryable data in memory.
+  abstract: >-
+    Succinct is a data store that enables efficient queries directly on a
+    compressed representation of the input. Its compression technique permits
+    random access as well as count, search, range, and wildcard queries. Unlike
+    earlier techniques, Succinct supports these operations without storing
+    indexes because the required information is embedded in the compressed
+    representation. On real-world datasets, Succinct uses an order of magnitude
+    less memory than systems with similar functionality, keeping more data in
+    memory and delivering low query latency over a larger range of input sizes.
+
+zipg:
+  doi: "10.1145/3035918.3064012"
+  official_url: "https://doi.org/10.1145/3035918.3064012"
+  code: "https://github.com/amplab/zipg"
+  contribution: >-
+    ZipG serves rich interactive graph queries directly from a compressed graph
+    representation, allowing much larger graphs to remain memory resident.
+  abstract: >-
+    ZipG is a distributed, memory-efficient graph store for interactive queries.
+    It stores graph data in compressed form and executes a broad range of graph
+    queries directly on that representation, keeping a larger fraction of the
+    workload in memory. Its minimal API can express functionalities from several
+    industrial graph stores. On a 244 GB server, ZipG runs tens of thousands of
+    queries over more than half a terabyte of raw graph data, achieving up to 23
+    times the throughput of Neo4j and Titan, with similar gains over Titan in
+    distributed deployments.
+
+blowfish:
+  official_url: "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/khandelwal"
+  contribution: >-
+    BlowFish lets a distributed data store adjust its storage footprint and
+    point-query performance smoothly at runtime, enabling faster recovery and
+    better handling of skewed, changing demand.
+  abstract: >-
+    BlowFish is a distributed data store that provides a smooth tradeoff between
+    storage and point-query performance and can move along that curve at fine
+    time scales with little computational overhead. This capability supports
+    practical uses including failure recovery and time-varying, spatially skewed
+    workloads. On production-cluster scenarios, BlowFish uses 5.4 times less
+    bandwidth and 2.5 times less repair time than state-of-the-art erasure codes
+    while reducing the storage cost of replication from 3 times to 1.9 times.
+    Dynamically navigating the tradeoff also achieves higher system-wide utility
+    than selectively caching hot objects.
+
+confluo:
+  official_url: "https://www.usenix.org/conference/nsdi19/presentation/khandelwal"
+  code: "https://github.com/ucbrise/confluo"
+  contribution: >-
+    Confluo's Atomic MultiLog gives end hosts a fast, concurrent foundation for
+    monitoring and diagnosing high-speed networks from distributed telemetry.
+  abstract: >-
+    Confluo is an end-host stack that integrates with network-management tools
+    to monitor and diagnose network-wide events from telemetry distributed
+    across hosts, even on high-speed networks. Its Atomic MultiLog data structure
+    supports highly concurrent reads and writes by exploiting the append-only,
+    fixed-field-size nature of telemetry. For packet sizes of 128 bytes or
+    larger, Confluo executes thousands of triggers and tens of filters at line
+    rate for 10 Gbps links using a single core.
+
+pancake:
+  official_url: "https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs"
+  contribution: >-
+    Pancake hides how frequently encrypted key-value records are accessed by
+    smoothing requests into a uniform distribution, providing strong protection
+    with small constant bandwidth overhead.
+  abstract: >-
+    Pancake is the first system to protect key-value stores from access-pattern
+    leakage attacks with small constant-factor bandwidth overhead. It uses
+    frequency smoothing to transform plaintext accesses into uniformly
+    distributed encrypted accesses and proves security against passive,
+    persistent adversaries in a new formal model. Integrated with three
+    production key-value stores, Pancake achieves 229 times the throughput of
+    non-recursive Path ORAM and runs within 3–6 times of insecure baselines.
+
+shortstack:
+  doi: "10.48550/arXiv.2205.14281"
+  official_url: "https://www.usenix.org/conference/osdi22/presentation/vuppalapati"
+  contribution: >-
+    Shortstack replaces the fragile central proxy used for oblivious data access
+    with a distributed design that retains privacy and availability through
+    failures and scales nearly linearly.
+  abstract: >-
+    Existing oblivious-data-access systems depend on a centralized, stateful
+    trusted proxy; in failure-prone deployments this can break privacy guarantees
+    or make the system unavailable. Shortstack introduces a distributed,
+    fault-tolerant proxy architecture and a security model for studying such
+    systems. It preserves the classical obliviousness guarantee even against a
+    passive persistent adversary that can fail an arbitrary bounded subset of
+    proxy servers at arbitrary times. Formal analysis establishes the guarantee,
+    and evaluation shows that performance scales nearly linearly with the number
+    of proxy servers.
+
+length-leakage:
+  official_url: "https://www.usenix.org/conference/usenixsecurity24/presentation/jia-grace"
+  contribution: >-
+    This work characterizes the unavoidable tradeoff among storage, bandwidth,
+    and information leakage when a private data-access system must hide both
+    request patterns and object lengths.
+  abstract: >-
+    This paper studies how to prevent length leakage in oblivious-data-access
+    mechanisms against passive, persistent adversaries. Protecting both object
+    lengths and access patterns requires navigating a three-way tradeoff among
+    storage footprint, bandwidth footprint, and information revealed to the
+    adversary. The paper proves lower bounds on achievable storage and bandwidth
+    for multiple leakage profiles and presents constructions that match or nearly
+    match those bounds.
+
+weave:
+  official_url: "https://www.usenix.org/conference/osdi25/presentation/soleimani"
+  code: "https://github.com/yale-nova/weave"
+  contribution: >-
+    Weave combines noise injection with enclave memory isolation to make a broad
+    class of cloud analytics oblivious with constant-factor overhead, rather
+    than overhead that grows with dataset size.
+  abstract: >-
+    Distributed cloud analytics can leak sensitive information through memory
+    access patterns even when computation runs in trusted enclaves and all data
+    and communication are encrypted. Prior protections often impose overheads
+    logarithmic in dataset size and restrict the jobs that can run. Weave combines
+    noise injection with hardware memory isolation to reduce network and compute
+    overheads to a constant factor while preserving expressive analytics. It
+    adds dataset- and workload-aware optimizations without weakening its
+    guarantees and reduces end-to-end execution time by 4–10 times over prior
+    state of the art on large real-world datasets.
+
+fit:
+  official_url: "https://www.usenix.org/conference/usenixsecurity25/presentation/jia-grace"
+  code: "https://github.com/yale-nova/found-in-translation"
+  contribution: >-
+    FIT treats correlated memory-page accesses like a language, using a
+    generative sequence model to reconstruct private application-level objects
+    even when their mapping to pages is complex.
+  abstract: >-
+    Confidential-computing environments protect data and computation but leave
+    paging under a cloud-controlled operating system, creating a page-access
+    side channel. Earlier attacks largely assume simple mappings between
+    application objects and pages and overlook correlations in access sequences.
+    Found in Translation identifies parallels between page-access patterns and
+    natural-language structure and uses a recurrent encoder-decoder to infer
+    application-level object accesses from page-level sequences. Across AI model
+    serving and semantic-search applications, FIT reconstructs object sequences
+    with 71.7–99.9 percent average accuracy, substantially outperforming prior
+    approaches.
+
+caerus:
+  official_url: "https://www.usenix.org/conference/nsdi21/presentation/zhang-hong"
+  contribution: >-
+    Caerus pipelines serverless analytics tasks at carefully chosen launch times
+    to minimize execution cost while remaining Pareto optimal between cost and
+    job completion time.
+  abstract: >-
+    Serverless analytics requires optimizing job-completion time and execution
+    cost rather than the utilization and isolation objectives of server-centric
+    frameworks. Caerus addresses this new scheduling problem with the fine-grained
+    NIMBLE algorithm, which pipelines tasks within a job and models pipelineable
+    and non-pipelineable dependencies together with data generation, consumption,
+    and processing rates. Across a broad range of analytics workloads, Caerus
+    achieves both optimal cost and optimal job-completion time in practice.
+
+shepherd:
+  official_url: "https://www.usenix.org/conference/nsdi23/presentation/zhang-hong"
+  contribution: >-
+    Shepherd separates long-horizon capacity planning from online request
+    serving, making large DNN-serving clusters efficient and predictable despite
+    highly bursty workloads and tight latency targets.
+  abstract: >-
+    Model-serving systems must scale, guarantee high goodput, and maximize
+    compute utilization despite tight latency constraints and unpredictable
+    request streams. Shepherd decouples serving into planning and online-serving
+    modules. The planner aggregates request streams into moderately sized groups
+    whose demand is more predictable, enabling scalable utilization; the online
+    algorithm uses preemption and model-specific batching to guarantee goodput
+    under uncertainty. On production workloads, Shepherd delivers up to 18.1
+    times higher goodput and 1.8 times better utilization than prior systems
+    while scaling to hundreds of workers.
+
+elasticmimo:
+  doi: "10.1145/3708468.3711876"
+  official_url: "https://doi.org/10.1145/3708468.3711876"
+  contribution: >-
+    This study builds dynamic CPU provisioning into a real-time massive-MIMO
+    vRAN and finds that a simple gradient-based controller can rival
+    reinforcement learning, clarifying where more realistic platforms are needed.
+  abstract: >-
+    Computational demand in virtualized radio-access networks changes rapidly,
+    especially with massive MIMO, while current systems commonly provision CPU
+    resources statically. This paper studies dynamic resource provisioning and
+    integrates a reinforcement-learning controller into a real-time,
+    fully software massive-MIMO vRAN prototype. Early experiments show no
+    significant advantage over a simple steepest-gradient-descent controller,
+    likely because current open-source vRAN platforms do not capture the full
+    complexity of production systems. The paper identifies challenges and
+    opportunities for more intelligent elastic provisioning.
+
+scalo:
+  doi: "10.1145/3579371.3589107"
+  official_url: "https://doi.org/10.1145/3579371.3589107"
+  contribution: >-
+    SCALO makes brain-computer interfaces distributed: multiple wireless,
+    accelerator-rich implants cooperate across brain regions within strict
+    latency and power budgets.
+  abstract: >-
+    SCALO is the first distributed brain-computer interface made of multiple
+    wireless-networked implants placed on different brain regions. It enables
+    new therapeutic and neuroscience applications while meeting the strict power
+    and latency constraints that have historically limited interfaces to a
+    single brain site. SCALO is designed as a full-stack distributed system with
+    accelerator-rich compute and aggressive cross-layer hardware-software
+    co-design across computation, networking, and storage. The result offers
+    broader lessons for building energy-efficient networked systems with
+    hardware accelerators from the ground up.
+
+scalo-toppicks:
+  doi: "10.1109/MM.2024.3411881"
+  official_url: "https://doi.org/10.1109/MM.2024.3411881"
+  contribution: >-
+    This IEEE Micro Top Picks article distills the SCALO architecture and its
+    broader lessons for co-designing low-power, multi-implant distributed
+    brain-computer interfaces.
+  abstract: >-
+    SCALO is a distributed brain-computer interface consisting of multiple
+    wireless-networked implants on different brain regions. It opens new
+    treatment options and avenues for studying brain-wide networks while
+    preserving the tight power constraints of implanted devices. Its efficiency
+    comes from a full-stack distributed design with accelerator-rich compute and
+    cross-layer co-design of processing, networking, and storage, enabling fast
+    distributed operation that had previously been impractical.
+
+phdthesis:
+  official_url: "https://escholarship.org/uc/item/8jq3n4ng"
+  contribution: >-
+    This dissertation develops systems and data structures that execute rich
+    queries directly over compressed representations, expanding the amount of
+    interactive data a fixed memory budget can serve.
+  abstract: >-
+    Low-latency, high-throughput interactive query systems must serve massive
+    datasets and increasingly rich operations. In-memory approaches are fast but
+    falter once data exceeds DRAM capacity, while alternatives often support only
+    limited queries. This dissertation develops algorithmic and data-structure
+    solutions centered on querying compressed data. It presents Succinct for
+    search, random access, range, and wildcard queries over compressed
+    representations; BlowFish for dynamically trading storage against
+    performance; ZipG for memory-efficient graph queries; and Sprint for regular
+    expression queries through query rewriting.
+
+berkeley-view-serverless:
+  doi: "10.48550/arXiv.1902.03383"
+  official_url: "https://arxiv.org/abs/1902.03383"
+  contribution: >-
+    This widely cited perspective frames serverless computing as a high-level
+    programming interface for the cloud and identifies the obstacles and
+    research opportunities that shaped the field's agenda.
+  abstract: >-
+    Serverless cloud computing handles nearly all system-administration work
+    needed to make the cloud easier for programmers to use. It simplifies cloud
+    programming in a way analogous to the shift from assembly to high-level
+    languages. This paper reviews cloud computing's history, assesses the
+    predictions of the 2009 Berkeley View, explains the motivation for
+    serverless computing, describes applications that stretch current limits,
+    and identifies obstacles and research opportunities. It argues that these
+    problems are solvable and predicts that serverless computing will come to
+    dominate cloud programming.
+
+attacking-dcn:
+  official_url: "https://www.microsoft.com/en-us/research/publication/attacking-data-center-networks-from-the-inside/"
+  contribution: >-
+    This report shows how malicious cloud tenants can attack shared data-center
+    networks from within, distinguishes conspicuous from covert strategies, and
+    proposes practical network-level mitigations.
+  abstract: >-
+    The shared nature of public-cloud data-center networks exposes co-hosted
+    tenants to attacks launched from inside the network. This report evaluates
+    security mechanisms offered by cloud providers and explores internal
+    denial-of-service vulnerabilities. It describes overt attacks that are easy
+    to mount but recognizable and covert attacks that are harder to detect and
+    can have greater impact. It then discusses mitigations based on TCP pacing
+    and network virtualization and proposes a source-based filtering scheme for
+    regulating network communication.
+
+# Auto-filled by scripts/fetch_paper_details.rb from Semantic Scholar and OpenAlex.
+# Review the wording; delete these two comment lines to freeze this entry.
+cord-toppicks:
+  doi: "10.1109/mm.2026.3701401"
+  official_url: "https://doi.org/10.1109/mm.2026.3701401"
+  abstract: >-
+    CORD is a novel cache-coherence protocol that brings distributed-systems
+    techniques to tightly coupled heterogeneous processors, unlocking efficient
+    and programmer-friendly shared memory for emerging heterogeneous workloads
+    such as AI/ML. Cache-coherence protocols have historically enforced
+    consistency at the source processor, inflating application latency and
+    interconnect traffic. Central to CORD’s efficiency is its reframing of
+    heterogeneous coherence as a distributed-systems problem: drawing on
+    logical-timestamp algorithms for event ordering, CORD assigns
+    consistency-tailored timestamps to write-through stores and orders them at
+    the cache directory — near each store’s completion point at the LLC. In our
+    evaluation, CORD approaches message-passing efficiency while incurring a
+    fraction of the programming complexity, with negligible storage, area, and
+    power overheads. The result is a concrete demonstration that long-standing
+    architectural challenges in shared-memory designs can be tackled through the
+    lens of distributed systems.
+
+# Auto-filled by scripts/fetch_paper_details.rb from Semantic Scholar.
+# Review the wording; delete these two comment lines to freeze this entry.
+metro:
+  doi: "10.48550/arXiv.2512.09277"
+  official_url: "https://doi.org/10.48550/arXiv.2512.09277"
+  abstract: >-
+    Expert Parallelism (EP) permits Mixture of Experts (MoE) models to scale
+    beyond a single GPU. To address load imbalance across GPUs in EP, existing
+    approaches aim to balance the number of tokens each GPU processes.
+    Surprisingly, we find that this objective degrades performance rather than
+    improving it when processing is memory-bound - a common occurrence in MoE
+    serving, especially in the decode phase. Our analysis reveals that balancing
+    the number of tokens processed per GPU increases the number of activated
+    experts, exacerbating memory pressure in the memory-bound regime. We propose
+    Minimum Expert Token ROuting, a novel token-routing algorithm for
+    high-performance expert-parallel MoE serving in the memory-bound regime that
+    balances the number of activated experts per GPU rather than token counts.
+    METRO achieves near-optimal routing quality with minimal computational
+    overhead by jointly optimizing algorithmic efficiency and leveraging the
+    GPU's parallel processing power. To guarantee routing quality, METRO also
+    employs a novel allGather scheme to gather global top-k knowledge, which has
+    minimal overhead compared to conventional allToAll. Our evaluation of METRO
+    against EPLB on both real systems (vLLM over 8 A100 GPUs) and a proprietary
+    simulator (8-16 B200 GPUs) shows that METRO reduces decode latency by 11 -
+    22%, and total token throughput by 3 - 21% for Qwen3 and DeepSeek-V3
+    serving, where prefill and decode phases are co-deployed. In addition, by
+    trading latency headroom for throughput, METRO improves decode throughput by
+    up to 4.11x over EPLB at a fixed decode SLO.

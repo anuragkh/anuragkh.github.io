@@ -17,10 +17,10 @@
     [Anthropic](https://www.anthropic.com/news/prompt-caching) for reusing
     attention states across LLM prompts.
 
-- year: 2024
-  description: >-
-    [Trinity](https://dl.acm.org/doi/10.1145/3627703.3650072) adopted in NetApp's
-    services to improve storage efficiency and performance.
+# - year: 2024
+#   description: >-
+#     [Trinity](https://dl.acm.org/doi/10.1145/3627703.3650072) adopted in NetApp's
+#     services to improve storage efficiency and performance.
 
 - year: 2023
   description: >-
@@ -31,8 +31,7 @@
 
 - year: 2021
   description: >-
-    My [NSF CAREER Award project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047220),
-    [MIND](https://dl.acm.org/doi/10.1145/3477132.3483561), is the foundational
+    [MIND](https://dl.acm.org/doi/10.1145/3477132.3483561) is the foundational
     system and central pillar of the multi-institution $20-million NSF-funded AI
     Institute, [Athena](https://athena.duke.edu/what-we-do/edge-powered-ai-systems).
 

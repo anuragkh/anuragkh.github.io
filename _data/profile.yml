@@ -1,15 +1,34 @@
 # Update identity and contact information directly below. Optional links can be
 # omitted. Keep bio as a folded paragraph using the >- form shown here.
 name: Anurag Khandelwal
+given_name: Anurag
+family_name: Khandelwal
 title: Associate Professor
 institution: Yale University
 department: Department of Computer Science
 department_url: https://cpsc.yale.edu/
 institution_url: https://www.yale.edu/
 email: anurag.khandelwal@yale.edu
-website: http://anuragkhandelwal.com
+website: https://www.anuragkhandelwal.com
 github: https://github.com/anuragkh
 scholar: https://scholar.google.com/citations?user=LlfHFqUAAAAJ&hl=en
+yale: https://engineering.yale.edu/research-and-faculty/faculty-directory/anurag-khandelwal
+orcid: https://orcid.org/0000-0002-2199-6391
+dblp: https://dblp.org/pid/162/1936
+semantic_scholar: https://www.semanticscholar.org/author/2712026
+same_as:
+  - name: Yale Engineering
+    url: https://engineering.yale.edu/research-and-faculty/faculty-directory/anurag-khandelwal
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=LlfHFqUAAAAJ&hl=en
+  - name: ORCID
+    url: https://orcid.org/0000-0002-2199-6391
+  - name: DBLP
+    url: https://dblp.org/pid/162/1936
+  - name: Semantic Scholar
+    url: https://www.semanticscholar.org/author/2712026
+  - name: GitHub
+    url: https://github.com/anuragkh
 bio: >-
   Anurag Khandelwal is an Associate Professor of Computer Science at Yale
   University, where his group focuses broadly on problems in computer systems,

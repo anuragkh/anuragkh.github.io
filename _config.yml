@@ -4,6 +4,22 @@ lsi: false
 #highlighter: pygments
 source: .
 
+# Site identity. These values power canonical URLs, social cards, and JSON-LD.
+url: https://www.anuragkhandelwal.com
+baseurl: ""
+title: Anurag Khandelwal
+description: >-
+  Anurag Khandelwal is an Associate Professor of Computer Science at Yale
+  University researching computer systems, networks, security, disaggregated
+  memory, cloud computing, and systems for AI.
+lang: en_US
+
+# Add the verification tokens supplied by each webmaster portal. Empty values
+# are deliberately omitted from the rendered HTML.
+search_verification:
+  google:
+  bing:
+
 markdown: kramdown
 permalink: pretty
 
@@ -19,6 +35,13 @@ scholar:
   # The template to use for rendering bibliography entries
   bibliography_template: bib_entry
 
+  # Generate one crawlable scholarly landing page per published work. The
+  # PDF lives in the same /papers/ directory, as recommended by Scholar.
+  details_dir: papers
+  details_layout: paper.html
+  details_permalink: /:details_dir/:key:extension
+  details_link: false
+
   # Sort publications by year, month, and day in descending order
   sort_by: year, month
   order: descending
@@ -32,7 +55,7 @@ scholar:
   locale: en
 
   # The query to filter bibliography entries (e.g., "@*")
-  query: "@*"
+  query: "@*[preprint!=true]"
 
   bibtex_filters:
     - latex
@@ -47,3 +70,10 @@ exclude:
   - Gemfile.lock
   - vendor
   - node_modules
+  - images/me.jpg
+  - images/me.png
+  - css/styles.less
+  - css/app.css
+  - js/site.min.js
+  - publications.md.bak
+  - fonts/README.md

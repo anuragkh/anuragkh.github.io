@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign seo_pages = site.pages | where_exp: 'item', 'item.layout' | sort: 'url' %}
+  {% for item in seo_pages %}
+    {% unless item.sitemap == false %}
+  <url>
+    <loc>{{ item.url | replace: 'index.html', '' | absolute_url }}</loc>
+  </url>
+    {% endunless %}
+  {% endfor %}
+  <url>
+    <loc>{{ '/cv/cv.pdf' | absolute_url }}</loc>
+  </url>
+</urlset>

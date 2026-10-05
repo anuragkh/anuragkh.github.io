@@ -1,9 +1,14 @@
 ---
 layout: default
 title: NOVA Lab
+seo_title: NOVA Lab | Computer Systems Research at Yale
+description: NOVA Lab at Yale, led by Anurag Khandelwal, researches computer systems, architecture, networking, security, disaggregated memory, and AI infrastructure.
+schema_type: AboutPage
 ---
 
-# About
+# NOVA Lab
+
+## About
 
 <div class="content-box" markdown="1">
 
@@ -13,10 +18,10 @@ can find all of our project repositories on [GitHub](https://github.com/yale-nov
 
 </div>
 
-# Members
+## Members
 
 {% include advising.html %}
 
-# Funding
+## Funding
 
 {% include funding.html %}

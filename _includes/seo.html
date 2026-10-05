@@ -1,0 +1,257 @@
+{% assign profile = site.data.profile %}
+{% assign entry = page.entry %}
+{% if entry %}{% assign paper = site.data.paper_details[entry.key] %}{% endif %}
+
+{% comment %}
+Scholarly pages resolve a venue, a publication date, and a PDF location up
+front. Google Scholar reads these from the Highwire Press `citation_*` tags
+below; the JSON-LD graph reuses the same values.
+{% endcomment %}
+{% if entry %}
+  {% if entry.booktitle %}
+    {% assign venue = entry.booktitle %}
+    {% assign venue_tag = 'citation_conference_title' %}
+    {% assign venue_schema_type = 'CreativeWork' %}
+  {% elsif entry.journal %}
+    {% assign venue = entry.journal %}
+    {% assign venue_tag = 'citation_journal_title' %}
+    {% assign venue_schema_type = 'Periodical' %}
+  {% elsif entry.school %}
+    {% assign venue = entry.school %}
+    {% assign venue_tag = 'citation_dissertation_institution' %}
+    {% assign venue_schema_type = 'CollegeOrUniversity' %}
+  {% elsif entry.publisher %}
+    {% assign venue = entry.publisher %}
+    {% assign venue_tag = 'citation_dissertation_institution' %}
+    {% assign venue_schema_type = 'CollegeOrUniversity' %}
+  {% endif %}
+
+  {% comment %}
+  Most entries in papers.bib spell the month as `mon = {October}`, which
+  bibtex-ruby does not normalise, so `month_numeric` is only populated for the
+  entries that use the standard `month` field. Fall back to a name lookup.
+  {% endcomment %}
+  {% assign month_number = entry.month_numeric %}
+  {% if month_number == nil or month_number == '' %}
+    {% assign month_slugs = 'jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec' | split: ',' %}
+    {% assign month_slug = entry.mon | default: entry.month | downcase | slice: 0, 3 %}
+    {% for slug in month_slugs %}{% if slug == month_slug %}{% assign month_number = forloop.index %}{% break %}{% endif %}{% endfor %}
+  {% endif %}
+  {% if month_number == nil or month_number == '' %}
+    {% assign citation_date = entry.year %}
+    {% assign iso_date = entry.year %}
+  {% else %}
+    {% assign month_padded = month_number | prepend: '0' | slice: -2, 2 %}
+    {% capture citation_date %}{{ entry.year }}/{{ month_padded }}{% endcapture %}
+    {% capture iso_date %}{{ entry.year }}-{{ month_padded }}{% endcapture %}
+  {% endif %}
+
+  {% capture entry_pdf_path %}/papers/{{ entry.key }}.pdf{% endcapture %}
+  {% assign entry_pdf_file = site.static_files | where: 'path', entry_pdf_path | first %}
+  {% if entry_pdf_file %}{% assign entry_pdf_url = entry_pdf_path | absolute_url %}{% endif %}
+
+  {% capture entry_seo_title %}{{ entry.title }}{% if venue %} | {{ venue }}{% endif %}{% if entry.year %} {{ entry.year }}{% endif %}{% endcapture %}
+
+  {% comment %} Prefer the abstract, then a generated citation line, so no two
+  paper pages share a description. {% endcomment %}
+  {% if paper.abstract %}
+    {% assign entry_description = paper.abstract | truncatewords: 40 %}
+  {% else %}
+    {% capture entry_description %}{{ entry.title }}.{% if venue %} {{ venue }}{% endif %}{% if entry.year %}, {{ entry.year }}{% endif %}. Research paper co-authored by {{ profile.name }}, {{ profile.title }} of Computer Science at {{ profile.institution }}.{% endcapture %}
+  {% endif %}
+{% endif %}
+
+{% assign seo_title = page.seo_title | default: entry_seo_title | default: page.title | default: site.title %}
+{% assign seo_description = page.description | default: entry_description | default: site.description | strip_newlines | strip %}
+{% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
+{% assign social_image = page.image | default: '/images/me-720.jpg' | absolute_url %}
+{% assign schema_type = page.schema_type | default: 'WebPage' %}
+{% assign og_type = page.og_type | default: 'website' %}
+
+<title>{{ seo_title | escape }}</title>
+<meta name="description" content="{{ seo_description | escape }}">
+<meta name="author" content="{{ profile.name | escape }}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="{{ canonical_url }}">
+<link rel="alternate" hreflang="en" href="{{ canonical_url }}">
+{% for identity in profile.same_as %}
+<link rel="me" href="{{ identity.url }}">
+{% endfor %}
+
+<meta property="og:locale" content="{{ site.lang | default: 'en_US' }}">
+<meta property="og:type" content="{{ og_type }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ seo_title | escape }}">
+<meta property="og:description" content="{{ seo_description | escape }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{ social_image }}">
+<meta property="og:image:secure_url" content="{{ social_image }}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="720">
+<meta property="og:image:height" content="720">
+<meta property="og:image:alt" content="Portrait of {{ profile.name | escape }}">
+{% if og_type == 'profile' %}
+<meta property="profile:first_name" content="{{ profile.given_name | escape }}">
+<meta property="profile:last_name" content="{{ profile.family_name | escape }}">
+{% endif %}
+{% if og_type == 'article' and entry %}
+<meta property="article:published_time" content="{{ iso_date }}">
+{% for author in entry.author_array %}{% capture og_author %}{% if author.first %}{{ author.first }} {% endif %}{% if author.von %}{{ author.von }} {% endif %}{{ author.last }}{% if author.jr %} {{ author.jr }}{% endif %}{% endcapture %}
+<meta property="article:author" content="{{ og_author | strip | escape }}">
+{% endfor %}
+{% endif %}
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ seo_title | escape }}">
+<meta name="twitter:description" content="{{ seo_description | escape }}">
+<meta name="twitter:image" content="{{ social_image }}">
+<meta name="twitter:image:alt" content="Portrait of {{ profile.name | escape }}">
+
+{% if entry %}
+{% comment %}
+Highwire Press tags. Google Scholar requires these to index a paper landing
+page, and it expects `citation_author` in author order.
+{% endcomment %}
+<meta name="citation_title" content="{{ entry.title | escape }}">
+{% for author in entry.author_array %}{% capture citation_family %}{% if author.von %}{{ author.von }} {% endif %}{{ author.last }}{% if author.jr %} {{ author.jr }}{% endif %}{% endcapture %}
+<meta name="citation_author" content="{{ citation_family | strip | escape }}{% if author.first %}, {{ author.first | escape }}{% endif %}">
+{% endfor %}
+<meta name="citation_publication_date" content="{{ citation_date }}">
+{% if venue %}
+<meta name="{{ venue_tag }}" content="{{ venue | escape }}">
+{% endif %}
+{% if paper.doi %}
+<meta name="citation_doi" content="{{ paper.doi | escape }}">
+{% endif %}
+{% if entry_pdf_url %}
+<meta name="citation_pdf_url" content="{{ entry_pdf_url }}">
+{% endif %}
+<meta name="citation_abstract_html_url" content="{{ canonical_url }}">
+<meta name="citation_language" content="en">
+{% endif %}
+
+{% if site.search_verification.google %}
+<meta name="google-site-verification" content="{{ site.search_verification.google | escape }}">
+{% endif %}
+{% if site.search_verification.bing %}
+<meta name="msvalidate.01" content="{{ site.search_verification.bing | escape }}">
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ '/' | absolute_url | append: '#website' | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | strip_newlines | strip | jsonify }},
+      "inLanguage": "en",
+      "publisher": { "@id": {{ '/' | absolute_url | append: '#person' | jsonify }} }
+    },
+    {
+      "@type": "Person",
+      "@id": {{ '/' | absolute_url | append: '#person' | jsonify }},
+      "name": {{ profile.name | jsonify }},
+      "givenName": {{ profile.given_name | jsonify }},
+      "familyName": {{ profile.family_name | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "image": {
+        "@type": "ImageObject",
+        "@id": {{ social_image | append: '#primaryimage' | jsonify }},
+        "url": {{ social_image | jsonify }},
+        "contentUrl": {{ social_image | jsonify }},
+        "width": 720,
+        "height": 720,
+        "caption": {{ 'Portrait of ' | append: profile.name | jsonify }}
+      },
+      "jobTitle": {{ profile.title | jsonify }},
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": {{ profile.institution | jsonify }},
+        "url": {{ profile.institution_url | jsonify }}
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": {{ profile.department | jsonify }},
+        "url": {{ profile.department_url | jsonify }},
+        "parentOrganization": {
+          "@type": "CollegeOrUniversity",
+          "name": {{ profile.institution | jsonify }},
+          "url": {{ profile.institution_url | jsonify }}
+        }
+      },
+      "knowsAbout": [
+        "Computer systems",
+        "Distributed systems",
+        "Computer networks",
+        "Computer security",
+        "Disaggregated memory",
+        "Serverless computing",
+        "Systems for artificial intelligence"
+      ],
+      "sameAs": [
+        {% for identity in profile.same_as %}{{ identity.url | jsonify }}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {% if entry %}
+    {
+      "@type": "ScholarlyArticle",
+      "@id": {{ canonical_url | append: '#article' | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "headline": {{ entry.title | jsonify }},
+      "name": {{ entry.title | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      {% if paper.abstract %}"abstract": {{ paper.abstract | strip_newlines | strip | jsonify }},
+      {% endif %}"datePublished": {{ iso_date | jsonify }},
+      "inLanguage": "en",
+      "author": [
+        {% for author in entry.author_array %}{% capture author_name %}{% if author.first %}{{ author.first }} {% endif %}{% if author.von %}{{ author.von }} {% endif %}{{ author.last }}{% if author.jr %} {{ author.jr }}{% endif %}{% endcapture %}{% assign author_name = author_name | strip %}{
+          "@type": "Person",
+          "name": {{ author_name | jsonify }}{% if author_name == profile.name %},
+          "@id": {{ '/' | absolute_url | append: '#person' | jsonify }}{% endif %}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ],
+      {% if venue %}"isPartOf": {
+        "@type": {{ venue_schema_type | jsonify }},
+        "name": {{ venue | jsonify }}
+      },
+      {% endif %}{% if entry.award %}"award": {{ entry.award | jsonify }},
+      {% endif %}{% if paper.doi %}"identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": {{ paper.doi | jsonify }}
+        }
+      ],
+      "sameAs": {{ paper.doi | prepend: 'https://doi.org/' | jsonify }},
+      {% endif %}{% if entry_pdf_url %}"encoding": {
+        "@type": "MediaObject",
+        "contentUrl": {{ entry_pdf_url | jsonify }},
+        "encodingFormat": "application/pdf"
+      },
+      {% endif %}"mainEntityOfPage": { "@id": {{ canonical_url | append: '#webpage' | jsonify }} }
+    },
+    {% endif %}
+    {
+      "@type": {{ schema_type | jsonify }},
+      "@id": {{ canonical_url | append: '#webpage' | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ seo_title | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "inLanguage": "en",
+      "dateModified": {{ site.time | date_to_xmlschema | jsonify }},
+      "isPartOf": { "@id": {{ '/' | absolute_url | append: '#website' | jsonify }} },
+      "primaryImageOfPage": { "@id": {{ social_image | append: '#primaryimage' | jsonify }} },
+      "about": { "@id": {{ '/' | absolute_url | append: '#person' | jsonify }} }{% if entry %},
+      "mainEntity": { "@id": {{ canonical_url | append: '#article' | jsonify }} }
+      {% elsif schema_type == 'ProfilePage' %},
+      "mainEntity": { "@id": {{ '/' | absolute_url | append: '#person' | jsonify }} }
+      {% endif %}
+    }
+  ]
+}
+</script>

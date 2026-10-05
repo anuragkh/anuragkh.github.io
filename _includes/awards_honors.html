@@ -1,0 +1,18 @@
+<div class="content-box">
+  <ul class="award-list">
+    {% for award in site.data.awards_honors %}
+    <li>
+      <p class="award-name">{{ award.name | escape }}</p>
+      {% comment %}
+      Matches the CV renderer: the optional description introduces the work,
+      and the work itself is set as a title.
+      {% endcomment %}
+      {% if award.description or award.work %}
+      {% comment %} Liquid discards an if-block whose body is only whitespace,
+      so the separating space is appended to the value instead. {% endcomment %}
+      <p class="award-detail">{% if award.description %}{{ award.description | escape | append: " " }}{% endif %}{% if award.work %}<cite>{{ award.work | escape }}</cite>{% endif %}</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -48,6 +48,13 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
+      # Enriches any bib entry that has no _data/paper_details.yml record yet.
+      # The script only appends, uses the Ruby stdlib, and always exits 0, so a
+      # metadata API being slow or down can never block a deploy.
+      - name: Fetch missing paper metadata
+        run: ruby scripts/fetch_paper_details.rb
+        continue-on-error: true
+
       - name: Build site
         run: bundle exec jekyll build --destination ./_site
 
