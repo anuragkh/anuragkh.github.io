@@ -1,0 +1,38 @@
+{% comment %}
+Renders _data/research.yml. Directions marked `status: past` fold into a
+disclosure; everything else stays on the page.
+{% endcomment %}
+{% assign active = site.data.research | where: "status", "active" %}
+{% assign past = site.data.research | where: "status", "past" %}
+
+{% for direction in active %}
+<div class="content-box">
+  <p><strong>{{ direction.name }}:</strong> {{ direction.summary | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+  <ul>
+    {% for thread in direction.threads %}<li>{{ thread | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+    {% endfor %}
+  </ul>
+  {% if direction.note %}<p>{{ direction.note | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+</div>
+{% endfor %}
+
+{% if past.size > 0 %}
+<details class="animated-details">
+
+<summary><b>[Past Projects]</b></summary>
+
+<div class="details-panel">
+{% for direction in past %}
+<div class="content-box">
+  <p><strong>{{ direction.name }}:</strong> {{ direction.summary | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+  <ul>
+    {% for thread in direction.threads %}<li>{{ thread | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+    {% endfor %}
+  </ul>
+  {% if direction.note %}<p>{{ direction.note | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+</div>
+{% endfor %}
+</div>
+
+</details>
+{% endif %}

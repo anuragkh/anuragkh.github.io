@@ -1,0 +1,37 @@
+{% comment %}
+Groups _data/news.yml by year, newest first. The most recent `visible_years`
+groups stay on the page; the rest fold into a disclosure. How many to show is a
+presentation choice, so it lives here rather than in the data file.
+{% endcomment %}
+{% assign visible_years = 2 %}
+{% assign groups = site.data.news | group_by: "year" | sort: "name" | reverse %}
+
+{% for group in groups limit: visible_years %}
+<div class="content-box">
+  <p><strong>[{{ group.name }}]</strong></p>
+  <ul>
+    {% for item in group.items %}<li>{{ item.description | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+
+{% if groups.size > visible_years %}
+<details class="animated-details">
+
+<summary><b>[Older News]</b></summary>
+
+<div class="details-panel">
+{% for group in groups offset: visible_years %}
+<div class="content-box">
+  <p><strong>[{{ group.name }}]</strong></p>
+  <ul>
+    {% for item in group.items %}<li>{{ item.description | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+</div>
+
+</details>
+{% endif %}
