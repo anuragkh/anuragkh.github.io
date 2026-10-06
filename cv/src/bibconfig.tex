@@ -19,22 +19,42 @@
 \DeclareFieldFormat{note}{#1}
 
 \newbibmacro*{cv:title}{%
-  \printtext{\textcolor{teal}{\printfield[title]{title}}}}
+  \printtext{\textcolor{cvaccent}{\printfield[title]{title}}}}
+% Author names: the CV owner in bold, advisees with a dagger. Both are
+% registered as given/family pairs (see generated/advisees.tex); a trailing *
+% (equal contribution) in the bib is registered as its own variant.
+\makeatletter
+\newcommand{\cvself}[2]{\csgdef{cvself@\detokenize{#1@#2}}{}}
+\newcommand{\cvadvisee}[2]{\csgdef{cvadvisee@\detokenize{#1@#2}}{}}
+\DeclareNameFormat{cvauthor}{%
+  \nameparts{#1}%
+  \edef\cv@namekey{\detokenize\expandafter{\namepartgiven}@\detokenize\expandafter{\namepartfamily}}%
+  \ifcsdef{cvself@\cv@namekey}
+    {\begingroup
+     \renewcommand*{\mkbibnamegiven}[1]{\mkbibbold{##1}}%
+     \renewcommand*{\mkbibnamefamily}[1]{\mkbibbold{##1}}%
+     \usebibmacro{name:given-family}{\namepartfamily}{\namepartgiven}{\namepartprefix}{\namepartsuffix}%
+     \endgroup}
+    {\usebibmacro{name:given-family}{\namepartfamily}{\namepartgiven}{\namepartprefix}{\namepartsuffix}%
+     \ifcsdef{cvadvisee@\cv@namekey}{\textsuperscript{\dag}}{}}%
+  \usebibmacro{name:andothers}}
+\makeatother
 \newbibmacro*{cv:authors}{%
-  \printnames{author}}
+  \printnames[cvauthor]{author}}
 \newbibmacro*{cv:venue+date}{%
   \iffieldundef{booktitle}
     {\printfield{journaltitle}}
     {\printfield{booktitle}}%
   \setunit{\addcomma\space}\printfield{year}}
+% Equal-contribution notes are covered by the legend under Publications.
 \newbibmacro*{cv:note}{%
-  \iffieldundef{note}
+  \iffieldequalstr{note}{(*Equal contribution authors)}
     {}
     {\printfield{note}}}
 \newbibmacro*{cv:award}{%
   \iffieldundef{usera}
     {}
-    {\printtext{\textcolor{blue}{\printfield{usera}}}}}
+    {\printtext{\textbf{\printfield{usera}}}}}
 \newbibmacro*{cv:entry}{%
   \usebibmacro{cv:title}%
   \ifnameundef{author}
@@ -47,7 +67,9 @@
     {\cvbiblinebreak\usebibmacro{cv:venue+date}}%
   \iffieldundef{note}
     {}
-    {\cvbiblinebreak\usebibmacro{cv:note}}%
+    {\iffieldequalstr{note}{(*Equal contribution authors)}
+      {}
+      {\cvbiblinebreak\usebibmacro{cv:note}}}%
   \iffieldundef{usera}
     {}
     {\cvbiblinebreak\usebibmacro{cv:award}}}
@@ -63,13 +85,15 @@
   \ifnameundef{author}
     {}
     {\cvbiblinebreak\usebibmacro{cv:authors}}%
-  \iffieldundef{publisher}
+  \iflistundef{publisher}
     {}
-    {\cvbiblinebreak\printfield{publisher}%
+    {\cvbiblinebreak\mkbibemph{PhD Dissertation, \printlist{publisher}}%
      \setunit{\addcomma\space}\printfield{year}}%
   \iffieldundef{note}
     {}
-    {\cvbiblinebreak\usebibmacro{cv:note}}%
+    {\iffieldequalstr{note}{(*Equal contribution authors)}
+      {}
+      {\cvbiblinebreak\usebibmacro{cv:note}}}%
   \iffieldundef{usera}
     {}
     {\cvbiblinebreak\usebibmacro{cv:award}}%

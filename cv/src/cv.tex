@@ -5,6 +5,7 @@
 \input{generated/profile}%
 \input{src/environs}
 \input{src/bibconfig}
+\input{generated/advisees}%
 
 %%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
 
@@ -15,111 +16,97 @@
 \maketitle
 
 %%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
-% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+% The main body is contained in cvtable environments (see src/environs.tex),
+% which break across pages on their own.
 
-\noindent \begin{tabular}{@{} l l}
-\input{generated/education}%
+\begin{cvtable}
 \input{generated/work_history}%
-\input{generated/awards_honors}%
-\end{tabular}
-
-\newpage
-
-%%%%%%%%%%%%%%%%% RESEARCH %%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\noindent \begin{tabular}{@{} l p{6.5in}}
+\input{generated/education}%
 \input{generated/research_focus}%
 \input{generated/research_impact}%
-\end{tabular}
-\vspace{-\baselineskip}
+\input{generated/awards_honors}%
+\end{cvtable}
 
-\noindent \begin{tabular}{@{} l l}
-\Large{Publications} & \\
-\end{tabular}
+%%%%%%%%%%%%%%%%% PUBLICATIONS %%%%%%%%%%%%%%%%%%%%%%%
+% Add a paper with \cvpub{<bibkey>} in the matching list; numbering and
+% award cross-references ([C4] etc.) update automatically.
 
-\vspace{1em}
-\noindent
-\Large{Conferences \& Workshops}
-{\normalsize
-\begin{enumerate}[label={[C\arabic*]}, itemsep=0pt]
-    \item \cvbibentry{soul}
-    \item \cvbibentry{bullettime}
-    \item \cvbibentry{timelyllm}
-    \item \cvbibentry{counterpoint}
-    \item \cvbibentry{spirit}
-    \item \cvbibentry{mage}
-    \item \cvbibentry{fit}
-    \item \cvbibentry{weave}
-    \item \cvbibentry{cord}
-    \item \cvbibentry{pulse}
-    \item \cvbibentry{elasticmimo}
-    \item \cvbibentry{length-leakage}
-    \item \cvbibentry{scalo-toppicks}
-    \item \cvbibentry{promptcache}
-    \item \cvbibentry{trinity}
-    \item \cvbibentry{karma}
-    \item \cvbibentry{cls}
-    \item \cvbibentry{scalo}
-    \item \cvbibentry{shepherd}
-    \item \cvbibentry{shortstack}
-    \item \cvbibentry{jiffy}
-    \item \cvbibentry{mind}
-    \item \cvbibentry{serverless-next}
-    \item \cvbibentry{caerus}
-    \item \cvbibentry{pancake}
-    \item \cvbibentry{sigmodserverless}
-    \item \cvbibentry{confluo}
-    \item \cvbibentry{zipg}
-    \item \cvbibentry{blowfish}
-    \item \cvbibentry{succinct}
-\end{enumerate}
-}
+\begin{cvtable}
+\cvlabel{Publications} & Advisees (students and postdocs) are marked with~\textsuperscript{\dag}; * denotes equal contribution.\\
+\end{cvtable}
 
-\vspace{1em}
-\noindent
-\Large{Theses}
-{\normalsize
-\begin{enumerate}[label={[T\arabic*]}, itemsep=0pt]
-    \item \cvbibentry{phdthesis}
-\end{enumerate}
-}
+\cvpubsection{Conference Papers}
+\begin{cvpubs}{C}
+    \cvpub{soul}
+    \cvpub{bullettime}
+    \cvpub{timelyllm}
+    \cvpub{counterpoint}
+    \cvpub{spirit}
+    \cvpub{mage}
+    \cvpub{fit}
+    \cvpub{weave}
+    \cvpub{cord}
+    \cvpub{pulse}
+    \cvpub{length-leakage}
+    \cvpub{promptcache}
+    \cvpub{trinity}
+    \cvpub{karma}
+    \cvpub{scalo}
+    \cvpub{shepherd}
+    \cvpub{shortstack}
+    \cvpub{jiffy}
+    \cvpub{mind}
+    \cvpub{caerus}
+    \cvpub{pancake}
+    \cvpub{sigmodserverless}
+    \cvpub{confluo}
+    \cvpub{zipg}
+    \cvpub{blowfish}
+    \cvpub{succinct}
+\end{cvpubs}
 
-\vspace{1em}
-\noindent
-\Large{Technical Reports}
-{\normalsize
-\begin{enumerate}[label={[R\arabic*]}, itemsep=0pt]
-    \item \cvbibentry{berkeley-view-serverless}
-    \item \cvbibentry{attacking-dcn}
-\end{enumerate}
-}
+\cvpubsection{Journal \& Magazine Articles}
+\begin{cvpubs}{J}
+    \cvpub{cord-toppicks}
+    \cvpub{scalo-toppicks}
+    \cvpub{serverless-next}
+\end{cvpubs}
 
-\vspace{1em}
-\noindent
-\Large{Preprints}
-{\normalsize
-\begin{enumerate}[label={[P\arabic*]}, itemsep=0pt]
-    \item \cvbibentry{metro}
-    \item \cvbibentry{crepe}
-\end{enumerate}
-\vspace{1em}
-}
+\cvpubsection{Workshop Papers}
+\begin{cvpubs}{W}
+    \cvpub{elasticmimo}
+    \cvpub{cls}
+\end{cvpubs}
 
-{\normalsize
-\noindent \begin{tabular}{@{} l l}
-\input{generated/invited_talks}%
+\cvpubsection{Dissertation}
+\begin{cvpubs}{T}
+    \cvpub{phdthesis}
+\end{cvpubs}
+
+\cvpubsection{Technical Reports}
+\begin{cvpubs}{R}
+    \cvpub{berkeley-view-serverless}
+    \cvpub{attacking-dcn}
+\end{cvpubs}
+
+\cvpubsection{Preprints}
+\begin{cvpubs}{P}
+    \cvpub{metro}
+    \cvpub{crepe}
+\end{cvpubs}
+
+\vspace{1.5em}
+
+%%%%%%%%%%%%%%%%% FUNDING, TALKS, TEACHING, SERVICE %%%%%%%%%%%%%%%%%%%
+
+\begin{cvtable}
 \input{generated/funding}%
+\input{generated/invited_talks}%
 \input{generated/teaching}%
 \input{generated/advising}%
 \input{generated/education_outreach}%
-\end{tabular}
-}
-
-{\normalsize
-\noindent \begin{tabular}{@{} l l}
 \input{generated/community_service}%
 \input{generated/university_service}%
 \input{generated/department_service}%
-\end{tabular}
-}
+\end{cvtable}
 \end{document}

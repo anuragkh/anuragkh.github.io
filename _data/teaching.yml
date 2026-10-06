@@ -10,7 +10,7 @@
 #       number: CPSC 000  # optional override when the number changed
 
 - name: Operating Systems
-  number: CPSC422/522
+  number: CPSC 422/522
   offerings:
     - term: Spring 2026
       url: https://courses.yale.edu/?details&srcdb=202601&crn=21079
@@ -29,7 +29,7 @@
       enrollment: 44
 
 - name: Computer Networks
-  number: CPSC433/533
+  number: CPSC 433/533
   offerings:
     - term: Spring 2022
       url: https://courses.yale.edu/?details&srcdb=202201&crn=20912

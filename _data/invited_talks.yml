@@ -9,7 +9,7 @@
   appearances:
     - { venue: Carnegie Mellon University, date: November 2025 }
     - { venue: University of Washington, date: October 2025 }
-    - { venue: University of Texas--Austin, date: October 2025 }
+    - { venue: University of Texas at Austin, date: October 2025 }
     - { venue: Princeton University, date: October 2025 }
     - { venue: University of Pennsylvania, date: October 2025 }
     - { venue: Massachusetts Institute of Technology, date: September 2025 }
@@ -23,7 +23,7 @@
   appearances:
     - { venue: "NSF AI Institute Showcase, Duke University", date: August 2022 }
     - { venue: Cornell University, date: November 2021 }
-    - { venue: VMWare, date: November 2021 }
+    - { venue: VMware, date: November 2021 }
     - { venue: Columbia University, date: October 2021 }
 
 - title: "Jiffy: Ephemeral Storage for Serverless Analytics"
@@ -55,4 +55,4 @@
   appearances:
     - { venue: "SF Big Analytics Meetup, San Francisco", date: September 2016 }
     - { venue: "Bay Area AI Meetup, San Francisco", date: September 2016 }
-    - { venue: "Cloudera, San Fransisco", date: June 2016 }
+    - { venue: "Cloudera, San Francisco", date: June 2016 }
