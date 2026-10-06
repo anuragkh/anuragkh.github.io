@@ -3,7 +3,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     {% include seo.html %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="msapplication-tooltip" content="{{ site.data.profile.name }} academic webpage">
@@ -51,9 +50,12 @@
 
       {% endcomment %}
       <header class="site-header">
+          {% comment %} The home page already opens with the name as its h1. {% endcomment %}
+          {% unless page.url == '/' %}
           <a class="site-title" href="/" aria-label="{{ site.data.profile.name }}, home">
-            <span>Anurag</span> <span>Khandelwal</span>
+            <span>{{ site.data.profile.given_name }}</span> <span>{{ site.data.profile.family_name }}</span>
           </a>
+          {% endunless %}
           <picture class="img-frame">
             <source
               type="image/webp"

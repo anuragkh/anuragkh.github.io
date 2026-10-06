@@ -6,12 +6,12 @@
 
 - year: 2025
   description: >-
-    [CORD](https://dl.acm.org/doi/10.1145/3695053.3731074) incorporated in the
+    [CORD](/papers/cord/) incorporated in the
     design of [NVIDIA's Vera Rubin architecture](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/#accelerated_scale-up_communications).
 
 - year: 2024
   description: >-
-    [PromptCache](https://proceedings.mlsys.org/paper_files/paper/2024/hash/a66caa1703fe34705a4368c3014c1966-Abstract-Conference.html)
+    [PromptCache](/papers/promptcache/)
     adopted in [Gemini](https://ai.google.dev/gemini-api/docs/caching?lang=python),
     [OpenAI](https://platform.openai.com/docs/guides/prompt-caching), and
     [Anthropic](https://www.anthropic.com/news/prompt-caching) for reusing
@@ -25,26 +25,26 @@
 - year: 2023
   description: >-
     The ideas underlying
-    [SCALO](https://dl.acm.org/doi/abs/10.1145/3579371.3589107) have been tested
+    [SCALO](/papers/scalo/) have been tested
     by Yale Neurosurgery in FPGA-based emulation frameworks for interfacing with
     the human brain in the operating room.
 
 - year: 2021
   description: >-
-    [MIND](https://dl.acm.org/doi/10.1145/3477132.3483561) is the foundational
+    [MIND](/papers/mind/) is the foundational
     system and central pillar of the multi-institution $20-million NSF-funded AI
     Institute, [Athena](https://athena.duke.edu/what-we-do/edge-powered-ai-systems).
 
 - year: 2019
   description: >-
-    [Confluo](https://www.usenix.org/conference/nsdi19/presentation/khandelwal)
+    [Confluo](/papers/confluo/)
     employed in
     [Alibaba Cloud](https://medium.datadriveninvestor.com/high-speed-querying-with-confluo-from-riselab-445bed3f7f9a)
     for consuming and analyzing telemetry data.
 
 - year: 2015
   description: >-
-    [Succinct](https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/agarwal)
+    [Succinct](/papers/succinct/)
     employed by
     [Databricks](https://www.databricks.com/blog/2015/11/10/succinct-spark-from-amplab-queries-on-compressed-rdds.html)
     [customers](https://spark-packages.org/package/amplab/succinct) to query

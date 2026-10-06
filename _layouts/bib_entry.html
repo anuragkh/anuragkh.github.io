@@ -48,7 +48,9 @@
       {% if paper_details.code %}
         <a href="{{ paper_details.code }}" rel="external">Code</a>
       {% endif %}
+      <button class="pub-copy" type="button" data-copy-target="bibtex-{{ entry.key }}" aria-label="Copy BibTeX for {{ entry.title | escape }}" hidden>BibTeX</button>
     </div>
   {% endif %}
+  <pre id="bibtex-{{ entry.key }}" hidden>{{ entry.bibtex | escape }}</pre>
 </div>
 {% endunless %}

@@ -1,10 +1,15 @@
 {% comment %}
-Topic filter for the publications list. Hidden until js/publication-filter.js
-runs, so the page stays a plain list without JavaScript.
+Topic filter and text search for the publications list. Hidden until
+js/publication-filter.js runs, so the page stays a plain list without
+JavaScript. The script appends a paper count to each topic button.
 {% endcomment %}
-<div class="pub-filter" role="group" aria-label="Filter publications" hidden>
-  <button type="button" data-filter="all" aria-pressed="true">All</button>
-  {% for topic in site.data.publication_topics %}<button type="button" data-filter="{{ topic.key }}" aria-pressed="false">{{ topic.label }}</button>
-  {% endfor %}
+<div class="pub-tools" hidden>
+  <label class="visually-hidden" for="pub-search">Search publications</label>
+  <input class="pub-search" id="pub-search" type="search" placeholder="Search titles, authors, venues…" autocomplete="off" spellcheck="false">
+  <div class="pub-filter" role="group" aria-label="Filter publications by topic">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    {% for topic in site.data.publication_topics %}<button type="button" data-filter="{{ topic.key }}" aria-pressed="false">{{ topic.label }}</button>
+    {% endfor %}
+  </div>
 </div>
 <p class="pub-filter-status" aria-live="polite"></p>

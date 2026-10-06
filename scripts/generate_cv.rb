@@ -36,13 +36,19 @@ def period(person)
   "#{person['start']}-#{person['end']}".sub(/-\z/, "-")
 end
 
+# Site-relative links (e.g. /papers/mind/) only resolve on the website, so the
+# PDF needs them absolute.
+def absolute_link(target)
+  target.start_with?("/") ? load_data("profile").fetch("website").chomp("/") + target : target
+end
+
 def markdown_to_tex(value)
   result = +""
   cursor = 0
   value.to_enum(:scan, /\[([^\]]+)\]\(([^)]+)\)/).each do
     match = Regexp.last_match
     result << tex(value[cursor...match.begin(0)])
-    result << "\\href{#{match[2]}}{#{tex(match[1])}}"
+    result << "\\href{#{absolute_link(match[2])}}{#{tex(match[1])}}"
     cursor = match.end(0)
   end
   result << tex(value[cursor..])

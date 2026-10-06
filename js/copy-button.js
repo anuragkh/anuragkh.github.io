@@ -39,6 +39,9 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
+    // Buttons that do nothing without JavaScript ship hidden.
+    button.hidden = false;
+
     var defaultLabel = button.textContent;
     var resetTimer = null;
 

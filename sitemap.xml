@@ -10,6 +10,7 @@ sitemap: false
     {% unless item.sitemap == false %}
   <url>
     <loc>{{ item.url | replace: 'index.html', '' | absolute_url }}</loc>
+    {% if item.last_modified_at %}<lastmod>{{ item.last_modified_at | date_to_xmlschema }}</lastmod>{% endif %}
   </url>
     {% endunless %}
   {% endfor %}

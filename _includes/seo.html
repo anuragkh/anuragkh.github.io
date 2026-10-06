@@ -182,15 +182,25 @@ page, and it expects `citation_author` in author order.
           "url": {{ profile.institution_url | jsonify }}
         }
       },
-      "knowsAbout": [
-        "Computer systems",
-        "Distributed systems",
-        "Computer networks",
-        "Computer security",
-        "Disaggregated memory",
-        "Serverless computing",
-        "Systems for artificial intelligence"
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": {{ profile.title | append: ' of Computer Science' | jsonify }}
+      },
+      "email": {{ profile.email | prepend: 'mailto:' | jsonify }},
+      {% if profile.orcid %}"identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": {{ profile.orcid | split: '/' | last | jsonify }}
+      },
+      {% endif %}"alumniOf": [
+        {% for degree in site.data.education %}{
+          "@type": "CollegeOrUniversity",
+          "name": {{ degree.institution | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
       ],
+      "award": {{ site.data.awards_honors | map: 'name' | jsonify }},
+      "knowsAbout": {{ site.data.research_focus.keywords | jsonify }},
       "sameAs": [
         {% for identity in profile.same_as %}{{ identity.url | jsonify }}{% unless forloop.last %},{% endunless %}
         {% endfor %}

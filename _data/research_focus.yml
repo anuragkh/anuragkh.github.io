@@ -5,3 +5,28 @@ summary: >-
   and security. My work addresses challenges in processing, storing, and
   serving large volumes of data to empower real-world systems: from sprawling
   internet services like social media to critical tools in health and medicine.
+
+# Research topics, broadest first. These populate the `knowsAbout` field that
+# search engines and AI assistants read to associate the site with a field, so
+# prefer the phrases people actually search for.
+keywords:
+  - Computer systems
+  - Distributed systems
+  - Computer architecture
+  - Computer networks
+  - Computer security
+  - Cloud computing
+  - Memory disaggregation
+  - Disaggregated memory
+  - Far memory
+  - Cache coherence
+  - Memory consistency
+  - Systems for machine learning
+  - LLM inference serving
+  - Prompt caching
+  - KV cache reuse
+  - Access pattern attacks
+  - Oblivious storage
+  - Serverless computing
+  - Brain-computer interfaces
+  - Queries on compressed data

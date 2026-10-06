@@ -5,7 +5,7 @@
 #     One paragraph on the problem and the approach taken.
 #   threads:
 #     - >-
-#       Short description of a line of work: [VENUE'YY](/papers/key.pdf), ...
+#       Short description of a line of work: [VENUE'YY](/papers/key/), ...
 #   note: >-
 #     Optional closing sentence, e.g. where the work has been adopted.
 #
@@ -24,17 +24,17 @@
   threads:
     - >-
         Scalable cache coherence for disaggregated shared memory pools:
-        [SOSP'21](/papers/mind.pdf), [ISCA'25](/papers/cord.pdf),
-        [OSDI'26](/papers/soul.pdf)
+        [MIND](/papers/mind/) (SOSP'21), [CORD](/papers/cord/) (ISCA'25),
+        [Soul](/papers/soul/) (OSDI'26)
     - >-
         Fair sharing across disaggregated memory resources:
-        [OSDI'23](/papers/karma.pdf), [SOSP'25](/papers/spirit.pdf)
+        [Karma](/papers/karma/) (OSDI'23), [Spirit](/papers/spirit/) (SOSP'25)
     - >-
         Low-latency, high-throughput access to disaggregated memory:
-        [ASPLOS'25](/papers/pulse.pdf), [SOSP'25](/papers/mage.pdf)
+        [PULSE](/papers/pulse/) (ASPLOS'25), [Mage](/papers/mage/) (SOSP'25)
     - >-
-        Understanding memory performance: [ISCA'26](/papers/bullettime.pdf),
-        [ASPLOS'26](/papers/counterpoint.pdf)
+        Understanding memory performance: [BulletTime](/papers/bullettime/) (ISCA'26),
+        [CounterPoint](/papers/counterpoint/) (ASPLOS'26)
   note: >-
     Our work on scalable cache coherence for disaggregated memory has been
     incorporated into [NVIDIA's Vera Rubin
@@ -51,13 +51,13 @@
     efficient protections against them.
   threads:
     - >-
-        Protecting against access pattern vulnerabilities: [USENIX
-        Sec'20](/papers/pancake.pdf), [OSDI'22](/papers/shortstack.pdf),
-        [OSDI'25](/papers/weave.pdf)
+        Protecting against access pattern vulnerabilities: [Pancake](/papers/pancake/) (USENIX
+        Sec'20), [Shortstack](/papers/shortstack/) (OSDI'22),
+        [Weave](/papers/weave/) (OSDI'25)
     - >-
-        Understanding access pattern vulnerabilities: [USENIX
-        Sec'24](/papers/length-leakage.pdf), [USENIX
-        Sec'25](/papers/fit.pdf)
+        Understanding access pattern vulnerabilities: [Length Leakage](/papers/length-leakage/) (USENIX
+        Sec'24), [Found in Translation](/papers/fit/) (USENIX
+        Sec'25)
 
 - name: Systems for AI
   status: active
@@ -70,12 +70,12 @@
   threads:
     - >-
         Scheduling for low-latency, high-throughput AI inference:
-        [NSDI'23](/papers/shepherd.pdf), [MobiSys'26](/papers/timelyllm.pdf)
+        [Shepherd](/papers/shepherd/) (NSDI'23), [TimelyLLM](/papers/timelyllm/) (MobiSys'26)
     - >-
         Caching attention state across prompts for low-latency inference:
-        [MLSys'24](/papers/promptcache.pdf)
+        [PromptCache](/papers/promptcache/) (MLSys'24)
   note: >-
-    [PromptCache](/papers/promptcache.pdf) has been adopted in Gemini,
+    [PromptCache](/papers/promptcache/) has been adopted in Gemini,
     OpenAI, and Anthropic for reusing attention states across LLM prompts.
 
 - name: Storage and processing stacks for automated data
@@ -90,14 +90,14 @@
   threads:
     - >-
         High-throughput compressed storage of high-dimensional data:
-        [EuroSys'24](/papers/trinity.pdf)
+        [Trinity](/papers/trinity/) (EuroSys'24)
     - >-
         Distributed system for scalable Brain-Computer Interfacing (BCI):
-        [ISCA'23](/papers/scalo.pdf), [MICRO Top
-        Picks'23](/papers/scalo-toppicks.pdf)
+        [SCALO](/papers/scalo/) (ISCA'23), [MICRO Top
+        Picks'23](/papers/scalo-toppicks/)
     - >-
         Distributed monitoring & diagnosis for high speed networks:
-        [NSDI'19](/papers/confluo.pdf)
+        [Confluo](/papers/confluo/) (NSDI'19)
 
 - name: Serverless Systems
   status: past
@@ -110,14 +110,13 @@
     as first-class primitives:
   threads:
     - >-
-        Position papers: [UC Berkeley Tech
-        Report](/papers/berkeley-view-serverless.pdf),
-        [SIGMOD'20](https://dl.acm.org/doi/10.1145/3318464.3383130),
-        [CACM'21](/papers/serverless-next.pdf)
+        Position papers: [Berkeley View on Serverless](/papers/berkeley-view-serverless/) (Tech Report),
+        [Le Taureau](/papers/sigmodserverless/) (SIGMOD'20),
+        [What Serverless Should Become](/papers/serverless-next/) (CACM'21)
     - >-
         Enabling fast and cost-effective analytics over serverless
-        functions: [NSDI'21](/papers/caerus.pdf),
-        [EuroSys'22](/papers/jiffy.pdf)
+        functions: [Caerus](/papers/caerus/) (NSDI'21),
+        [Jiffy](/papers/jiffy/) (EuroSys'22)
 
 - name: Queries on compressed data
   status: past
@@ -131,8 +130,8 @@
   threads:
     - >-
         Enabling queries on compressed data:
-        [NSDI'15](/papers/succinct.pdf), [SIGMOD'17](/papers/zipg.pdf),
-        [Thesis](/papers/phdthesis.pdf)
+        [Succinct](/papers/succinct/) (NSDI'15), [ZipG](/papers/zipg/) (SIGMOD'17),
+        [Queries on Compressed Data](/papers/phdthesis/) (PhD Thesis)
     - >-
         Dynamic storage-performance tradeoff in data stores:
-        [NSDI'16](/papers/blowfish.pdf)
+        [BlowFish](/papers/blowfish/) (NSDI'16)
