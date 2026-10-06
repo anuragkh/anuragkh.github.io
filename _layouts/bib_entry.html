@@ -1,6 +1,6 @@
 {% unless entry.preprint == "true" %}
 {% assign paper_details = site.data.paper_details[entry.key] %}
-<div class="pub-entry pub-type-{{ entry.type }}">
+<div class="pub-entry pub-type-{{ entry.type }}" data-topic="{{ paper_details.topic }}">
   <h3 class="pub-title"><a href="{{ details }}">{{ entry.title }}</a></h3>
 
   <div class="pub-authors">
@@ -36,11 +36,11 @@
   {% assign slides_file = site.static_files | where: "path", slides_path | first %}
   {% if paper_details or paper_file or slides_file or paper_details.code %}
     <div class="pub-links" role="group" aria-label="Publication resources">
-      {% if paper_details %}
-        <a href="{{ details }}">Details</a>
-      {% endif %}
       {% if paper_file %}
         <a href="{{ paper_path | relative_url }}">PDF</a>
+      {% endif %}
+      {% if paper_details %}
+        <a href="{{ details }}">Details</a>
       {% endif %}
       {% if slides_file %}
         <a href="{{ slides_path | relative_url }}">Slides</a>

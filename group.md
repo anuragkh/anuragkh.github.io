@@ -8,8 +8,6 @@ schema_type: AboutPage
 
 # NOVA Lab
 
-## About
-
 <div class="content-box" markdown="1">
 
 NOVA Lab focuses on research challenges spanning computer systems, architecture, networking

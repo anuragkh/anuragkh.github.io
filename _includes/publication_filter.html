@@ -1,0 +1,10 @@
+{% comment %}
+Topic filter for the publications list. Hidden until js/publication-filter.js
+runs, so the page stays a plain list without JavaScript.
+{% endcomment %}
+<div class="pub-filter" role="group" aria-label="Filter publications" hidden>
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  {% for topic in site.data.publication_topics %}<button type="button" data-filter="{{ topic.key }}" aria-pressed="false">{{ topic.label }}</button>
+  {% endfor %}
+</div>
+<p class="pub-filter-status" aria-live="polite"></p>

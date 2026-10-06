@@ -1,4 +1,5 @@
 sigmodserverless:
+  topic: cloud
   doi: "10.1145/3318464.3383130"
   official_url: "https://doi.org/10.1145/3318464.3383130"
   contribution: >-
@@ -20,6 +21,7 @@ sigmodserverless:
     landscape and help advance both the paradigm and the applications built on it.
 
 serverless-next:
+  topic: cloud
   doi: "10.1145/3406011"
   official_url: "https://doi.org/10.1145/3406011"
   contribution: >-
@@ -39,6 +41,7 @@ serverless-next:
     become.
 
 mind:
+  topic: memory
   doi: "10.1145/3477132.3483561"
   official_url: "https://doi.org/10.1145/3477132.3483561"
   code: "https://github.com/yale-nova/mind"
@@ -63,6 +66,7 @@ mind:
     real-world workloads.
 
 cls:
+  topic: memory
   doi: "10.1145/3593856.3595901"
   official_url: "https://doi.org/10.1145/3593856.3595901"
   contribution: >-
@@ -81,8 +85,10 @@ cls:
     accurate, and adaptable prefetchers.
 
 jiffy:
+  topic: cloud
   doi: "10.1145/3492321.3527539"
   official_url: "https://doi.org/10.1145/3492321.3527539"
+  code: "https://github.com/resource-disaggregation/jiffy"
   contribution: >-
     Jiffy elastically reallocates remote memory at seconds-scale granularity so
     stateful serverless analytics jobs pay for and use memory in proportion to
@@ -100,6 +106,7 @@ jiffy:
     natively supports a broad class of analytics applications on AWS Lambda.
 
 karma:
+  topic: memory
   doi: "10.48550/arXiv.2305.17222"
   official_url: "https://www.usenix.org/conference/osdi23/presentation/vuppalapati"
   code: "https://github.com/resource-disaggregation/karma"
@@ -119,8 +126,10 @@ karma:
     maintaining Pareto-optimal system-wide performance.
 
 trinity:
+  topic: data
   doi: "10.1145/3627703.3650072"
   official_url: "https://doi.org/10.1145/3627703.3650072"
+  code: "https://github.com/Trinity-data-store/Trinity"
   contribution: >-
     Trinity's MDTrie data structure makes multi-attribute records both compact
     and fast to search, closing the usual gap between query performance and
@@ -138,6 +147,7 @@ trinity:
     and up to 52.5 times higher than OLTP and OLAP systems.
 
 promptcache:
+  topic: ai
   doi: "10.48550/arXiv.2311.04934"
   official_url: "https://proceedings.mlsys.org/paper_files/paper/2024/hash/a66e4fad2706005314c4585ec0f2ef8a-Abstract-Conference.html"
   code: "https://github.com/yale-sys/prompt-cache"
@@ -158,6 +168,7 @@ promptcache:
     model-parameter changes.
 
 spirit:
+  topic: memory
   doi: "10.1145/3731569.3764805"
   official_url: "https://doi.org/10.1145/3731569.3764805"
   code: "https://github.com/yale-nova/spirit"
@@ -178,6 +189,7 @@ spirit:
     resource needs.
 
 mage:
+  topic: memory
   doi: "10.1145/3731569.3764842"
   official_url: "https://doi.org/10.1145/3731569.3764842"
   code: "https://github.com/rs3lab/mage-artifact"
@@ -198,6 +210,7 @@ mage:
     percent.
 
 cord:
+  topic: memory
   doi: "10.1145/3695053.3731074"
   official_url: "https://doi.org/10.1145/3695053.3731074"
   code: "https://github.com/yale-nova/CORD"
@@ -219,6 +232,7 @@ cord:
     programming model.
 
 pulse:
+  topic: memory
   doi: "10.1145/3669940.3707253"
   official_url: "https://doi.org/10.1145/3669940.3707253"
   code: "https://github.com/yale-nova/pulse"
@@ -236,6 +250,7 @@ pulse:
     range of pointer-traversal workloads that perform poorly with caching alone.
 
 soul:
+  topic: memory
   official_url: "https://www.usenix.org/conference/osdi26/presentation/yu-yanpeng"
   code: "https://github.com/yale-nova/Soul"
   contribution: >-
@@ -256,6 +271,7 @@ soul:
     under 8 percent storage overhead.
 
 bullettime:
+  topic: memory
   doi: "10.1109/ISCA66397.2026.00125"
   official_url: "https://doi.org/10.1109/ISCA66397.2026.00125"
   code: "https://github.com/ysarch-lab/BulletTime"
@@ -276,8 +292,10 @@ bullettime:
     percent even under extreme asymmetric delays.
 
 timelyllm:
+  topic: ai
   doi: "10.1145/3745756.3809203"
   official_url: "https://doi.org/10.1145/3745756.3809203"
+  code: "https://github.com/Neawhen/TimelyLLM"
   contribution: >-
     TimelyLLM schedules generation around the physical execution rate of robots
     and other agents, using otherwise wasted slack to reduce contention and make
@@ -295,6 +313,7 @@ timelyllm:
     overall waiting time by 84 percent.
 
 counterpoint:
+  topic: memory
   doi: "10.1145/3779212.3790145"
   official_url: "https://doi.org/10.1145/3779212.3790145"
   code: "https://github.com/NicholasLindsay/counterpoint-public"
@@ -314,6 +333,7 @@ counterpoint:
     TLB prefetcher, merging page-table walkers, and abortable page-table walks.
 
 succinct:
+  topic: data
   official_url: "https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/agarwal"
   code: "https://github.com/amplab/succinct"
   contribution: >-
@@ -331,6 +351,7 @@ succinct:
     memory and delivering low query latency over a larger range of input sizes.
 
 zipg:
+  topic: data
   doi: "10.1145/3035918.3064012"
   official_url: "https://doi.org/10.1145/3035918.3064012"
   code: "https://github.com/amplab/zipg"
@@ -348,6 +369,7 @@ zipg:
     distributed deployments.
 
 blowfish:
+  topic: data
   official_url: "https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/khandelwal"
   contribution: >-
     BlowFish lets a distributed data store adjust its storage footprint and
@@ -365,6 +387,7 @@ blowfish:
     than selectively caching hot objects.
 
 confluo:
+  topic: data
   official_url: "https://www.usenix.org/conference/nsdi19/presentation/khandelwal"
   code: "https://github.com/ucbrise/confluo"
   contribution: >-
@@ -380,7 +403,9 @@ confluo:
     rate for 10 Gbps links using a single core.
 
 pancake:
+  topic: security
   official_url: "https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs"
+  code: "https://github.com/pancake-security/pancake"
   contribution: >-
     Pancake hides how frequently encrypted key-value records are accessed by
     smoothing requests into a uniform distribution, providing strong protection
@@ -395,8 +420,10 @@ pancake:
     non-recursive Path ORAM and runs within 3–6 times of insecure baselines.
 
 shortstack:
+  topic: security
   doi: "10.48550/arXiv.2205.14281"
   official_url: "https://www.usenix.org/conference/osdi22/presentation/vuppalapati"
+  code: "https://github.com/pancake-security/shortstack"
   contribution: >-
     Shortstack replaces the fragile central proxy used for oblivious data access
     with a distributed design that retains privacy and availability through
@@ -413,6 +440,7 @@ shortstack:
     of proxy servers.
 
 length-leakage:
+  topic: security
   official_url: "https://www.usenix.org/conference/usenixsecurity24/presentation/jia-grace"
   contribution: >-
     This work characterizes the unavoidable tradeoff among storage, bandwidth,
@@ -428,6 +456,7 @@ length-leakage:
     match those bounds.
 
 weave:
+  topic: security
   official_url: "https://www.usenix.org/conference/osdi25/presentation/soleimani"
   code: "https://github.com/yale-nova/weave"
   contribution: >-
@@ -446,6 +475,7 @@ weave:
     state of the art on large real-world datasets.
 
 fit:
+  topic: security
   official_url: "https://www.usenix.org/conference/usenixsecurity25/presentation/jia-grace"
   code: "https://github.com/yale-nova/found-in-translation"
   contribution: >-
@@ -465,6 +495,7 @@ fit:
     approaches.
 
 caerus:
+  topic: cloud
   official_url: "https://www.usenix.org/conference/nsdi21/presentation/zhang-hong"
   contribution: >-
     Caerus pipelines serverless analytics tasks at carefully chosen launch times
@@ -480,6 +511,7 @@ caerus:
     achieves both optimal cost and optimal job-completion time in practice.
 
 shepherd:
+  topic: ai
   official_url: "https://www.usenix.org/conference/nsdi23/presentation/zhang-hong"
   contribution: >-
     Shepherd separates long-horizon capacity planning from online request
@@ -497,6 +529,7 @@ shepherd:
     while scaling to hundreds of workers.
 
 elasticmimo:
+  topic: cloud
   doi: "10.1145/3708468.3711876"
   official_url: "https://doi.org/10.1145/3708468.3711876"
   contribution: >-
@@ -515,8 +548,10 @@ elasticmimo:
     opportunities for more intelligent elastic provisioning.
 
 scalo:
+  topic: data
   doi: "10.1145/3579371.3589107"
   official_url: "https://doi.org/10.1145/3579371.3589107"
+  code: "https://doi.org/10.5281/zenodo.7787128"
   contribution: >-
     SCALO makes brain-computer interfaces distributed: multiple wireless,
     accelerator-rich implants cooperate across brain regions within strict
@@ -533,6 +568,7 @@ scalo:
     hardware accelerators from the ground up.
 
 scalo-toppicks:
+  topic: data
   doi: "10.1109/MM.2024.3411881"
   official_url: "https://doi.org/10.1109/MM.2024.3411881"
   contribution: >-
@@ -549,6 +585,7 @@ scalo-toppicks:
     distributed operation that had previously been impractical.
 
 phdthesis:
+  topic: data
   official_url: "https://escholarship.org/uc/item/8jq3n4ng"
   contribution: >-
     This dissertation develops systems and data structures that execute rich
@@ -566,6 +603,7 @@ phdthesis:
     expression queries through query rewriting.
 
 berkeley-view-serverless:
+  topic: cloud
   doi: "10.48550/arXiv.1902.03383"
   official_url: "https://arxiv.org/abs/1902.03383"
   contribution: >-
@@ -584,6 +622,7 @@ berkeley-view-serverless:
     dominate cloud programming.
 
 attacking-dcn:
+  topic: security
   official_url: "https://www.microsoft.com/en-us/research/publication/attacking-data-center-networks-from-the-inside/"
   contribution: >-
     This report shows how malicious cloud tenants can attack shared data-center
@@ -602,6 +641,7 @@ attacking-dcn:
 # Auto-filled by scripts/fetch_paper_details.rb from Semantic Scholar and OpenAlex.
 # Review the wording; delete these two comment lines to freeze this entry.
 cord-toppicks:
+  topic: memory
   doi: "10.1109/mm.2026.3701401"
   official_url: "https://doi.org/10.1109/mm.2026.3701401"
   abstract: >-
@@ -624,6 +664,7 @@ cord-toppicks:
 # Auto-filled by scripts/fetch_paper_details.rb from Semantic Scholar.
 # Review the wording; delete these two comment lines to freeze this entry.
 metro:
+  topic: ai
   doi: "10.48550/arXiv.2512.09277"
   official_url: "https://doi.org/10.48550/arXiv.2512.09277"
   abstract: >-

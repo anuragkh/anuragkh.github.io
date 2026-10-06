@@ -8,4 +8,6 @@ permalink: /publications/
 selected: false
 ---
 
+{% include publication_filter.html %}
+
 {% bibliography --group_by year --group_order descending %}

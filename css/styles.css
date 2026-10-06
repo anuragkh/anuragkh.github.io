@@ -200,10 +200,13 @@ body {
   object-fit: cover;
 }
 
+/* Shrink the list to its widest item so every highlight box matches it. */
 .site-nav ul {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
+  width: max-content;
+  max-width: 100%;
   gap: 0.1rem;
   margin: 0;
   padding: 0;
@@ -211,7 +214,7 @@ body {
 }
 
 .site-nav a {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   min-height: 2.75rem;
   margin-left: -0.65rem;
@@ -465,6 +468,49 @@ pre code {
 .pub-entry {
   position: relative;
   padding: 1.35rem 1.45rem 1.3rem;
+}
+
+.pub-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 0.5rem;
+}
+
+.pub-filter[hidden] {
+  display: none;
+}
+
+.pub-filter button {
+  min-height: 2.3rem;
+  padding: 0.25rem 0.85rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text);
+  background: var(--surface);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.pub-filter button:hover {
+  border-color: var(--link-hover);
+  color: var(--link-hover);
+}
+
+.pub-filter button[aria-pressed="true"] {
+  border-color: var(--accent);
+  color: var(--surface);
+  background: var(--accent);
+}
+
+.pub-filter-status {
+  min-height: 1.5em;
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .pub-title {
@@ -756,6 +802,11 @@ pre code {
   white-space: nowrap;
 }
 
+/* A page whose title is visually hidden starts with its first section. */
+h1.visually-hidden + h2 {
+  margin-top: 0;
+}
+
 .animated-details {
   margin: 1rem 0 2.75rem;
 }
@@ -945,7 +996,9 @@ html[data-theme="dark"] .img-frame img {
   .site-nav ul {
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
+    width: auto;
     gap: 0 0.4rem;
   }
 
@@ -1087,5 +1140,10 @@ html[data-theme="dark"] .img-frame img {
   .pub-entry {
     break-inside: avoid;
     box-shadow: none;
+  }
+
+  .pub-filter,
+  .pub-filter-status {
+    display: none;
   }
 }

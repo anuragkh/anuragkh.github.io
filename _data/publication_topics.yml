@@ -1,0 +1,12 @@
+# Topics for the filter on /publications/. Tag each paper in
+# _data/paper_details.yml with `topic: <key>`; buttons appear in this order.
+- key: memory
+  label: Memory systems
+- key: security
+  label: Security & privacy
+- key: ai
+  label: Systems for AI
+- key: data
+  label: Data systems
+- key: cloud
+  label: Serverless & cloud

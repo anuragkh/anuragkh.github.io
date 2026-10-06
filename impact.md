@@ -8,6 +8,7 @@ permalink: /impact/
 ---
 
 # Research Impact
+{: .visually-hidden}
 
 ## Real-world Impact
 
