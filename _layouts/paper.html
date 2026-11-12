@@ -12,7 +12,7 @@ og_type: article
   <a class="paper-back" href="{{ '/publications/' | relative_url }}">← All publications</a>
 
   <header class="paper-header">
-    <p class="paper-kicker">{{ page.entry.year }} · {{ page.entry.type | replace: 'inproceedings', 'Conference paper' | replace: 'article', 'Article' | replace: 'book', 'Dissertation' }}</p>
+    <p class="paper-kicker">{{ page.entry.year }} · {{ page.entry.type | replace: 'inproceedings', 'Conference paper' | replace: 'article', 'Article' | replace: 'phdthesis', 'Dissertation' | replace: 'book', 'Book' }}</p>
     <h1>{{ page.entry.title }}</h1>
 
     <p class="paper-authors">
@@ -23,7 +23,7 @@ og_type: article
     </p>
 
     <p class="paper-venue">
-      {% if page.entry.booktitle %}<em>{{ page.entry.booktitle }}</em>{% elsif page.entry.journal %}<em>{{ page.entry.journal }}</em>{% elsif page.entry.publisher %}<em>{{ page.entry.publisher }}</em>{% endif %}{% if page.entry.year %}, {{ page.entry.year }}{% endif %}
+      {% if page.entry.booktitle %}<em>{{ page.entry.booktitle }}</em>{% elsif page.entry.journal %}<em>{{ page.entry.journal }}</em>{% elsif page.entry.school %}<em>{{ page.entry.school }}</em>{% elsif page.entry.publisher %}<em>{{ page.entry.publisher }}</em>{% endif %}{% if page.entry.year %}, {{ page.entry.year }}{% endif %}
     </p>
 
     {% if page.entry.award %}<p class="paper-award">{{ page.entry.award }}</p>{% endif %}
@@ -47,7 +47,7 @@ og_type: article
   <section class="paper-section paper-facts" aria-labelledby="paper-details-heading">
     <h2 id="paper-details-heading">Publication details</h2>
     <dl>
-      <div><dt>Venue</dt><dd>{% if page.entry.booktitle %}{{ page.entry.booktitle }}{% elsif page.entry.journal %}{{ page.entry.journal }}{% elsif page.entry.publisher %}{{ page.entry.publisher }}{% endif %}</dd></div>
+      <div><dt>Venue</dt><dd>{% if page.entry.booktitle %}{{ page.entry.booktitle }}{% elsif page.entry.journal %}{{ page.entry.journal }}{% elsif page.entry.school %}{{ page.entry.school }}{% elsif page.entry.publisher %}{{ page.entry.publisher }}{% endif %}</dd></div>
       <div><dt>Publication year</dt><dd>{{ page.entry.year }}</dd></div>
       {% if paper.doi %}<div><dt>DOI</dt><dd><a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></dd></div>{% endif %}
       {% if page.entry.award %}<div><dt>Awards</dt><dd>{{ page.entry.award }}</dd></div>{% endif %}

@@ -22,8 +22,8 @@ below; the JSON-LD graph reuses the same values.
     {% assign venue_schema_type = 'CollegeOrUniversity' %}
   {% elsif entry.publisher %}
     {% assign venue = entry.publisher %}
-    {% assign venue_tag = 'citation_dissertation_institution' %}
-    {% assign venue_schema_type = 'CollegeOrUniversity' %}
+    {% assign venue_tag = 'citation_publisher' %}
+    {% assign venue_schema_type = 'Organization' %}
   {% endif %}
 
   {% comment %}
@@ -208,7 +208,7 @@ page, and it expects `citation_author` in author order.
     },
     {% if entry %}
     {
-      "@type": "ScholarlyArticle",
+      "@type": {% if entry.type == 'book' %}"Book"{% elsif entry.type == 'phdthesis' %}"Thesis"{% else %}"ScholarlyArticle"{% endif %},
       "@id": {{ canonical_url | append: '#article' | jsonify }},
       "url": {{ canonical_url | jsonify }},
       "headline": {{ entry.title | jsonify }},

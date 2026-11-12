@@ -690,3 +690,34 @@ metro:
     serving, where prefill and decode phases are co-deployed. In addition, by
     trading latency headroom for throughput, METRO improves decode throughput by
     up to 4.11x over EPLB at a fixed decode SLO.
+
+vmbook:
+  topic: memory
+
+callosal:
+  topic: memory
+  doi: "10.48550/arXiv.2610.36347"
+  official_url: "https://doi.org/10.48550/arXiv.2610.36347"
+  abstract: >-
+    Classic distributed filesystems like NFS centralize filesystem operations on
+    a server and use custom, filesystem-specific approaches for managing cache
+    consistency across client nodes. This limits scalability, and it leads to
+    weak consistency, ruling out applications that concurrently access and
+    mutate shared files. Our key insight is that these legacy designs are now
+    too storage-centric; with today's large memories, OS page caches do most of
+    the "heavy lifting" in accessing data, not the filesystem and block storage
+    layers. In response to this, we present Callosal, a page cache for a cluster
+    of machines that is centered on shared disaggregated memory. Rather than
+    serializing operations through a filesystem server and using ad hoc caching
+    like NFS, Callosal is built around the existing Linux page cache paths and
+    is accelerated by RDMA and programmable switches. Callosal delivers the
+    strong consistency that programs expect with local filesystems (like in
+    ext4 and tmpfs) while avoiding the additional network access delays and
+    bottlenecks that host-based solutions incur. We compare Callosal against
+    NFS, CephFS, and local filesystems; often Callosal can provide caching
+    performance similar to local filesystems while also scaling across nodes.
+    For mixed read/write workloads, on average Callosal has 4.6x higher
+    throughput than NFS when contention is not extreme, and it offers strong
+    consistency guarantees like CephFS, while outperforming it. For a
+    file-backed key-value store with 1% writes and uniform access, Callosal
+    scales 1.7x across 4 nodes, while CephFS collapses across nodes.

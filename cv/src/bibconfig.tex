@@ -15,6 +15,7 @@
 \DeclareFieldFormat[article]{title}{#1}
 \DeclareFieldFormat[inproceedings]{title}{#1}
 \DeclareFieldFormat[book]{title}{#1}
+\DeclareFieldFormat[thesis]{title}{#1}
 \DeclareFieldFormat{usera}{#1}
 \DeclareFieldFormat{note}{#1}
 
@@ -87,7 +88,7 @@
     {\cvbiblinebreak\usebibmacro{cv:authors}}%
   \iflistundef{publisher}
     {}
-    {\cvbiblinebreak\mkbibemph{PhD Dissertation, \printlist{publisher}}%
+    {\cvbiblinebreak\printlist{publisher}%
      \setunit{\addcomma\space}\printfield{year}}%
   \iffieldundef{note}
     {}
@@ -97,6 +98,16 @@
   \iffieldundef{usera}
     {}
     {\cvbiblinebreak\usebibmacro{cv:award}}%
+  \usebibmacro{finentry}}
+\DeclareBibliographyDriver{thesis}{%
+  \usebibmacro{cv:title}%
+  \ifnameundef{author}
+    {}
+    {\cvbiblinebreak\usebibmacro{cv:authors}}%
+  \iflistundef{institution}
+    {}
+    {\cvbiblinebreak\mkbibemph{PhD Dissertation, \printlist{institution}}%
+     \setunit{\addcomma\space}\printfield{year}}%
   \usebibmacro{finentry}}
 \DeclareCiteCommand{\cvbibentry}
   {}

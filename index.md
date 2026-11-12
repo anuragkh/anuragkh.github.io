@@ -34,7 +34,3 @@ Browse the [full list of publications](/publications/), or read about the main r
 ## Teaching
 
 {% include teaching.html %}
-
-## Service
-
-{% include service.html %}
